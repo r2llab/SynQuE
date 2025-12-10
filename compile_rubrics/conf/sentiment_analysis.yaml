@@ -1,0 +1,11 @@
+sentiment_analysis:
+  rubric_generation:
+    model:
+      name: deepseek/deepseek-r1
+    real_seed: 42
+    num_samples: 200
+    num_points: 10
+    data_root_path: data/sentiment_analysis/synthetic_data
+    output_path: ./data/sentiment_analysis/LENS/rubrics
+    real_data_path: ./data/sentiment_analysis/real_data
+

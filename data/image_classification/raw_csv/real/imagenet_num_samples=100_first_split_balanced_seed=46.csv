@@ -1,0 +1,101 @@
+image_path,label,original_imagenet_label
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00016941.JPEG,mask,mask
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00032024.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00045119.JPEG,cloak,cloak
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00046906.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00011018.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00040370.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00033914.JPEG,cloak,cloak
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00030941.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00001303.JPEG,mask,mask
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00034135.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00006778.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00008378.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00049018.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00003788.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00036947.JPEG,cloak,cloak
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00049477.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00020819.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00025105.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00004414.JPEG,cloak,cloak
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00021377.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00012353.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00021552.JPEG,mask,mask
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00023868.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00038076.JPEG,mask,mask
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00041546.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00037058.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00030575.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00032996.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00048502.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00042775.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00011713.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00026923.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00046630.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00040925.JPEG,mask,mask
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00030421.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00007640.JPEG,mask,mask
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00030230.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00023095.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00011645.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00003067.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00008167.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00000848.JPEG,cloak,cloak
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00030269.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00011591.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00040125.JPEG,cloak,cloak
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00032496.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00004599.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00007646.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00029084.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00038854.JPEG,mask,mask
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00038186.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00047165.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00024111.JPEG,cloak,cloak
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00040863.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00040332.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00008443.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00022368.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00035729.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00009541.JPEG,mask,mask
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00008954.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00031111.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00004353.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00026635.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00030415.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00020896.JPEG,mask,mask
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00015255.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00049454.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00021116.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00046920.JPEG,mask,mask
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00021996.JPEG,cloak,cloak
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00036249.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00035216.JPEG,mask,mask
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00026169.JPEG,cloak,cloak
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00023370.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00021800.JPEG,mask,mask
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00021989.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00024213.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00024234.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00030454.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00008783.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00008055.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00019992.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00021718.JPEG,mask,mask
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00008553.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00021420.JPEG,cloak,cloak
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00020119.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00038472.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00033789.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00021038.JPEG,mask,mask
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00041849.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00047296.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00013709.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00047387.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00009544.JPEG,mask,mask
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00007484.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00022601.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00047193.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00014657.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00002798.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00003148.JPEG,mask,mask

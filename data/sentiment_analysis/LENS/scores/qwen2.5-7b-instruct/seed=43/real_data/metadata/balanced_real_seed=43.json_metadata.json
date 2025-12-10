@@ -1,0 +1,16 @@
+{
+  "num_examples": null,
+  "resume_path": null,
+  "synthetic_data": false,
+  "seed": 43,
+  "scoring_model_path": "Qwen/Qwen2.5-7B-Instruct",
+  "output_folder_path": "data/sentiment_analysis/LENS/scores",
+  "verbose": false,
+  "temperature": 0.0,
+  "num_gpus": 1,
+  "batch_size": 4000,
+  "max_num_seqs": 500,
+  "top_p": 0.95,
+  "model_path": "Qwen/Qwen2.5-7B-Instruct",
+  "prompt_template_path": "./prompt_templates/sentiment_analysis/scoring/score.txt"
+}

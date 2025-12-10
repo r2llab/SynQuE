@@ -1,0 +1,16 @@
+Given some samples of proposed web navigation tasks and the web accessibility tree of dataset A and dataset B. Based on the similar characteristics between them. List how B is {feedback} A. Return {num} points that summarize the characteristics of the two datasets. The two accessibility trees of the same website are provided. Please only list out characteristics that are related to the proposed web navigation tasks, the accessibility trees are only provided to help you understand the context of the proposed tasks. Therefore do not list any characteristics that are related to the accessibility tree in your response. Please focus on granular and specific characteristics, and your generated characteristic points should apply to all samples in corresponding dataset (A or B). Output should be a JSON list of strings.
+
+Similar characteristics between A and B:
+{similar_points}
+
+Accessibility Tree for dataset A:
+{A_tree}
+
+Sampled web navigation tasks from dataset A:
+{A}
+
+Accessibility Tree for dataset B:
+{B_tree}
+
+Sampled web navigation tasks from dataset B:
+{B}

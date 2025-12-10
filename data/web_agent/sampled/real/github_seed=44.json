@@ -1,0 +1,22 @@
+{
+  "GitHub--26": "Find the Resolve merge conflicts course in GitHub Skills and what actions learners will perform in this course.",
+  "GitHub--33": "Find Customer Stories on the GitHub page and list the 2 stories that appear on the web page.",
+  "GitHub--34": "Search for an open-source project on GitHub related to 'Protein prediction' and identify the project with the highest number of forks.",
+  "GitHub--7": "Find the official GitHub repository for ALBERT and show me what files the repo changed in the most recent commit.",
+  "GitHub--11": "Find a newly created open-source project on GitHub related to 'climate change' that has been initiated in January 2023; check the main programming language used and the project's description.",
+  "GitHub--24": "Locate the GitHub repository for the open-source project \"angular\" and identify the last three issues closed.",
+  "GitHub--14": "Locate the repository for the open-source project \"vscode\" and identify the top three contributors.",
+  "GitHub--18": "Identify and report the most popular (in terms of stars) open-source image processing tool on GitHub.",
+  "GitHub--1": "Search for an open-source repository for machine learning in Python, specifically focused on decision trees, updated within the last 2 days.",
+  "GitHub--38": "Identify and report the most popular (by stars) open-source repo related to cybersecurity on GitHub.",
+  "GitHub--3": "Find out how much more package storage the Enterprise version has over Team in GitHub Pricing.",
+  "GitHub--39": "Browse the GitHub Trending and find out which developer is currently ranked first this month and the corresponding repository.",
+  "GitHub--0": "Search for an open-source project related to 'climate change data visualization' on GitHub and report the project with the most stars.",
+  "GitHub--30": "Search for an open-source project related to 'blockchain technology' on GitHub updated in the past 15 days and list the top five contributors.",
+  "GitHub--5": "Find a Python repository on GitHub that has been updated in the past 2 days and has at least 500 stars.",
+  "GitHub--35": "Check the latest release version of React and the date it was published on GitHub.",
+  "GitHub--16": "Find the GitHub Skill section and how many courses are under the 'First day on GitHub' heading.",
+  "GitHub--22": "Find an open-source repository on GitHub focused on natural language processing in Ruby, updated within the last week.",
+  "GitHub--9": "Locate a repository on GitHub that was created in the last week and has 50 or more stars. Provide brief details about the project's purpose and its programming language.",
+  "GitHub--20": "Open GitHub Copilot's FAQs to find the official answer to when Copilot chat can be used on mobile."
+}

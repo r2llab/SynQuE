@@ -1,0 +1,1190 @@
+[
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "unlikely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "unlikely",
+    "score_real_given_synth_loc_A_judgement": "unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very likely",
+    "score_synth_given_synth_loc_B_judgement": "very likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very likely",
+    "score_synth_given_synth_loc_B_judgement": "very likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "unlikely",
+    "score_real_given_synth_loc_A_judgement": "unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "unlikely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very likely",
+    "score_synth_given_synth_loc_B_judgement": "very likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "unlikely",
+    "score_real_given_synth_loc_A_judgement": "unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_A_judgement": "likely",
+    "score_real_given_synth_loc_A_judgement": "likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "likely",
+    "score_synth_given_synth_loc_B_judgement": "unsure",
+    "score_synth_given_synth_loc_A_judgement": "very likely",
+    "score_real_given_synth_loc_A_judgement": "very likely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_B_judgement": "very unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  },
+  {
+    "score_real_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_B_judgement": "unlikely",
+    "score_synth_given_synth_loc_A_judgement": "very unlikely",
+    "score_real_given_synth_loc_A_judgement": "very unlikely"
+  }
+]

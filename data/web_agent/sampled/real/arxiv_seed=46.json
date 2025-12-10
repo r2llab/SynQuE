@@ -1,0 +1,22 @@
+{
+  "ArXiv--4": "Find the most recent research papers in Astrophysics of Galaxies. How many papers have been announced in the last day?",
+  "ArXiv--25": "Browse the ArXiv store and let me know how many different types of merchandise are available.",
+  "ArXiv--2": "Look up the most recent papers related to 'cs.CL', select one and show its abstract.",
+  "ArXiv--37": "Find the names of people in ArXiv's Leadership Team.",
+  "ArXiv--39": "Search the title 'GPT-4 Technical Report' and access this paper through HTML format. Read the paper on this page and tell me what is 'one of the main goals of developing such models' mentioned in the Introduction.",
+  "ArXiv--14": "On ArXiv, how many articles have 'SimCSE' in the article and are originally announced in October 2023?",
+  "ArXiv--33": "Query ArXiv for the latest research article in the category of Systems and Control under Computer Science. Summarize the main objective or hypothesis presented in the paper and provide the names of the authors.",
+  "ArXiv--9": "Find the latest research paper about neural networks published on ArXiv which has been submitted within the last week.",
+  "ArXiv--34": "Search for the most recent paper related to non-commutative geometry submitted by an author with the first name John. Provide the title and the abstract.",
+  "ArXiv--40": "How many articles are there on each of the three most recent announce days in the Solar and Stellar Astrophysics section of ArXiv. Choose one at random and answer its title and when the first version was uploaded?",
+  "ArXiv--1": "Search for the latest research papers on quantum computing submitted to ArXiv within the last two days.",
+  "ArXiv--42": "Find an article published between 1 January 2000 and 1 January 2005 that requires Support Vector Machines in the title and its Journey ref is ACL Workshop.",
+  "ArXiv--41": "Find the button to share arxiv non-profit store and follow the QR code to share the shop. Then add arXiv Forever short sleeve (XL) to your cart.",
+  "ArXiv--10": "Visit ArXiv Help on how to withdraw an article if the submission is not yet announced.",
+  "ArXiv--20": "Find the latest paper on 'machine learning in the Statistics section of ArXiv and provide its abstract.",
+  "ArXiv--26": "Search for papers related to 'climate change modeling' on ArXiv and find out how many have been published in the Earth and Planetary Astrophysics (astro-ph.EP) category in the last week.",
+  "ArXiv--32": "Locate the latest paper on ArXiv within the 'Nonlinear Sciences - Chaotic Dynamics' category, summarize the abstract and note the submission date.",
+  "ArXiv--0": "Search for the latest preprints about 'quantum computing'.",
+  "ArXiv--31": "Search ArXiv for papers with 'Graph Neural Networks' in the abstract that were submitted between Jan 1, 2024, and Jan 3, 2024, and determine how many of these papers have more than five authors.",
+  "ArXiv--17": "Find the paper 'GPT-4 Technical Report', when was v3 submitted?"
+}

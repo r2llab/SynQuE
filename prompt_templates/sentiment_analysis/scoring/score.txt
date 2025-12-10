@@ -1,0 +1,17 @@
+You are given similarities and differences between two financial news headline datasets A and B.
+
+Your task is to judge how likely is the given financial news headline comes from dataset {prediction}. Answer your judgement with one of the following strings: "very unlikely", "unlikely", "unsure", "likely", and "very likely". 
+
+Format:
+{format_instructions}
+
+Similar characteristics between dataset A and B:
+{similar_characteristics}
+
+Differences between dataset A and B:
+{differences}
+
+Financial news headline sample to be judged:
+{example}
+
+Please do not include any other text in your response. Your judgement in JSON format:

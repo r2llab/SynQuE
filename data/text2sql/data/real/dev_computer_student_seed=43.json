@@ -1,0 +1,182 @@
+[
+  {
+    "db_id": "computer_student",
+    "question": "Which are the courses with the most number of professors? State the course ID and the level of the course.",
+    "evidence": "courses refers taughtBy.course_id; most number of professors\u00a0 refers to max(count(taughtBy.p_id)); level of the course refers to courseLevel",
+    "SQL": "SELECT T1.course_id, T1.courseLevel FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id GROUP BY T1.course_id, T1.courseLevel ORDER BY COUNT(T1.course_id) DESC LIMIT 1"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Is the teacher who teaches course no.9 a faculty member?",
+    "evidence": "teacher refers to taughtBy.p_id; course no.9 refers to taughtBy.course_id = 9; faculty member refers to hasPosition ! = 0",
+    "SQL": "SELECT T2.hasPosition FROM taughtBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id WHERE T1.course_id = 9"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "How many courses were taught by a professor who is currently the member of faculty?",
+    "evidence": "professor refers to professor = 1;\u00a0 member of faculty refers to hasPosition <> 0",
+    "SQL": "SELECT COUNT(*) FROM person AS T1 INNER JOIN taughtBy AS T2 ON T1.p_id = T2.p_id WHERE T1.professor = 1 AND T1.hasPosition <> 0"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "What is the total of professional courses available at the university? List out all the course id.",
+    "evidence": "professional courses refers to courseLevel = 'Level_500'; course id refers to course.course_id",
+    "SQL": "SELECT COUNT(course_id) FROM course WHERE courseLevel = 'Level_500'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "How many teachers are faculty employees?",
+    "evidence": "teachers refers to professor = 1; faculty employees refers to hasPosition = 'Faculty_eme'",
+    "SQL": "SELECT COUNT(*) FROM person WHERE hasPosition = 'Faculty_eme'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Among the students being advised by Advisor 5, how many students are in the 5th year?",
+    "evidence": "Advisor 5 refers to p_id_dummy = 5; are in the 5th year refers to yearsInProgram = 'Year_5'",
+    "SQL": "SELECT COUNT(*) FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id WHERE T1.p_id_dummy = 5 AND T2.student = 1 AND T2.yearsInProgram = 'Year_5'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "List the course IDs and levels of person IDs from 40 to 50.",
+    "evidence": "course IDs and levels refers to course.course_id and courseLevel; person IDs from 40 to 50 refers to taughtBy.p_id between 40 and 50",
+    "SQL": "SELECT T1.course_id, T1.courseLevel FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T2.p_id BETWEEN 40 AND 50"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Calculate the percentage of high-level undergraduate course.",
+    "evidence": "high-level undergraduate course refers to courseLevel = 'Level_400'; percentage = divide(count(course.course_id) when courseLevel = 'Level_400', count(course.course_id)) * 100%",
+    "SQL": "SELECT CAST(SUM(CASE  WHEN courseLevel = 'Level_400' THEN 1 ELSE 0 END) AS REAL) * 100 / COUNT(*) AS per FROM course"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Please list the IDs of the teachers who have advised more than 4 others to teach.",
+    "evidence": "teachers refers to p_id_dummy; have advised more than 4 others refers to count(advisedBy.p_id) > 4",
+    "SQL": "SELECT p_id_dummy FROM advisedBy GROUP BY p_id_dummy HAVING COUNT(p_id_dummy) > 4"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Describe the year in program and in phase status for the student with most number in advisor.",
+    "evidence": "student refers to advisedBy.p_id; most number in advisor refers to max(count(p_id_dummy))",
+    "SQL": "SELECT T2.yearsInProgram, T2.inPhase FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id GROUP BY T1.p_id ORDER BY COUNT(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Who are the professors who gave advice to students in the 12th years of program?",
+    "evidence": "professors refers to p_id_dummy; 12th years of program refers to yearsInProgram = 'Year_12'",
+    "SQL": "SELECT T1.p_id_dummy FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id WHERE T2.yearsInProgram = 'Year_12'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Among the courses that are basic or medium undergraduate courses, how many of them are taught by a faculty member?",
+    "evidence": "courses that are basic or medium undergraduate courses refers to courseLevel = 'Level_300'; faculty member refers to hasPosition ! = 0",
+    "SQL": "SELECT COUNT(*) FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id INNER JOIN person AS T3 ON T2.p_id = T3.p_id WHERE T3.professor = 1 AND T1.courseLevel = 'Level_300'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Name the advisors for students in Year 3 of the program.",
+    "evidence": "advisors refers to p_id_dummy; students in Year 3 of the program refers to yearsInProgram = 'Year_3'",
+    "SQL": "SELECT T1.p_id FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id WHERE T2.yearsInProgram = 'Year_3'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "What are the courses taught by the advisors who gave advice to student with ID 376?",
+    "evidence": "courses refers to course_id; advisors refers to p_id_dummy and taughtBy.p_id; student with ID 376 refers to advisedBy.p_id = 376",
+    "SQL": "SELECT T3.course_id FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id INNER JOIN taughtBy AS T3 ON T2.p_id = T3.p_id WHERE T1.p_id = 141"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "List down the advised student IDs and IDs of employing professor in faculty.",
+    "evidence": "advised student IDs refers to person.p_id; IDs of employing professor in faculty refers to p_id_dummy and hasPosition = 'Faculty_eme'",
+    "SQL": "SELECT T1.p_id, T2.p_id FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id_dummy = T2.p_id WHERE hasPosition = 'Faculty_eme'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Between the faculty employee professors, how many teaches high-level or harder undergraduate courses? Indicate each of the professors unique identifying number.",
+    "evidence": "faculty employee professors refers to hasPosition = 'Faculty_eme' and professor = 1; high-level or harder undergraduate courses refers to courseLevel = 'Level_400'; professors unique identifying number refers to person.p_id",
+    "SQL": "SELECT COUNT(*) FROM person AS T1 INNER JOIN taughtBy AS T2 ON T1.p_id = T2.p_id INNER JOIN course AS T3 ON T3.course_id = T2.course_id WHERE T1.hasPosition = 'Faculty_eme' AND T1.professor = 1 AND T3.courseLevel = 'Level_400'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "How many professors teaches basic or medium undergraduate courses?",
+    "evidence": "professors refers to taughtBy.p_id; basic or medium undergraduate courses refers to couresLevel = 'Level_300'",
+    "SQL": "SELECT COUNT(*) FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T1.courseLevel = 'Level_300'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "How many advisors are in charge of advising all the students in 1st year?",
+    "evidence": "advisors refers to p_id_dummy; students in 1st year refers to student = 1 and yearsInProgram = 'Year_1'",
+    "SQL": "SELECT COUNT(T1.p_id_dummy) FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id WHERE T2.yearsInProgram = 'Year_1' AND T2.student = 1"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Provide the ID of professors who teach in both harder undergraduate course and master/graduate courses.",
+    "evidence": "harder undergraduate course refers to courseLevel = 'Level_400'; master/graduate courses refers to courseLevel = 'Level_500'; ID of professors refers to taughtBy.p_id",
+    "SQL": "SELECT DISTINCT T2.p_id FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T1.courseLevel = 'Level_400' OR T1.courseLevel = 'Level_500'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "How many basic or medium undergraduate courses are taught by a professor?",
+    "evidence": "basic or medium undergraduate courses refers to courseLevel = 'Level_300'; professor refers to professor = 1",
+    "SQL": "SELECT COUNT(*) FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id INNER JOIN person AS T3 ON T3.p_id = T2.p_id WHERE T1.courseLevel = 'Level_300' AND T3.professor = 1"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "How many students that are undergoing the pre-phase of qualification have advisors?",
+    "evidence": "students refers to student = 1 and ; undergoing the phase of pre-qualification refers to inPhase = 'Pre-Quals'; have advisors refers to advisedBy.p_id",
+    "SQL": "SELECT COUNT(T1.p_id_dummy) FROM advisedBy AS T1 INNER JOIN person AS T2 ON T1.p_id = T2.p_id WHERE T2.inPhase = 'Pre_Quals' AND T2.student = 1"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "What is the position in the faculty of the professor who teaches the highest number of courses?",
+    "evidence": "position in the faculty refers to hasPosition; professor refers to professor = 1; teaches the highest number of courses refers to max(count(taughtBy.course_id))",
+    "SQL": "SELECT T1.hasPosition FROM person AS T1 INNER JOIN taughtBy AS T2 ON T1.p_id = T2.p_id WHERE T1.professor = 1 GROUP BY T1.p_id ORDER BY COUNT(T2.course_id) DESC LIMIT 1"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "List down all the person IDs who taught course ID of 18.",
+    "evidence": "person IDs refers to taughtBy.p_id; course ID of 18\u00a0 refers to taughtBy.course_id = 18",
+    "SQL": "SELECT p_id FROM taughtBy WHERE course_id = 18"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Describe the course level and list of person IDs who taught course ID of 147.",
+    "evidence": "person IDs refers to taughtBy.p_id; course ID of 147 refers to course.course_id = 147",
+    "SQL": "SELECT T1.courseLevel, T1.course_id FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T2.p_id = 141"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "What level is course 165? List the professors who teach the course.",
+    "evidence": "course 165 refers to course_id = 165; professors refers to taughtBy.p_id",
+    "SQL": "SELECT T1.courseLevel, T2.p_id FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T2.course_id = 165"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "How many professors teaches no more than two high-level or harder undergraduate courses?",
+    "evidence": "professors refers to taughtBy.p_id; high-level or harder undergraduate courses\u00a0 refers to courseLevel = 'Level_400' ; no more than two refers to count(taughtBy.course_id) < = 2",
+    "SQL": "SELECT COUNT(*) FROM ( SELECT COUNT(T2.p_id) FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T1.courseLevel = 'Level_400' GROUP BY T2.p_id HAVING COUNT(DISTINCT T1.course_id) <= 2 )"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Find the professor ID and position in faculty who taught high-level undergraduate course of less than 10 in ID.",
+    "evidence": "professor ID refers to person.p_id when professor = 1; position in faculty refers to hasPosition; high-level undergraduate course refers to courseLevel = 'Level_400'; less than 10 in ID refers to course.course_id < 10",
+    "SQL": "SELECT T1.p_id, T1.hasPosition FROM person AS T1 INNER JOIN taughtBy AS T2 ON T1.p_id = T2.p_id INNER JOIN course AS T3 ON T3.course_id = T2.course_id WHERE T3.courseLevel = 'Level_400' AND T2.course_id < 10"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "List the professor ID who taught the course ID from 121 to 130 of basic undergraduate courses.",
+    "evidence": "professor ID refers to taughtBy.p_id; course ID from 121 to 130 of basic undergraduate courses refers to courseLevel = 'Level_300' and course.course_id between 121 and 130",
+    "SQL": "SELECT T2.p_id FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T1.courseLevel = 'Level_300' AND T1.course_id > 121 AND T1.course_id < 130"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "Among the faculty affiliated professor, how many professors teaches professional or master/undergraduate courses?",
+    "evidence": "faculty affiliated professor refers to professor = 1 and hasPosition = 'Faculty_aff'; professional or master/undergraduate courses refers to courseLevel = 'Level_500'",
+    "SQL": "SELECT COUNT(*) FROM person AS T1 INNER JOIN taughtBy AS T2 ON T1.p_id = T2.p_id INNER JOIN course AS T3 ON T3.course_id = T2.course_id WHERE T1.hasPosition = 'Faculty_aff' AND T1.professor = 1 AND T3.courseLevel = 'Level_500'"
+  },
+  {
+    "db_id": "computer_student",
+    "question": "List any five of course IDs with professor IDs who taught master courses.",
+    "evidence": "professor IDs refers to taughtBy.p_id; master course refers to courseLevel = 'Level_500'",
+    "SQL": "SELECT T1.course_id, T2.p_id FROM course AS T1 INNER JOIN taughtBy AS T2 ON T1.course_id = T2.course_id WHERE T1.courseLevel = 'Level_500' LIMIT 5"
+  }
+]

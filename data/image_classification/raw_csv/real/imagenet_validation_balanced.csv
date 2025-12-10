@@ -1,0 +1,376 @@
+image_path,label,original_imagenet_label
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00012353.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00008553.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00034589.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00008167.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00038186.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00029424.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00006778.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00007646.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00045668.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00014657.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00011018.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00002640.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00009124.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00020119.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00011645.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00030502.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00039833.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00031111.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00023212.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00036117.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00041380.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00024234.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00012343.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00029001.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n02129165/ILSVRC2012_val_00015547.JPEG,lion,"lion, king of beasts, Panthera leo"
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00021038.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00021718.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00014399.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00040925.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00020896.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00000608.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00038076.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00002798.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00043713.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00047387.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00009541.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00001334.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00023885.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00009544.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00003148.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00008913.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00035880.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00007640.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00039224.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00021234.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00048196.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00035729.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00045737.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00046114.JPEG,mask,mask
+/datasets/imagenet/validation/n03724870/ILSVRC2012_val_00040112.JPEG,mask,mask
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00046630.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00049454.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00002162.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00030415.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00015255.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00038383.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00024213.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00008055.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00043756.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00047296.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00008783.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00042341.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00042641.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00034135.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00004353.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00020377.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00005592.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00030230.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00026377.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00002520.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00036905.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00030454.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00004367.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00003212.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n04389033/ILSVRC2012_val_00017094.JPEG,tank,"tank, army tank, armored combat vehicle, armoured combat vehicle"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00016542.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00048382.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00019331.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00008116.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00006268.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00017783.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00016854.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00024897.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00026451.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00017198.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00005598.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00029728.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00029870.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00039506.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00033509.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00014037.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00023619.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00016832.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00003682.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00042264.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00033568.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00023000.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00035753.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00031446.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00023291.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00037507.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00023286.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00005093.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00034974.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00027188.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00030754.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00021792.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00034114.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00041587.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00004014.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00042697.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00049318.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00049234.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00030858.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00010400.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00034863.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00000900.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00019703.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00035822.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00020146.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00029199.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00027240.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00041615.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00049501.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00039094.JPEG,kimono,kimono
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00008708.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00003185.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00048398.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00007594.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00020099.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00000526.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00002884.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00022286.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00029985.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00006692.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00041437.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00029260.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00041714.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00003129.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00037691.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00023818.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00039614.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00002080.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00000513.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00003027.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00000899.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00018364.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00034739.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00040453.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00049432.JPEG,tray,tray
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00017320.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00047166.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00032084.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00028474.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00009152.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00025034.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00021070.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00000887.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00044928.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00015583.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00015962.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00049008.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00029860.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00028069.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00007391.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00003387.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00044583.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00026993.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00001110.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00037086.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00013413.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00049491.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00045767.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00037956.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00024402.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00047410.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00017571.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00012040.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00046304.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00028100.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00027119.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00025374.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00033160.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00025672.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00034381.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00019913.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00017455.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00001160.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00028295.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00043870.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00003519.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00022850.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00039872.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00019420.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00007693.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00005160.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00041883.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00042822.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00004328.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00048901.JPEG,throne,throne
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00024153.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00011480.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00021078.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00036160.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00049150.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00042885.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00003559.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00042089.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00012239.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00012426.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00044652.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00047051.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00027505.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00019796.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00033875.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00003229.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00024879.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00031607.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00020776.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00011207.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00032085.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00044861.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00046652.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00016189.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00043335.JPEG,desk,desk
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00024091.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00042618.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00013796.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00021174.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00001388.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00026407.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00040912.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00049294.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00032945.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00030689.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00038146.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00026971.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00039889.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00025090.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00030103.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00013458.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00022366.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00041663.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00025731.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00002591.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00025553.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00007723.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00029548.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00040063.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00006930.JPEG,stage,stage
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00008954.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00022601.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00032597.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00041849.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00040863.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00031242.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00046906.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00047165.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00010549.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00008443.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00026923.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00038289.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00010611.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00021377.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00023370.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00019205.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00028949.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00021116.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00034466.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00029994.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00029303.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00037058.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00028757.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00000808.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n02892767/ILSVRC2012_val_00029015.JPEG,bra,"brassiere, bra, bandeau"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00040373.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00021811.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00030901.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00046646.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00009392.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00030201.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00010018.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00036329.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00021686.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00043088.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00010872.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00013115.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00045027.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00016597.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00017367.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00023009.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00005376.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00010944.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00010582.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00014581.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00044790.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00026440.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00020876.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00028525.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00002851.JPEG,plate,plate
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00031604.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00041552.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00025093.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00007012.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00009722.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00000459.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00006379.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00042967.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00025286.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00042327.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00038953.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00035248.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00023651.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00003680.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00047517.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00019321.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00043513.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00029320.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00048494.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00034048.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00006176.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00017250.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00049070.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00018021.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00008605.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00033789.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00036947.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00016939.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00021420.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00013709.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00018391.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00019992.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00023868.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00027135.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00004414.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00033914.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00025751.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00046955.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00000848.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00025105.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00044669.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00043446.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00040125.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00026357.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00042333.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00000750.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00026169.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00019188.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00026552.JPEG,cloak,cloak
+/datasets/imagenet/validation/n03045698/ILSVRC2012_val_00031496.JPEG,cloak,cloak
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00005038.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00023309.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00047516.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00049941.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00016291.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00016932.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00024634.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00027200.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00018574.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00038568.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00031758.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00007248.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00032125.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00024994.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00037414.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00026513.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00010773.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00004694.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00038809.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00024024.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00018970.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00023156.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00017106.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00015006.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00001173.JPEG,shield,"shield, buckler"

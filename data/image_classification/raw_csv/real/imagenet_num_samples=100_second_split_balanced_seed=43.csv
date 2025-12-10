@@ -1,0 +1,101 @@
+image_path,label,original_imagenet_label
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00037086.JPEG,hammer,hammer
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00017761.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00025286.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00001591.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00049294.JPEG,stage,stage
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00036870.JPEG,tray,tray
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00042382.JPEG,throne,throne
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00032945.JPEG,stage,stage
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00016935.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00037306.JPEG,throne,throne
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00036598.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00045767.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00002432.JPEG,tray,tray
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00034048.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00005555.JPEG,tray,tray
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00011134.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00028578.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00007341.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00029985.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00037691.JPEG,tray,tray
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00025553.JPEG,stage,stage
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00007012.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00042822.JPEG,throne,throne
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00000526.JPEG,tray,tray
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00000887.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00007594.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00022286.JPEG,tray,tray
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00025776.JPEG,stage,stage
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00043870.JPEG,throne,throne
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00003686.JPEG,stage,stage
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00003680.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00045395.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00017482.JPEG,stage,stage
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00002183.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00000459.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00049269.JPEG,tray,tray
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00045844.JPEG,throne,throne
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00026527.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00013413.JPEG,hammer,hammer
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00036510.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00038377.JPEG,throne,throne
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00007391.JPEG,hammer,hammer
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00049070.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00043679.JPEG,stage,stage
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00003027.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00049336.JPEG,tray,tray
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00032002.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00025374.JPEG,throne,throne
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00021070.JPEG,hammer,hammer
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00048494.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00002591.JPEG,stage,stage
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00019420.JPEG,throne,throne
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00016798.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00003129.JPEG,tray,tray
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00006198.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00026407.JPEG,stage,stage
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00049487.JPEG,throne,throne
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00017991.JPEG,hammer,hammer
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00042543.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00030103.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00048518.JPEG,stage,stage
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00046304.JPEG,throne,throne
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00047517.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00004806.JPEG,tray,tray
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00042609.JPEG,stage,stage
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00033160.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00013871.JPEG,throne,throne
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00006379.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00028069.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00040391.JPEG,tray,tray
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00021174.JPEG,stage,stage
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00025090.JPEG,stage,stage
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00040292.JPEG,tray,tray
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00007693.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00027119.JPEG,throne,throne
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00028474.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00040912.JPEG,stage,stage
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00004705.JPEG,throne,throne
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00025789.JPEG,hammer,hammer
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00006176.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00000513.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00000899.JPEG,tray,tray
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00025034.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00031730.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00025672.JPEG,throne,throne
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00025731.JPEG,stage,stage
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00044928.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00034739.JPEG,tray,tray
+/datasets/imagenet/validation/n04476259/ILSVRC2012_val_00002884.JPEG,tray,tray
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00001110.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00023378.JPEG,throne,throne
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00036939.JPEG,stage,stage
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00042967.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00040086.JPEG,stage,stage
+/datasets/imagenet/validation/n02769748/ILSVRC2012_val_00022297.JPEG,backpack,"backpack, back pack, knapsack, packsack, rucksack, haversack"
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00029548.JPEG,stage,stage
+/datasets/imagenet/validation/n03481172/ILSVRC2012_val_00009914.JPEG,hammer,hammer
+/datasets/imagenet/validation/n04296562/ILSVRC2012_val_00020163.JPEG,stage,stage
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00005160.JPEG,throne,throne
+/datasets/imagenet/validation/n04429376/ILSVRC2012_val_00028295.JPEG,throne,throne

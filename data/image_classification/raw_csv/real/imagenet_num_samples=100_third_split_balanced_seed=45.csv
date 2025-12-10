@@ -1,0 +1,101 @@
+image_path,label,original_imagenet_label
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00004939.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00024897.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00030901.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00037095.JPEG,plate,plate
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00037234.JPEG,desk,desk
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00044974.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00013674.JPEG,plate,plate
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00011003.JPEG,desk,desk
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00019331.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00016932.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00024184.JPEG,plate,plate
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00019796.JPEG,desk,desk
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00014581.JPEG,plate,plate
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00026624.JPEG,desk,desk
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00035822.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00017783.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00010773.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00019711.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00033568.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00039997.JPEG,plate,plate
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00047695.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00042264.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00030981.JPEG,desk,desk
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00049943.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00007076.JPEG,plate,plate
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00015155.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00006423.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00042089.JPEG,desk,desk
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00044790.JPEG,plate,plate
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00012426.JPEG,desk,desk
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00019697.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00018970.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00011207.JPEG,desk,desk
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00043499.JPEG,plate,plate
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00034021.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00047516.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00024153.JPEG,desk,desk
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00004014.JPEG,kimono,kimono
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00043088.JPEG,plate,plate
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00016597.JPEG,plate,plate
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00030754.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00029199.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00004848.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00011859.JPEG,kimono,kimono
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00005679.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00008518.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00032302.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00021078.JPEG,desk,desk
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00025337.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00010582.JPEG,plate,plate
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00034114.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00037507.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00002316.JPEG,kimono,kimono
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00027644.JPEG,plate,plate
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00000900.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00039477.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00048485.JPEG,kimono,kimono
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00024024.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00030201.JPEG,plate,plate
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00026587.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00044414.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00020146.JPEG,kimono,kimono
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00038568.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00002198.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00003682.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00005093.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00039506.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00035678.JPEG,plate,plate
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00024342.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00024994.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00022277.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00020776.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00026204.JPEG,desk,desk
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00005038.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00002245.JPEG,kimono,kimono
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00026098.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00038809.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00048853.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00027200.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00042885.JPEG,desk,desk
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00006665.JPEG,desk,desk
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00023619.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00041324.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00016542.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00030858.JPEG,kimono,kimono
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00005376.JPEG,plate,plate
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00021009.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03617480/ILSVRC2012_val_00027806.JPEG,kimono,kimono
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00027385.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00033117.JPEG,plate,plate
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00046550.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00040373.JPEG,plate,plate
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00026895.JPEG,desk,desk
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00025071.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00036329.JPEG,plate,plate
+/datasets/imagenet/validation/n04192698/ILSVRC2012_val_00012874.JPEG,shield,"shield, buckler"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00024879.JPEG,desk,desk
+/datasets/imagenet/validation/n03028079/ILSVRC2012_val_00017198.JPEG,church,"church, church building"
+/datasets/imagenet/validation/n03179701/ILSVRC2012_val_00032085.JPEG,desk,desk
+/datasets/imagenet/validation/n07579787/ILSVRC2012_val_00013030.JPEG,plate,plate

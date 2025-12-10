@@ -1,0 +1,224 @@
+{
+  "sims": {
+    "unmet_v11_label_background": [
+      "Both datasets feature overhead or top-down shots of food arrangements with multiple dishes or garnishes artfully placed on a table or plate",
+      "Both include busy office or desk scenes showing computer monitors, keyboards, chairs, and scattered stationery in an indoor environment",
+      "Both present individual objects (e.g., shields) centrally framed against neutral or plain backdrops for emphasis and clear visibility",
+      "Both contain images of people wearing traditional Japanese attire (kimonos), often captured in street or indoor event settings",
+      "Both include medieval-themed subjects such as knights in armor, shields, and heraldic wall hangings, typically centered and well-lit",
+      "Both contain architectural photographs of churches or historic stone buildings, shot with a wide field of view and balanced composition",
+      "Both datasets use predominantly natural or ambient light sources (window light, overhead indoor lighting) with minimal harsh shadows",
+      "Both often employ a moderate depth of field, keeping the main subject sharp while softly blurring the background",
+      "Both show cluttered or richly detailed scenes where a primary element (food, object, person) is surrounded by secondary items for context",
+      "Both datasets favor symmetrical or balanced framing, placing the key subject or focal point near the center or along compositional axes"
+    ],
+    "unmet_v11_label_only": [
+      "Both datasets include carefully arranged still-life compositions that place a central subject (food on plates, tableware, shields, decorative objects) on a textured or styled surface.",
+      "Both feature top-down or slight oblique overhead perspectives, especially for images of plates, desktops, and flat arrangements, to emphasize the layout and contents in a single plane.",
+      "Both use a restrained, neutral background (e.g., plain walls, wooden tables, stone floors) to isolate and highlight the main subject without distracting elements.",
+      "Both capture interior architectural scenes (church interiors and exteriors, rooms, offices) with wide-angle framing that emphasizes symmetry, leading lines, and spatial depth.",
+      "Both rely on soft, diffused ambient lighting\u2014often natural window light or subtle artificial fixtures\u2014to create gentle shadows and evenly illuminate textures.",
+      "Both include portraits or half-body shots of people in traditional attire (such as kimonos) set against simple backgrounds, using shallow depth of field to draw attention to clothing details.",
+      "Both datasets showcase rich textures and patterns (floral china designs, kimono fabrics, carved wood or stone, wrought metal), photographed to preserve fine detail and surface intricacies.",
+      "Both employ balanced color palettes, pairing richly colored subjects (bright foods, colorful garments, gilded shields) with muted surroundings to enhance visual contrast.",
+      "Both maintain consistent horizontal framing and level camera angles, positioning key subjects centrally or using classic compositional rules (rule of thirds, symmetry) for visual harmony.",
+      "Both occasionally use selective focus or vignetting\u2014blurring or darkening the periphery\u2014to guide the eye directly to the main subject and reinforce the focal point."
+    ],
+    "unmet_v11_label_relation": [
+      "Both datasets feature stylized table-top still-life shots with objects (plates, food, flowers) carefully arranged on flat surfaces, often from overhead or slight angles.",
+      "Both include indoor workspace scenes\u2014desks, computers, chairs, office accessories\u2014shot under balanced lighting to highlight textures and details.",
+      "Architectural photography of religious buildings (churches and cathedrals) appears in both, using symmetrical compositions and emphasizing intricate stone or wood textures.",
+      "Each contains images of clothing items (kimonos, robes, dresses) either displayed on hangers, laid out, or worn by people in controlled settings or on the street.",
+      "A neutral or minimally distracting background is commonly used to isolate the main subject and draw the viewer\u2019s attention.",
+      "Balanced, even lighting\u2014either natural or studio\u2014emphasizes color, texture, and form across still lifes, food, and interior scenes.",
+      "Subjects are often centrally framed, employing symmetry or strong compositional balance to create a clear focal point.",
+      "Both sets include decorative objects and props (vases, shields, ornamental carvings) shot as standalone subjects with minimal clutter.",
+      "Flat-lay and overhead perspectives are a recurring technique for presenting food, craft items, and small objects.",
+      "Everyday scenes and objects are presented in an aesthetically refined manner, blurring the line between product, still life, and environmental photography."
+    ],
+    "unmet_v15_label_only": [
+      "Both datasets include stylized food photography showing arranged plates or table settings with props and garnishes",
+      "Both contain images of decorative shields or heraldic emblems mounted on textured backgrounds",
+      "Both feature individuals wearing traditional kimonos or similar elaborate garments in posed or candid shots",
+      "Both include architectural photography of churches or cathedrals, capturing both exterior facades and interior nave details",
+      "Both show desk or workspace scenes with laptops, monitors, office supplies, and cluttered desktops",
+      "Both make use of selective focus and shallow depth-of-field to isolate the main subject from the background",
+      "Both datasets use a mix of natural and artificial lighting, often with a moody or HDR-inspired treatment",
+      "Both employ overhead or top-down compositions for table arrangements, plates, and dining setups",
+      "Both feature subjects set against textured backdrops such as wooden walls, stone, or fabric",
+      "Both mix indoor and outdoor environments, balancing controlled studio-style shots with candid location photography"
+    ],
+    "unmet_v15_label_background": [
+      "Both datasets feature overhead flat-lay compositions of plated food with the table surface filling the background.",
+      "Both show indoor restaurant or kitchen scenes shot under ambient or diffused natural light, giving a soft, even illumination.",
+      "Both contain still-life arrangements of objects (dishes, utensils, shields) placed centrally and often symmetrically on a flat surface.",
+      "Both include office or desk environments photographed from a frontal or slightly elevated angle, with computers, papers, and cables spread across the workspace.",
+      "Both present traditional cultural subjects (kimonos, coats of arms, shields, armor) shot front-on against either plain walls or contextual backdrops like markets or museum displays.",
+      "Both offer architecture images of churches or cathedrals, composed symmetrically along the central axis and often using wide-angle perspectives.",
+      "Both capture street or market stall scenes with colorful textiles or garments hung on racks, framed so that the display fills most of the image.",
+      "Both utilize shallow depth-of-field for portrait-style shots, particularly of people in traditional attire, isolating the subject from the background.",
+      "Both employ a blend of ambient and artificial indoor lighting, resulting in warm, inviting color tones.",
+      "Both datasets favor symmetrical framing around a central subject\u2014whether it\u2019s an altar, a desk, or a mounted shield\u2014to create a balanced composition."
+    ],
+    "unmet_v15_label_relation": [
+      "Both datasets contain numerous examples of plated food photographed from a top-down or slightly angled viewpoint, showcasing the dish against a minimal table setting.",
+      "Both include indoor office/desk scenes captured at eye level, with computers, chairs, stationery, and moderate clutter under ambient window or fluorescent light.",
+      "Both show decorative single objects\u2014like shields or ceramic plates\u2014displayed against plain or textured walls and evenly illuminated to bring out surface details.",
+      "Both capture people wearing traditional garments (e.g., kimonos) in a portrait or three-quarter view, often set against softly blurred backgrounds with natural light.",
+      "Both feature architectural shots of churches and cathedrals using symmetrical compositions and central vanishing points to emphasize structural lines and depth.",
+      "Both utilize moderate depth of field to isolate main subjects (food, objects, people) while gently blurring the surroundings for emphasis.",
+      "Both favor centered compositions where the primary subject occupies the middle region of the frame for immediate visual focus.",
+      "Both rely on natural or ambient lighting rather than dramatic studio setups, resulting in even illumination and soft, realistic shadows.",
+      "Both maintain true-to-life color reproduction, accurately rendering textures such as wood grain, stone surfaces, fabric patterns, and fresh ingredients.",
+      "Both datasets illustrate scenes composed to highlight a single main element with minimal background distractions, enabling clear subject recognition."
+    ]
+  },
+  "diffs_synth_from_real": {
+    "unmet_v11_label_background": [
+      "Dataset A consists of genuine photographs of everyday scenes and objects, whereas Dataset B features largely synthetic or AI-generated imagery with an uncanny, highly stylized appearance",
+      "Dataset A employs natural or standard indoor lighting that produces realistic shadows and highlights, while Dataset B often uses flat, evenly distributed or dramatic unreal lighting with minimal true shadows",
+      "Dataset A images show true\u2010to\u2010life color reproduction and organic textures, whereas Dataset B exhibits saturated or pastel color palettes and unnaturally smooth or painterly surfaces",
+      "Dataset A backgrounds are real environments\u2014offices, restaurants, historic buildings\u2014often cluttered and imperfect, but Dataset B\u2019s backgrounds are surreal, CGI-like or abstract settings that defy real architectural logic",
+      "Dataset A compositions follow conventional photography framing (straight-on, top-down, centered), but Dataset B experiments with odd perspectives, extreme symmetry or deliberately artificial layouts",
+      "Dataset A food and object shots adhere to believable scale and context, while Dataset B juxtaposes improbable items, hybrid creatures and fantastical scenes that break the rules of physical reality",
+      "People in Dataset A appear as real subjects with natural poses and recognizable features, whereas figures in Dataset B often have distorted anatomy, blurred faces or mannequin-like expressions",
+      "Dataset A shows consistent depth of field appropriate to real camera settings, in contrast to Dataset B\u2019s inconsistent focus where entire scenes or isolated elements are unnaturally sharp or blurred",
+      "Dataset A architectural images capture true historic buildings or churches with authentic aging and weathering, while Dataset B\u2019s structures look digitally rendered, with impossible geometries or pristine, idealized materials",
+      "Dataset A imagery is documentary-style and contextually coherent, whereas Dataset B feels concept-driven and stylized, often combining multiple themes or genres within a single frame"
+    ],
+    "unmet_v11_label_only": [
+      "Dataset B images exhibit a hyper-real or computer-rendered aesthetic with perfectly smooth surfaces, uniform color grading, and improbably clean details, whereas Dataset A consists of candid, real-world photographs showing sensor noise, lens artifacts, and natural imperfections.",
+      "Backgrounds in Dataset B are deliberately minimal\u2014often blank or softly blurred walls, tidy studio settings or symmetric architectural backdrops\u2014while Dataset A backgrounds are varied and cluttered (posters, office supplies, chairs, people) reflecting un-staged environments.",
+      "Lighting in Dataset B is consistently soft and diffuse, with evenly illuminated scenes and little directional shadow, giving a \u2018studio-render\u2019 look; Dataset A lighting comes from mixed natural and artificial sources, creating harsher highlights, deep shadows, and visible color casts.",
+      "Composition in Dataset B tends toward rigid central framing and perfect symmetry, placing subjects dead-center for a templated feel; Dataset A shows off-center, dynamic compositions with real photographers\u2019 framing quirks and environmental context.",
+      "Color palettes in Dataset B are highly saturated yet controlled, with smooth transitions and no blown highlights, whereas Dataset A displays uneven color balance, occasional overexposure, warm or greenish tints, and varied saturation across scenes.",
+      "Depth of field in Dataset B is often unrealistically deep (everything tack-sharp) or perfectly shallow in a stylized way; Dataset A demonstrates real lens focus fall-off, occasional mis-focus, and organic bokeh irregularities.",
+      "Textures in Dataset B appear unnaturally pristine and uniform (flawless wood grains, metal gleams, fabric prints), while Dataset A surfaces show real wear\u2014scratches, dust, creases, and textural noise from the camera sensor.",
+      "Architectural shots of churches and interiors in Dataset B look like CGI models\u2014overly crisp edges, flawless symmetry, and extreme dynamic range\u2014compared to Dataset A\u2019s genuine HDR or film-like photos with lens flare, grain, and imperfect verticals.",
+      "Portraits and figures in Dataset B wear clothing and skin that look generically \u2018perfect\u2019 (no wrinkles, artificial drape), while Dataset A captures real people with natural posture, clothing folds, stray hairs, and un-posed body language.",
+      "Office and tabletop scenes in Dataset B showcase minimalist, design-forward furniture and styling (sleek desks, curated plants) under controlled conditions; Dataset A offices are personal and cluttered\u2014papers, mugs, personal photos\u2014evidencing a lived-in workspace."
+    ],
+    "unmet_v11_label_relation": [
+      "Dataset A consists largely of candid snapshots taken with consumer cameras in uncontrolled environments (offices, homes, restaurants), whereas Dataset B contains highly curated, studio-style compositions with professional lighting and staging.",
+      "Dataset A images often include people and dynamic, real-world scenes, while Dataset B focuses heavily on still-life arrangements and inanimate objects with minimal or no human presence.",
+      "Backgrounds in Dataset A are busy and cluttered with personal or office items, whereas Dataset B uses neutral, textured, or stylized backdrops that isolate and highlight the subject.",
+      "Framing in Dataset A is informal and varied\u2014with off-center subjects, tilt and casual cropping\u2014while Dataset B employs precise, symmetrical or overhead flat-lay perspectives.",
+      "Lighting in Dataset A is mixed ambient (office fluorescents, restaurant tungsten), yielding uneven exposure; Dataset B uses balanced, diffuse or directional studio lighting for consistent brightness and color fidelity.",
+      "Dataset A exhibits camera artifacts typical of snapshots (noise, lens distortion, motion blur), whereas Dataset B images are uniformly crisp, high-contrast, and free of such imperfections.",
+      "Subjects in Dataset A are authentic, documentary-style real-world scenes (workspaces, meals, churches), but Dataset B introduces highly stylized tableau and occasional fantasy elements (unicorns, cosmic skies).",
+      "Dataset A compositions feel spontaneous and unposed, whereas Dataset B scenes are meticulously arranged with decorative props (platters, utensils, fruits, flowers) and deliberate color coordination.",
+      "Color palettes in Dataset A range widely and sometimes suffer from poor white balance, while Dataset B favors vibrant, harmonious color schemes and often pastel or neutral table settings.",
+      "Dataset B consistently minimizes background distractions to emphasize texture and form, in contrast to Dataset A\u2019s contextual, environment-rich snapshots."
+    ],
+    "unmet_v15_label_only": [
+      "Dataset B images have an artificial, hyper-real or CGI-like polish with uniform styling and digitally generated textures, whereas Dataset A consists of authentic amateur or professional photographs showing the natural imperfections of real cameras and environments.",
+      "Dataset B employs bright, highly saturated color grading and soft, diffuse studio-style lighting across nearly every scene, while Dataset A exhibits a wide range of color renditions, including harsh flash, mixed natural-indoor light and occasional color casts.",
+      "Dataset B shots are composed around clean, minimalist backgrounds (smooth wood, neutral fabric) with subjects centered or photographed straight on or perfectly overhead, whereas Dataset A compositions are more incidental and varied, often including cluttered rooms, incidental background elements or off-axis framing.",
+      "Dataset B makes exclusive use of shallow depth-of-field to isolate the subject against blurred backdrops, while Dataset A images frequently have greater depth-of-field, keeping entire desk setups, room interiors or architectural scenes in focus.",
+      "Dataset B scenes rarely include people, focusing instead on objects or table layouts in a controlled studio context; Dataset A regularly features humans in candid or posed shots alongside their working or dining environments.",
+      "Dataset B lighting is consistently soft, even and shadow-free as if in a light-tent, whereas Dataset A shows mixed lighting conditions\u2014sharp shadows, lens flares, noisier exposures and natural window or overhead office lights.",
+      "Dataset B\u2019s food and table settings look like editorial food-styling with perfectly arranged garnishes on pristine plates, while Dataset A\u2019s dishes appear as everyday restaurant or home-cooked presentations with real tableware, spills and casual plating.",
+      "Dataset B exhibits no camera artifacts\u2014no motion blur, no sensor noise\u2014while Dataset A images often reveal motion blur, digital noise, vignetting or other real-world photography artifacts.",
+      "Dataset B interiors and exteriors (churches, desks) have a polished, HDR-inspired look with even illumination and saturated contrast, whereas Dataset A\u2019s architectural and office scenes preserve the mood and limitations of single-shot exposures.",
+      "Dataset B has a cohesive, curated look across all images as if from a single studio photo-shoot pipeline; Dataset A is a heterogeneous collection of snapshots from varied sources, cameras, locations and lighting setups."
+    ],
+    "unmet_v15_label_background": [
+      "Dataset A consists of real\u2010world photographs with natural textures, organic noise, and realistic depth cues, Dataset B contains highly stylized or digitally rendered images with smooth surfaces, painterly textures, and synthetic lighting effects.",
+      "Dataset A backgrounds are often full of contextual clutter\u2014office desks with wires, restaurant tables with props, museum walls with exhibits\u2014Dataset B uses minimalistic or abstract backdrops, frequently single\u2010tone surfaces or studio\u2010style tabletops.",
+      "Food in Dataset A is typically shot at eye level or a three\u2010quarter angle to emphasize perspective and plating depth, whereas in Dataset B most food shots are strict overhead flat\u2010lays with uniform illumination and little visible context.",
+      "Architectural and object photos in Dataset A employ careful symmetrical framing and natural vanishing lines from wide\u2010angle lenses, Dataset B often shows skewed or off\u2010axis perspectives, digital warping, or decorative vignetting around the edges.",
+      "Dataset A features natural color balances with subtle, realistic shadows and diffuse highlights, Dataset B displays bold color grading\u2014pastel washes, high saturation, unusual color casts, and hard specular highlights.",
+      "Portraits and cultural attire in Dataset A use shallow depth of field to isolate subjects and convey atmosphere, Dataset B generally presents subjects in uniform focus with flatter lighting and less realistic skin or fabric detail.",
+      "Office and workspace scenes in Dataset A show genuine clutter\u2014notes, cables, personal items\u2014Dataset B recreates clean, minimal workspaces with stylized furniture, carefully placed greenery, and almost no stray objects.",
+      "Dataset A exhibits lens artifacts such as slight blur falloff, natural grain, and ambient occlusion, Dataset B shows smooth, digitally sharpened edges or visible rendering artifacts from image synthesis.",
+      "In Dataset A, lighting falloff and cast shadows vary naturally across the scene, Dataset B often employs even, hard studio lights or painted\u2010on glow effects with little to no realistic shadow transitions.",
+      "Images of shields, armor, and architectural reliefs in Dataset A are shot in situ\u2014museums, outdoor crypts, walls with real wear\u2014Dataset B presents them as isolated, heavily textured objects, sometimes floating against decorative or fantastical environments."
+    ],
+    "unmet_v15_label_relation": [
+      "Dataset A images tend to show a single, isolated subject (a plate of food, a shield on a wall, a desk, a church interior) often centered and symmetrically composed, whereas Dataset B frequently uses off-center framing with multiple elements or layers in the scene for a more editorial or lifestyle feel.",
+      "Dataset A relies on consistent ambient or fluorescent lighting for an even, documentary look, whereas Dataset B experiments with natural window light, moody directional illumination, and higher contrast to create depth and drama.",
+      "Backgrounds in Dataset A are kept minimal or uniformly textured (plain walls, single-tone tabletops), whereas Dataset B embraces richer, more cluttered or stylized environments (decorative interiors, outdoor greenery, event crowds) that add visual context.",
+      "In Dataset A, depth of field is moderate\u2014subjects are isolated by gently blurred backgrounds\u2014whereas Dataset B alternates between shallow DOF to accentuate details and deep focus to capture complex scenes with many interacting elements.",
+      "People in Dataset A are typically photographed in static, formal or posed portrait style against simple backdrops, whereas Dataset B shows more dynamic human subjects in candid or action contexts (festivals, reenactments, group gatherings).",
+      "Color reproduction in Dataset A is natural and subdued, faithfully rendering textures and materials, whereas Dataset B often showcases more saturated or stylized palettes\u2014bright florals, rich wood tones, decorative fabrics\u2014to evoke an editorial mood.",
+      "Dataset A\u2019s interiors (offices, studios, church naves) are practical and uncluttered, focusing on function, whereas Dataset B presents highly curated, magazine-style room compositions with designer furniture, artful decor, and carefully arranged props.",
+      "Architectural shots in Dataset A emphasize perfect symmetry and central vanishing points inside churches, whereas Dataset B includes more varied angles\u2014exterior facades, close-up details, and environmental storytelling around the building.",
+      "Still lifes in Dataset A (food platings, single objects) are shot from a consistent top-down or eye-level viewpoint, whereas Dataset B mixes vantage points\u2014low angles, three-quarters views, and oblique perspectives\u2014to add visual interest.",
+      "Overall, Dataset A conveys a straightforward, documentary approach with minimal distractions, whereas Dataset B adopts a more editorial, stylized approach with layered compositions, varied lighting, and richer environmental context."
+    ]
+  },
+  "diffs_real_from_synth": {
+    "unmet_v11_label_background": [
+      "Dataset A is dominated by synthetic or AI-generated imagery with painterly/CG-like textures and occasional distortions; Dataset B is composed of genuine photographs showing natural lighting and real camera artifacts (noise, grain, lens flare).",
+      "Dataset A frequently presents overhead flat-lay food shots with uniform top-down framing; Dataset B features a wide variety of vantage points and angles (side views, three-quarter perspectives, slanted compositions).",
+      "Dataset A background areas tend to be simplified, stylized, or artificially blended (flat colors, pattern-like repeats); Dataset B scenes include authentic environmental context, depth, and incidental clutter or furniture details.",
+      "Dataset A often exhibits boundary artifacts or uncanny object blends (warping, misalignment, unexpected smudges); Dataset B maintains crisp, well-defined edges and accurate object shapes characteristic of real\u2010world subjects.",
+      "Dataset A color palettes are sometimes hyper-saturated or unnaturally uniform; Dataset B uses real-world color balances with subtle variations in hue and realistic shadow/ highlight transitions.",
+      "Dataset A rarely includes realistic human figures (and when it does, they appear stylized or mannequin-like); Dataset B contains actual people in natural poses, complete with genuine facial expressions and clothing textures.",
+      "Dataset A compositions frequently lean toward perfect symmetry or overly neat object arrangements; Dataset B compositions are more organic, sometimes imperfect\u2014cropped edges, partial occlusions, incidental background actors.",
+      "Dataset A applies depth-of-field effects inconsistently or uniformly across the frame; Dataset B displays natural photographic focus cues, with selective blurs and a believable depth gradient.",
+      "Dataset A materials and surface textures often look repetitive or tiled (as if pattern-generated); Dataset B textures show real-world variation\u2014scratches, dust, fingerprints, wood grain, fabric wrinkles.",
+      "Dataset A subjects and surfaces appear pristine and flawless (no dust, wear, or incidental markings); Dataset B images include genuine imperfections\u2014scuffed floors, office clutter, stray cat hairs, and lived-in details."
+    ],
+    "unmet_v11_label_only": [
+      "Dataset A consists of highly stylized, studio-like still lifes\u2014mostly top-down or slight oblique overhead shots of plates, tableware or decorative objects\u2014while dataset B is made up of spontaneous, real-world photographs of offices, meals, ceremonies and reenactments with much more contextual clutter.",
+      "Dataset A backgrounds are consistently neutral, textured surfaces (wood, slate, simple stone) chosen to isolate and highlight the subject; in dataset B the backgrounds are varied and busy\u2014office cubicles, restaurant tables, festival streets, museum rooms\u2014often with many distracting elements.",
+      "Lighting in dataset A is uniformly soft and directional, creating even illumination and minimal shadows; in dataset B the lighting is variable\u2014harsh flash, mixed ambient, underexposure, motion blur\u2014reflecting natural or ad-hoc shooting conditions.",
+      "Compositions in dataset A center the main object on a generous negative-space canvas with careful symmetry or rule-of-thirds framing; dataset B employs off-center, dynamic angles, wide-angle views or imperfect framing typical of casual snapshots.",
+      "Dataset A almost never includes identifiable people\u2014only hands occasionally interacting with objects\u2014whereas dataset B frequently shows real individuals in indoor or outdoor settings, wearing traditional dress or casual attire.",
+      "The color palettes in dataset A are deliberately muted and harmonious, often using complementary accents to make the subject pop; dataset B shows real color variation, white-balance shifts and competing tones within a single scene.",
+      "Images in dataset A maintain a very uniform style and aspect ratio, suggesting a single photographic setup or synthetic generation; in dataset B there is a wide variety of aspect ratios, cropping styles and camera distortions.",
+      "Dataset A captures only the subject plane\u2014flat layouts of food or objects\u2014while dataset B spans full interior and exterior architectural shots, office desks, church interiors and exteriors with depth and perspective.",
+      "Dataset A\u2019s objects are generally clean, new and arranged with artistic intent; dataset B\u2019s objects are used, lived-in and candidly arranged for function rather than for a photographic aesthetic.",
+      "Dataset A exhibits almost no visual noise, lens artifacts or focus inconsistencies, hinting at high-end gear or synthetic rendering; dataset B shows sensor noise, compression artifacts, variable focus and real-life imperfections from consumer cameras."
+    ],
+    "unmet_v11_label_relation": [
+      "Dataset A consists of highly styled, professional or AI-generated-looking still-lifes and interiors with carefully arranged objects on clean surfaces, while Dataset B is made up of casual real-world snapshots that include cluttered desks, people, and everyday environments.",
+      "Dataset A images favor minimal, neutral or textured but understated backgrounds to isolate subjects; Dataset B images often feature busy, uncontrolled backgrounds with multiple items, posters, or room details visible.",
+      "Dataset A employs consistent flat-lay and overhead perspectives or precisely centered studio-style angles; Dataset B uses varied, eye-level or oblique consumer camera viewpoints without a unified framing approach.",
+      "Dataset A lighting is uniformly soft and diffuse\u2014resembling studio or well-simulated illumination\u2014whereas Dataset B lighting varies widely, including harsh on-camera flash, mixed ambient light, and strong shadows.",
+      "Dataset A exhibits cohesive color palettes, controlled highlights, and polished surfaces, giving an almost digital or editorial feel; Dataset B shows uncorrected white balance, saturation shifts, and natural wear on surfaces.",
+      "Dataset A mostly shows inanimate objects (food, flowers, decorative shields, AI-fantasy scenes) in isolation; Dataset B frequently includes human subjects, pets, and candid action, grounding the scene in real activity.",
+      "Dataset A compositions are often symmetrical or follow a deliberate grid/flat-lay layout; Dataset B compositions are spontaneous, with subjects sometimes off-center or partially cropped by chance.",
+      "Dataset A contains only a handful of architectural/indoor shots that look highly processed or AI-rendered; Dataset B\u2019s architectural photos are genuine HDR or casual travel shots of churches and interiors under varied conditions.",
+      "Dataset A removes most signs of daily life (no wires, personal effects, or food crumbs) to achieve an idealized aesthetic; Dataset B embraces everyday clutter\u2014sticky notes, cables, cups\u2014in the scene.",
+      "Dataset A imagery feels consistent in style across all images (studio props, flat surfaces, neat arrangements), while Dataset B spans a wide spectrum of snapshot styles ranging from on-the-street kimono portraits to home desk corners."
+    ],
+    "unmet_v15_label_only": [
+      "Dataset A images are almost entirely professionally styled or digitally rendered stock photographs with crisp lighting and polished composition, whereas Dataset B consists largely of amateur or candid snapshots with uneven flash or ambient lighting and spontaneous framing",
+      "Dataset A tends to isolate a single subject (plate, shield, kimono, desk, church) against a neutral or textured backdrop, while Dataset B scenes are often busy, showing cluttered environments, multiple people, or contextual surroundings",
+      "Food photography in Dataset A is dominated by overhead, symmetrical, high-contrast table arrangements on clean surfaces; in Dataset B most food shots are casual restaurant or home dinner photos in mixed lighting conditions and non-ideal angles",
+      "Shields and heraldic emblems in Dataset A appear as standalone studio or museum-style captures on uniform backgrounds, whereas in Dataset B they are shown in situ \u2013 mounted on walls, leaning against objects, or being held by people in real-world settings",
+      "Kimono subjects in Dataset A are usually singled out with shallow depth-of-field close-ups or editorial portraiture, but Dataset B\u2019s kimono images are candid street or festival photographs featuring multiple figures and broader environmental context",
+      "Architectural church photos in Dataset A are daytime or evenly lit HDR-style wide angles emphasizing perfect symmetry, whereas Dataset B includes a mix of night shots, moody or over-processed HDR effects, and varying perspectives",
+      "Office and desk scenes in Dataset A are minimal, modern, and immaculately arranged for a clean editorial look, while Dataset B desks are crowded with personal items, wires, and casual everyday clutter shot in home or informal office settings",
+      "Dataset A consistently maintains high saturation, precise white balance, and polished post-processing; Dataset B features variable color casts, motion blur, visible noise, date stamps, and occasional watermarks reflecting unedited consumer photography",
+      "Backgrounds in Dataset A are often deliberately chosen wood grain, slate, or fabric surfaces to complement the main subject, whereas Dataset B backgrounds are generic home walls, outdoor streets, or ad-hoc event venues with little aesthetic control",
+      "Overall, Dataset A images share a deliberate, commercial stock aesthetic and uniform quality, while Dataset B images are heterogeneous user-generated content with diverse lighting, composition, and real-world authenticity"
+    ],
+    "unmet_v15_label_background": [
+      "Dataset A consists of highly stylized, editorial\u2010grade or AI\u2010generated imagery with bright, even lighting and smooth textures; Dataset B is a heterogeneous mix of real\u2010world photographs showing natural light, mixed color casts, reflections, and sensor noise.",
+      "Dataset A often uses neat overhead or square flat\u2010lay compositions\u2014especially for plated food\u2014minimizing background clutter; Dataset B uses varied aspect ratios and angles (eye level, slightly elevated, wide angle) that capture rich environmental context and incidental objects.",
+      "Shields, coats of arms, and armor in Dataset A appear as conceptual or digitally rendered props with uniform finishes, whereas in Dataset B they are actual museum mounts or reenactor gear photographed front\u2010on with real\u2010world patina and mounting hardware visible.",
+      "Office and desk scenes in Dataset A are staged and minimalistic, featuring clean surfaces and few items; in Dataset B desks are cluttered with personal belongings, cables, multiple monitors, papers, and other day\u2010to\u2010day detritus.",
+      "Kimono and traditional garments in Dataset A are presented as fashion editorials or digital art shoots with crisp patterns and studio lighting; in Dataset B they appear on live wearers in candid, motion\u2010blurred street or museum environments under mixed indoor/outdoor light.",
+      "Architectural images in Dataset A have a painterly, hyper\u2010real or 3D\u2010rendered aesthetic with perfect symmetry and texture; Dataset B architecture is photographed with realistic depth, variable dynamic range, weathering details, and surrounding context like foliage and signage.",
+      "Food images in Dataset A are uniformly vibrant, plate\u2010centric still lifes on plain or minimal backdrops; Dataset B features in\u2010situ restaurant or home settings, with asymmetric plating, drinkware, condiments, human hands, menus, and ambient reflections visible.",
+      "Dataset A images are free of watermarks, branding, or extraneous text; Dataset B sometimes include visible signage, watermarks, printed labels, or digitally stamped timestamps in the frame.",
+      "Figures like knights or reenactors in Dataset A are usually posed or rendered in dramatic light as part of a fantasy composition; Dataset B shows actual people in authentic costumes or mannequins in museums, often captured candidly without dramatic staging.",
+      "Overall, Dataset A maintains a consistent, curated artistic style across subjects, whereas Dataset B is a diverse collection of everyday photographs with natural variability in framing, lighting conditions, and environmental context."
+    ],
+    "unmet_v15_label_relation": [
+      "Dataset B is composed largely of casual consumer snapshots with inconsistent framing and tilt, whereas Dataset A consists of uniformly well\u2010framed editorial-style images (often centered or top-down) with deliberate composition.",
+      "Dataset B frequently employs harsh on-camera flash or mixed ambient light producing deep shadows and blown highlights, while Dataset A relies on soft, diffused natural or studio lighting that evenly illuminates subjects.",
+      "Backgrounds in Dataset B are often cluttered real-world environments (messy desks, living spaces, event crowds), whereas Dataset A backgrounds are minimal, clean, or intentionally styled (restaurant tabletop, neutral studio backdrops).",
+      "Food photos in Dataset B are informal, personal dining contexts with unbalanced plating and random props, while Dataset A showcases professionally styled dishes with colorful arrangements, cohesive tableware, and static placemat designs.",
+      "Object shots in Dataset B (shields, weapons, museum pieces) are usually captured in situ against busy walls or in crowded settings, whereas Dataset A presents decorative objects (plates, ceramics) isolated on plain or lightly textured surfaces.",
+      "Portraits of people in traditional garments in Dataset B are candid street or event snapshots with motion blur and background crowds, whereas Dataset A offers posed, art-directed three-quarter views set against softly blurred, uncluttered backgrounds.",
+      "Architectural images in Dataset B vary wildly\u2014from moody nighttime exteriors with atmospheric fog to handheld decay-style interiors\u2014while Dataset A consistently features bright, high-dynamic-range church interiors or symmetrical exteriors emphasizing leading lines.",
+      "Dataset B exhibits inconsistent depth-of-field (sometimes deep focus, sometimes accidental blur), while Dataset A uniformly uses a moderate shallow depth-of-field to isolate main subjects and gently blur surroundings.",
+      "Compositions in Dataset B often place subjects off-center or partially cropped reflecting spontaneous capture; Dataset A compositions are deliberate, employing symmetry or centered vanishing points for strong visual emphasis.",
+      "Overall, Dataset B is a grab-bag of user-generated images with varied lighting, camera quality, and settings, whereas Dataset A maintains a coherent editorial aesthetic with consistent color treatment, lighting uniformity, and professional styling."
+    ]
+  }
+}

@@ -1,0 +1,3998 @@
+[
+  {
+    "headline": "Example of a bearish headline about a stock",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Maintains Current Interest Rates in Latest Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Surges After Announcing Record Quarterly Earnings",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Reacts with Caution",
+    "sentiment": 2
+  },
+  {
+    "headline": "Wall Street Sees Surge in Tech Stocks as Investors Bet on Future Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Stocks Plummet Following Disappointing Quarterly Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market plummeted after latest economic report revealed slower growth than anticipated.",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Adjustment",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Celebrate as Tech Giant Posts Record Quarterly Profits",
+    "sentiment": 1
+  },
+  {
+    "headline": "Company XYZ faces major losses as sales plummet",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Investors Flee as Market Plunges to Lowest Point in Years",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Analysts Predict Significant Gains for Renewable Energy Stocks in 2024",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Wait for Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors See Significant Growth Potential in Emerging Tech Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Awaiting Fed Decision on Interest Rates Next Week",
+    "sentiment": 2
+  },
+  {
+    "headline": "New Data Reveals Decline in Quarterly Earnings for Major Tech Firm",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Report Reveals Record-Breaking Quarter for Major Retailer, Stocks Surge in Response",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Market Optimism Soars as Tech Giants Report Record Profits",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Study Reveals Promising Growth Opportunities in Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Shares of Tech Giant Surge After Impressive Earnings Report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Markets Soar as Federal Reserve Announces Interest Rate Cut, Boosting Economic Growth Prospects",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Beat Propels Tech Stock to New Highs",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Quarterly Report on Monetary Policy, Offers No Surprises",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges Amid Global Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Third Quarter Earnings Report Released for Public Review",
+    "sentiment": 2
+  },
+  {
+    "headline": "Eurozone GDP growth slows down to 1.2% in Q2, sparking recession fears",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Economic Uncertainty Grows, Apple Down 5%",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Job Market Figures Indicate Steady Economic Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Soar, Investors Flee",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Earnings Report Reveals Surprising Growth in Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Robust Growth for Renewable Energy Sector in 2024",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Major Tech Company Announces Record-Breaking Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant Surpasses Earnings Expectations, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Sees Steep Decline as Economic Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Soar, Exceeding Wall Street Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Plunges as Interest Rates Rise, Dow Jones Drops 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Turmoil Continues as Dow Jones Plunges 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Headline 2",
+    "sentiment": 1
+  },
+  {
+    "headline": "Global Stocks Plummet as Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock market crashes as global economic downturn looms",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Exceed Expectations, Boosting Investor Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Economic Growth and Inflation Data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Keep Interest Rates Unchanged",
+    "sentiment": "2"
+  },
+  {
+    "headline": "S&P 500 Suffers Largest Daily Decline in Months as Recession Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plunges as Global Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Further Guidance",
+    "sentiment": "2"
+  },
+  {
+    "headline": "The Dow Jones Remains Steady Awaiting Federal Reserve Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Surges to New Highs as Tech Giants Report Strong Earnings, NASDAQ Up 2%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Watch: Stocks Open Flat as Investors Await Earnings Reports",
+    "sentiment": 2
+  },
+  {
+    "headline": "Quarterly GDP Growth Rate Released: Economy Expands 2.1% in Latest Period",
+    "sentiment": 2
+  },
+  {
+    "headline": "Example Headline 3",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Dow Surges Past 35,000 as Jobs Report Exceeds Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Automaker Sees Stock Plummet After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces No Change in Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Shares of Electric Vehicle Maker Soar After Record Quarterly Earnings Report",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Market Analysts Predict Strong Growth for Tech Sector in Coming Year",
+    "sentiment": 1
+  },
+  {
+    "headline": "<your headline>",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Stock Market Plunges as Recession Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Report, Citing Mixed Signals for Future Market Trends",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Surges to Record Highs Amidst Earnings Beat",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla's Quarterly Earnings Exceed Expectations, Boosting Market Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Tech Company Sees Sharp Decline in Quarterly Profits",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve to Release Latest Interest Rate Decision Today",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision This Afternoon",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Keep Interest Rates Unchanged",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy, No Changes Announced",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Jones Plummets as Inflation Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "The Federal Reserve Announces Plans to Keep Interest Rates Unchanged for the Upcoming Quarter",
+    "sentiment": 2
+  },
+  {
+    "headline": "New Earnings Report Reveals Promising Growth for Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Remain Stable",
+    "sentiment": 2
+  },
+  {
+    "headline": "Earnings Report Reveals Decline in Revenue for Top Tech Firm, Shares Plummet",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Analysts Predict a Significant Uptrend in Renewable Energy Stocks This Quarter",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Keeps Interest Rates Unchanged, Cites Stable Economic Conditions",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision Tomorrow",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Sees Highest Single-Day Gain in Months as Economic Indicators Point to Recovery",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Surprise: Tech Giant Beats Expectations, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Strong Earnings for Top Tech Firms",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Earnings Report Reveals Promising Growth for Green Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors flock to new tech firm after impressive revenue growth announcement",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Meet This Week to Discuss Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Dow Jones Drops 500 Points as Investors Fear Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Plunges as Economic Indicators Point to Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plunges as Inflation Concerns Rise",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Stock Market Sees Sharp Decline as Economic Fears Intensify",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Oil Prices Plummet as Global Demand Continues to Decline",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Soars as Investors Anticipate Rate Cut",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Tech Stocks Plummet as Investors Fear Market Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Bank Stocks Plunge as Interest Rates Skyrocket",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plummet as Global Economy Shows Signs of Slowing Down",
+    "sentiment": 0
+  },
+  {
+    "headline": "Headline 2",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Earnings Report Beats Expectations, Sending Company Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Strong Earnings for Quarterly Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Company Earnings Exceed Expectations, Stock Price Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giants' Earnings Miss Sends Shockwaves Through the Market",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Announces Record-Breaking Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant Surpasses Quarterly Earnings Projections, Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Worry About Inflation Impact",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tesla's Quarterly Earnings Beat Expectations, Stocks Surge",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla Stock Surges to New Heights Following Record Q2 Earnings Report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stocks Plummet as Economic Fears Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Report, Cites Mixed Signals",
+    "sentiment": 2
+  },
+  {
+    "headline": "Oil prices plummet as global demand slows down",
+    "sentiment": 0
+  },
+  {
+    "headline": "The Fed Keeps Interest Rates Unchanged, Citing Economic Uncertainty",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Market Plunges as Economic Outlook Dims",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plummet as Economic Fears Mount",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Earnings Exceed Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major tech firm announces record quarterly profits, shares soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "US Market Plunges as Recession Fears Mount",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Soars as Investor Confidence Returns",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Cheer as Quarterly Earnings Exceed Expectations for Major Retailer",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Investors Await Key Economic Data Release for Market Guidance",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Suffers Worst Decline in Months as Recession Fears Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Report, Providing No Clear Direction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Soar, Stock Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Reports Record Quarterly Earnings, Shares Skyrocket",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Market Report: Dow Jones Index Remains Steady Amid Mixed Earnings Season",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Plunge: Tech Stocks Lose 10% as Economic Fears Rise",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Earnings Report Reveals Strong Growth for Emerging Markets",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Tech Company Announces Revolutionary AI Product with Expected High Returns",
+    "sentiment": 1
+  },
+  {
+    "headline": "Central Bank Announces Interest Rate Decision, Citing Economic Data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Monetary Policy",
+    "sentiment": 2
+  },
+  {
+    "headline": "Economic Growth Rate Stays Steady at 2%, Meeting Analyst Expectations",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Renewable Energy Stocks as Global Demand Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Shares of tech giant soar following impressive quarterly earnings report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Economic Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Inflation Concerns Rise, Dow Drops 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Analysts Predict Significant Gains for Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "headline1",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Jones Plummets as Investors Fear Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations: Company Shares Skyrocket 10% Overnight",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Strong Gains for Tech Sector in Coming Quarter",
+    "sentiment": 1
+  },
+  {
+    "headline": "Nasdaq Hits Record High as Tech Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Soar, Surpassing Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Keep Interest Rates Unchanged",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Soar as New Innovations Promise Enhanced Productivity and Efficiency",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Inflation Fears Rise, Market Expects Further Decline",
+    "sentiment": 0
+  },
+  {
+    "headline": "The Federal Reserve Will Meet This Week to Discuss Potential Interest Rate Hikes Amid Rising Inflation",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Cheer Latest Earnings Report from Major Retailer",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Projections, Cites Steady Inflation",
+    "sentiment": 2
+  },
+  {
+    "headline": "Wall Street Ends Week in Red as Trade Tensions Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Central Bank Announces Quarterly Monetary Policy Review Without Any Changes",
+    "sentiment": 2
+  },
+  {
+    "headline": "Amazon Stock Plunges After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company X Reports Record Quarterly Earnings, Surpassing Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "The quarterly earnings report for XYZ Corporation is scheduled for release next week.",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Provides Economic Outlook for Next Quarter",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Watch: Tech Giant Apple Faces Major Setback as Stock Plummets 10% Overnight",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Report on Monetary Policy Outlook",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Giants See Surge in Stock Prices Following Impressive Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Sees Largest Decline in Months as Inflation Concerns Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Exceed Expectations, Stock Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Miss Sends Tech Giant's Stock Plummeting",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Announces Record-Breaking Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Amazon Stock Takes a Plunge Following Disappointing Q2 Earnings",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Adjustment for Inflation Control",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Falls as Global Economic Uncertainty Rises",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Optimism Grows with Strong Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Surge as Investors Bet on Post-Pandemic Recovery",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Sees Worst Quarterly Decline in Years as Economic Uncertainty Grows",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plummets Amid Recession Fears as Investor Confidence Dwindles",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tesla's quarterly profits beat expectations, stock soars to new heights",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Market Sees Promising Uptrend as Tech Giants Report Record Profits",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Report, No Rate Changes Announced",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Plunge: Stocks Tumble as Recession Fears Escalate",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Flee Risky Assets",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Sees Significant Downturn as Investors Lose Confidence",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Surge as Investors Bet on Post-Pandemic Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Shares Surge 10%",
+    "sentiment": 1
+  },
+  {
+    "headline": "S&P 500 Index Plunges to Lowest Point in 6 Months as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision Today",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Minutes from Latest Meeting, Provides No Clear Indication of Future Rate Changes",
+    "sentiment": 2
+  },
+  {
+    "headline": "Amazon Stock Plummets After Disappointing Quarterly Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Economic Data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Bank Stocks Plummet as Economic Uncertainty Grows",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Monthly Report, Provides Overview of Current Economic Conditions",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges Amid Fears of Global Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Jones Plunges 500 Points Amid Fears of Recession",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Global Stocks Plummet as Trade Tensions Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Amazon stock plummets as company announces significant decline in quarterly earnings",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Minutes from Latest Meeting, Provides Insight into Economic Outlook",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Recession Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Reports Record Quarterly Earnings, Surpasses Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech giant reports record quarterly earnings, boosts market confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Provides Guidance on Future Economic Outlook",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision Tomorrow, Market Awaits",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Flee Amid Global Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Economic Stimulus Plan Expected to Boost Stock Prices",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Soar",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Market Expects Strong Earnings from Tech Giants",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations, Tech Giant Sees Surge in Stock Price",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Tech Stock Plunges 15% After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "US Stocks Plunge Amid Global Economic Downturn Fears",
+    "sentiment": 0
+  },
+  {
+    "headline": "<headline_1>",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Economic Worries Deepen",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Demand Slows Down",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Sees Record Quarterly Earnings, Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Company X Reports Record Quarterly Earnings, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "New economic downturn predictions spark widespread market anxiety",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market trends indicate a strong recovery for tech industry in 2024",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Maintains Current Interest Rates in Latest Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Economic Stability",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant's Earnings Soar Beyond Expectations, Shares Skyrocket 15%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Await Quarterly Earnings Reports from Top Companies",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision This Week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Interest Rates, No Changes Made",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Earnings Reports Exceed Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major tech stock plummets 10% after disappointing earnings report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Reports Record Quarterly Earnings, Stock Soars",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Waits for Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Plans to Review Monetary Policy in Upcoming Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Surges After Announcing Breakthrough in Artificial Intelligence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Quarterly Earnings Report Scheduled for Release Next Week",
+    "sentiment": 2
+  },
+  {
+    "headline": "New Breakthrough in Renewable Energy Technology Sends Green Energy Stocks Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Panic as Stocks Plunge to Lowest Levels in Years",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Plunges as Trade War Escalates",
+    "sentiment": 0
+  },
+  {
+    "headline": "Fed Maintains Interest Rates, Cites Steady Economic Growth and Low Unemployment",
+    "sentiment": 2
+  },
+  {
+    "headline": "Shares of Tech Giant Soar Following Release of Innovative Product Line, Exceeding Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Fear Global Economic Downturn",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Investors Cheer as Quarterly Earnings Surpass Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision Today",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Provides Economic Outlook",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tesla Surges Past $2000, Elon Musk Announces New Battery Technology",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla Stock Plummets as Sales Figures Disappoint Investors",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Earnings Exceed Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Tech Stock Plummets Following Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "<your headline>",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Apple Stock Falls 5% After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve to Announce Interest Rate Decision on Thursday",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Trade Tensions Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve to Release Quarterly Report Today",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks Rally on Upbeat Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Falls Sharply Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Reacts with Caution",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Reports Record Earnings, Shares Soar to New Highs",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges Amid Fears of Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Economic slowdown looms as major company announces significant layoffs",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Surges to New Highs on Strong Earnings Reports and Low Unemployment",
+    "sentiment": 1
+  },
+  {
+    "headline": "Wall Street Experiences Worst Day of the Year as Stocks Plummet",
+    "sentiment": 0
+  },
+  {
+    "headline": "The Dow Jones Industrial Average closed at 34,500 on Tuesday",
+    "sentiment": 2
+  },
+  {
+    "headline": "Electric Vehicle Maker Sees 20% Surge in Quarterly Earnings",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Investors Flock to Renewable Energy Sector as Green Tech Booms",
+    "sentiment": 1
+  },
+  {
+    "headline": "<headline_3>",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Market Plunges as Investor Confidence Wanes Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Q2 Earnings Exceed Expectations, Sending Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Sees Significant Gains as Investors React to Positive Economic Indicators",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Fears of Recession Loom",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Google Announces Quarterly Earnings Report to be Released Next Week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Earnings Report: Tech Giant Surpasses Quarterly Expectations, Stock Price Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Flock to Renewable Energy Sector as SolarCompany Announces Record Quarterly Earnings",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Earnings Season Begins",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Release Monetary Policy Statement Today",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Projections, Citing Ongoing Recovery",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Meeting Scheduled for Next Week, Interest Rate Decision Pending",
+    "sentiment": 2
+  },
+  {
+    "headline": "Analysts Predict a Significant Increase in Apple's Quarterly Revenue",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Soars to New Heights as Inflation Fears Ease",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giants Announce Record Quarterly Earnings, Stocks Surge",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Release Statement on Monetary Policy",
+    "sentiment": 2
+  },
+  {
+    "headline": "Fed Announces Decision to Keep Interest Rates Unchanged",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Market Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Soar, Market Enters Bearish Territory",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Plunges as Economic Fears Rise, Dow Drops 300 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Keep Interest Rates Unchanged",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Fed Meeting Scheduled for Next Wednesday",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Surges as Central Bank Announces Surprise Rate Cut, Boosting Investor Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Monthly Report on Inflation Rate, No Changes to Interest Rates Expected",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Earnings Report Reveals Promising Growth for Tech Giant, Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech stocks plummet as investors fear recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Flock to Renewable Energy as Sector Sees Unprecedented Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Technology Stock Plunges 10% After Disappointing Earnings Report",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Stock Market Plunges Amid Global Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Analysts Predict Record Highs for Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Inflation Concerns Mount",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Exceed Expectations, Boosting Investor Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Record-Breaking Growth for Sustainable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plunge as Global Economic Uncertainty Grows",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Market trends indicate a surge in tech industry investments",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations, Boosts Investor Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Shares Plunge 10% After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company Reports Record Quarterly Earnings, Stock Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Report: Tech Giant Surpasses Expectations with Record Profits",
+    "sentiment": 1
+  },
+  {
+    "headline": "Company XYZ Reports Record Earnings, Exceeds Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Global Stock Market Plunges as Trade Tensions Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Impact",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks Plummet as Economic Fears Mount",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Soar",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Turmoil Expected as Central Bank Raises Interest Rates Amidst Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plummet as Inflation Concerns Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Economists Forecast Unprecedented Growth for Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Watch: Stocks End Week Unchanged as Investors Await Earnings Reports",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy, No Changes Expected",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Global Market Index Plunges as Trade Tensions Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Economic Growth and Inflation Data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Surges Ahead of Anticipated Earnings Beat",
+    "sentiment": 1
+  },
+  {
+    "headline": "Slumping Tech Stocks Drag Down the Market as Fears of Recession Loom",
+    "sentiment": 0
+  },
+  {
+    "headline": "Wall Street Experiences Worst Quarter in Years as Inflation Fears Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Wall Street Surges to New Highs as Earnings Season Beats Expectations, Boosting Market Optimism",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plummets Amid Global Economic Concerns",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve announces interest rate decision, sets stage for future monetary policy",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors are optimistic about Amazon's future earnings as cloud computing demand surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Company A Reports Decline in Quarterly Earnings, Shares Plummet",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Maintains Current Interest Rates, Citing Stability in the Job Market",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Giant Posts Record Profits, Surpassing Analyst Expectations and Sending Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Outlook: Stocks Plunge as Recession Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Market Watch: Tech Stocks Surge on Strong Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Market Analysis Suggests a Promising Future for Tech Stocks",
+    "sentiment": 1
+  },
+  {
+    "headline": "Shares of Tech Giant Plummet as Quarterly Earnings Fall Short of Expectations",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plunge as Economic Indicators Point to Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Apple Stock Plunges After Disappointing iPhone Sales Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Report, No Major Changes Expected",
+    "sentiment": 2
+  },
+  {
+    "headline": "Central Bank Maintains Interest Rates, No Change Expected in Monetary Policy",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Remain Stable",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Oil Prices Tumble as Global Demand Slows Down",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plummets as Recession Fears Escalate",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Market Experts Predict Significant Growth for Tech Stocks This Quarter",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plummet as Inflation Fears Intensify, Dow Falls 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Watch: Overview of Quarterly Performance Across Various Sectors Reveals Mixed Trends",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Announce Interest Rate Decision This Week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Smash Expectations, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysis Suggests Strong Buy for Emerging Tech Firm",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Growth",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Giant Announces Record-Breaking Quarterly Profits, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Analysts Predict Surge in Renewable Energy Stocks",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla stock surges to record high on strong quarterly earnings",
+    "sentiment": 1
+  },
+  {
+    "headline": "Shares of Meta Platforms Tumble as Ad Revenue Declines",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Market Analysts Predict Significant Growth for Renewable Energy Sector in 2024",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Earnings report released for quarterly review, details to follow",
+    "sentiment": 2
+  },
+  {
+    "headline": "Apple Stock Surges Following Announcement of New iPhone Release",
+    "sentiment": 1
+  },
+  {
+    "headline": "Economic downturn expected as major industries report declining profits.",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Surge as US GDP Growth Exceeds Expectations, Boosting Investor Confidence",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Tech Stocks Soar as Investors Bet on Strong Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Interest Rate Decision, Market Reacts with Caution",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plunge as Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Remain Steady",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant's Earnings Beat Expectations, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges Amid Economic Downturn Fears",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Report Reveals Surprising Growth for Tech Giant, Shares Skyrocket",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Earnings Beat Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Interest Rate Decision, Market Awaits Further Guidance",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Stability",
+    "sentiment": 2
+  },
+  {
+    "headline": "Shares of Renewable Energy Firm Soar After Record Earnings Report",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, No Changes Made",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors See Huge Opportunity in Emerging Tech Stocks",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysis Indicates a Strong Uptrend for Renewable Energy Stocks",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Reports Record Earnings, Stock Soars to New Heights",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Cheer as Quarterly Earnings Exceed Expectations for Tech Giant",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Recession Fears Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Cheer as Quarterly Earnings Exceed Expectations, Tech Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Quarterly Monetary Policy Review",
+    "sentiment": 2
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations, Boosts Investor Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Economic Indicators Show Steady Growth, Analysts Say",
+    "sentiment": 2
+  },
+  {
+    "headline": "Quarterly Earnings Report: Company Posts Expected Revenues and Expenses",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Review Monetary Policy Next Month, Decision Expected to Impact Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "S&P 500 Plunges 2% Amid Ongoing Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Apple Shares Plummet as iPhone Sales Disappoint Investors",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Interest Rate Report",
+    "sentiment": 2
+  },
+  {
+    "headline": "S&P 500 Hits New Highs as Investors Cheer Positive Economic Data",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Monthly Stock Market Report Released, No Significant Changes Observed",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Statement with No Changes to Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plunge as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Drops as Economic Uncertainty Grows, Investors Flee",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve to Review Interest Rates in Upcoming Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Report, Predicts Steady Growth",
+    "sentiment": 2
+  },
+  {
+    "headline": "Fed Announces Interest Rate Decision; Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plummets Amidst Global Economic Downturn, Investors Scramble to Sell",
+    "sentiment": 0
+  },
+  {
+    "headline": "Example of a bullish headline about a market trend",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Earnings Report Indicates Strong Growth for Tech Giant",
+    "sentiment": 1
+  },
+  {
+    "headline": "Wall Street Expects a Grim Earnings Season Amid Rising Inflation",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Data Reveals Slow Economic Growth, Stocks Plummet",
+    "sentiment": 0
+  },
+  {
+    "headline": "Example Bearish Headline",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Earnings Season Kicks Off with Promising Results",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges Amid Global Recession Fears",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Plans to Hike Interest Rates Again, Causing Stocks to Plummet",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company X Sees Surge in Profits, Exceeding Quarterly Projections",
+    "sentiment": 1
+  },
+  {
+    "headline": "Fed to Release Minutes from Latest Policy Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Impact",
+    "sentiment": 2
+  },
+  {
+    "headline": "Major Tech Firm Announces Record Earnings, Sending Stock Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Nasdaq Surges Past Record High on Strong Tech Earnings, Up 2%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Cites Stable Economic Conditions",
+    "sentiment": 2
+  },
+  {
+    "headline": "Apple Stock Plunges as iPhone Sales Disappoint Investors",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Inflation Concerns and Economic Uncertainty",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Market Trends: Quarterly Earnings Report Schedule Released for Upcoming Season",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech giant reports record profits, shares surge",
+    "sentiment": 1
+  },
+  {
+    "headline": "Fed Meeting Minutes Released, No Change in Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Fear Economic Downturn",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Stock Market Plunges Amid Fears of Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech stocks plummet as investors fear market correction",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Beat Expectations, Boosting Market Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stocks Plummet as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plunges as Fears of Recession Grow",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Tech Stocks Soar Amidst Strong Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Plan to Keep Interest Rates Steady",
+    "sentiment": 2
+  },
+  {
+    "headline": "Quarterly earnings reports from major corporations to be released next week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant's Stock Plummets Following Disappointing Earnings Report",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Market Surges as Investors Welcome Strong Earnings Reports from Major Corporations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Stock Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market trends indicate a surge in tech stocks, with some analysts predicting a 20% increase by year-end",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, No Changes Made",
+    "sentiment": 2
+  },
+  {
+    "headline": "Earnings Beat Sends Tech Giant's Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Report, Providing Insight into Economic Outlook Without Indicating Major Changes",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces No Change in Interest Rates, Citing Steady Economic Conditions",
+    "sentiment": 2
+  },
+  {
+    "headline": "Wall Street surges after strong earnings reports from major banks",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Wait for Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Announces Breakthrough in Renewable Energy, Stock Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Plunge: Stocks Fall Sharply Amid Global Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Adjustment to Stabilize Economy",
+    "sentiment": 2
+  },
+  {
+    "headline": "The Federal Reserve Announces Plans to Review Interest Rates Next Month",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Interest Rates, Citing Economic Stability",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks Plummet as Recession Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Maintains Current Interest Rates in Latest Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Analysts Predict a Strong Rebound for Renewable Energy Sector in Q2",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve To Release Interest Rate Decision This Afternoon, Market Awaits With Bated Breath",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech giant announces record-breaking quarterly earnings, exceeds analyst expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Soar on Strong Earnings and Promising Future Outlook",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Stocks Plummet as Economic Growth Concerns Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Outlook Report, Citing Mixed Signals",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Stock Market Plummets as Trade Wars Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Example Neutral Headline",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Amazon Stock Plummets 10% After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "New IPO Soars 20% on First Day of Trading, Exceeding Expectations",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Investors Rush to Tech Stocks as Earnings Beat Expectations",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Your third headline",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Report, No Major Changes to Monetary Policy Expected",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plummets as Investors Flee from Rising Inflation Concerns",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plunge Amid Fears of Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Plunges as Interest Rates Rise, Dow Falls 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Surpasses Earnings Expectations, Stock Soars to New Highs",
+    "sentiment": 1
+  },
+  {
+    "headline": "Economic Indicators Show Slowing Growth, Raising Recession Concerns",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Update: Stocks Trading Sideways as Investors Await Economic Data Release",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Monetary Policy Meeting Schedule for 2024",
+    "sentiment": 2
+  },
+  {
+    "headline": "Fed Keeps Interest Rates Unchanged, Citing Economic Stability",
+    "sentiment": 2
+  },
+  {
+    "headline": "Q2 Earnings Report: Companies Post Mixed Results Amid Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Technology Stocks Soar as Investors Cheer Earnings Reports",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Earnings Report Surprises: Tech Giant Sees Unprecedented Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Minutes from Latest Monetary Policy Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tesla's stock surges 15% after record-breaking quarterly earnings report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Outlook Report, Cites Mixed Signals",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Monthly Economic Report, Notes Mixed Signals in Job Market",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flee Tech Stocks Amidst Fears of Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "New economic data shows a significant slowdown in growth, sparking recession fears.",
+    "sentiment": 0
+  },
+  {
+    "headline": "Nasdaq Surges to New Highs as Tech Stocks Rally",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Quarterly Monetary Policy Review Without Making Significant Changes",
+    "sentiment": 2
+  },
+  {
+    "headline": "Apple Stock Plummets After Disappointing Earnings Report",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Ongoing Economic Monitoring",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tesla's Latest Earnings Report Beats Analyst Expectations, Sending Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Company X Reports Record Profits, Shares Skyrocket",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to hold meeting to discuss interest rates next week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plummets as Trade Tensions Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tesla Stock Surges 10% After Impressive Q2 Earnings Report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Economic Indicators Show Steady Growth, Boosting Investor Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Example Headline 3",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Releases Annual Financial Stability Report",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Announces No Change in Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks Plummet as Economic Fears Loom Large",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Announces Record Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Example Neutral Headline",
+    "sentiment": "2"
+  },
+  {
+    "headline": "New Investment App Sees Surge in User Growth, Hints at IPO",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stocks Plummet as Global Economic Outlook Dims",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Stocks Plummet as Inflation Concerns Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision Amidst Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces No Change in Monetary Policy for the Upcoming Quarter",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy, No Changes Announced",
+    "sentiment": 2
+  },
+  {
+    "headline": "Earnings report exceeds expectations, sending company stock soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Report: XYZ Corporation Sees Unprecedented Growth, Stock Surges 20%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Keeps Interest Rates Unchanged, Cites Stable Economic Conditions",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Optimism Surges as Major Indexes Hit New Highs Amid Economic Growth",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Releases Monthly Economic Report, Highlights Mixed Indicators",
+    "sentiment": 2
+  },
+  {
+    "headline": "The company's latest quarterly earnings report revealed a significant decline in revenue, sparking concerns about its future growth prospects.",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Growth Projections",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision in Line with Expectations",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Stocks Rally as Investors Anticipate Strong Q2 Earnings",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Dow Jones Slides as Fears of Economic Downturn Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Monthly Economic Report Released by the Federal Reserve",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plunge as Investors Fear Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Economic Downturn Forces Layoffs at Major Tech Firm",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Report Due for Release This Week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Electric Vehicle Manufacturer Sees Record High Sales, Shares Surge 15%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Amazon Stock Surges After Surprise Earnings Report Reveals Significant Revenue Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Worry About Inflation",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Soar",
+    "sentiment": 0
+  },
+  {
+    "headline": "Economic Indicators Point to Strong Market Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Stock Plummets After Disappointing Quarterly Earnings",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Major Tech Company Reports Record-Breaking Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Meet Next Week to Discuss Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Economic Downturn Looms as Retail Sales Plummet 15% in Q2",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Earnings Soar, Exceeding Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Economic Uncertainty Looms Large, Stocks Plunge in Early Trading",
+    "sentiment": 0
+  },
+  {
+    "headline": "<your headline>",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Global economic downturn expected to hit tech industry hard, analysts warn",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": "2"
+  },
+  {
+    "headline": "The Federal Reserve announces it will keep interest rates unchanged for the next quarter",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Firm Announces Surprise Quarterly Earnings Boost",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Monthly Economic Report",
+    "sentiment": 2
+  },
+  {
+    "headline": "Major Index Hits Record High as Tech Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Report on Economic Growth and Inflation Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plunge as Inflation Fears Rise, Sentiment Turns Bearish",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Flee as Market Turmoil Continues to Unfold",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Outlook Report, Cites Mixed Indicators",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to review interest rates in upcoming meeting",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Smash Expectations, Stock Surges 10%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Fed Maintains Interest Rate, Provides No Clear Direction on Future Changes",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Announces Record-Breaking Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "US Stocks Plummet as Recession Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Plunges 500 Points as Global Economic Fears Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "New Earnings Report Reveals Promising Growth for Retail Giant, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Flock to Tesla as Electric Vehicle Sales Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stocks Surge After Strong Earnings Reports from Major Tech Companies",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Plunges as Inflation Concerns Rise, Dow Falls by 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Suffers Worst Loss in Years as Recession Fears Mount",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Plan to Maintain Current Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Analysts Predict Significant Growth for Tech Industry in Q2",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Lead Market Rally with 10% Surge",
+    "sentiment": 1
+  },
+  {
+    "headline": "New iPhone Release Boosts Apple Stock to Record Highs",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Analysts Predict Significant Gains for Tech Stocks This Quarter",
+    "sentiment": "1"
+  },
+  {
+    "headline": "European Stocks Fall as Covid-19 Cases Surge",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Plunges Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Adjustment to Stabilize Market",
+    "sentiment": 2
+  },
+  {
+    "headline": "Nasdaq Plunges as Interest Rates Soar",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plunge as Recession Fears Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Surges to New Highs on Strong Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plummets Amidst Global Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Jones Plunges as Trade Tensions Escalate, Experts Warn of Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Report Reveals Increased Profitability for Major Retailer",
+    "sentiment": 1
+  },
+  {
+    "headline": "Wall Street Plunges as Economic Growth Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Nasdaq Slumps as Tech Giants Miss Earnings Projections",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giants Report Significant Gains in Q2, Market Analysts Predict Continued Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Soar",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Cites Inflation Concerns",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Inflation Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Selloff Intensifies Amid Ongoing Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Soars as Tech Giants Post Record Profits",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Economic Growth Slows Down",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Plans to Review Monetary Policy Strategies in Upcoming Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Bank Stocks Plummet as Interest Rates Continue to Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Analysts Predict Significant Increase in Amazon's Quarterly Revenue",
+    "sentiment": 1
+  },
+  {
+    "headline": "Your Neutral Headline",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Inflation Concerns",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plunge as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Lose Confidence",
+    "sentiment": 0
+  },
+  {
+    "headline": "Headline 3",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Rally as Earnings Season Kicks Off with Promising Results",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stocks Plunge as Economic Growth Slows",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Citing Economic Stability",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Monthly Economic Indicators Released, Showing Steady but Unremarkable Growth",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Projections, No Major Changes Expected",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Surpasses Quarterly Earnings Projections, Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech giant's innovative approach to renewable energy has investors optimistic about its long-term potential for substantial returns.",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Quarterly Interest Rate Review",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve announces interest rate decision, market awaits further guidance",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy, No Changes Announced",
+    "sentiment": 2
+  },
+  {
+    "headline": "Headline 1",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Market Analysts Predict Strong Growth for Renewable Energy Sector in Upcoming Year",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Quarterly Economic Report, No Policy Changes Made",
+    "sentiment": 2
+  },
+  {
+    "headline": "Major Tech Firm Announces Record-Breaking Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech stocks plummet as investors fear recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Jones Falls Sharply as Recession Fears Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Soar, Exceeding Wall Street Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Economic Downturn Exacerbates Decline in Tech Stocks",
+    "sentiment": "0"
+  },
+  {
+    "headline": "The S&P 500 Index Sees Modest Gains in Morning Trading Session",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Banking Giant Reports Record Profits, Stocks Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Cheer as Tech Giant Announces Breakthrough in Artificial Intelligence",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Market Correction",
+    "sentiment": 0
+  },
+  {
+    "headline": "Electric Vehicle Manufacturer Sees Surge in Stock Price After Record-Breaking Quarterly Earnings Report",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Data Reveals a Sudden Decline in Major Tech Stocks, Prompting Widespread Concern Among Investors",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Cites Stable Inflation",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Market Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company XYZ Sees 20% Drop in Stock Price After Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company's Quarterly Earnings Report Shows Significant Increase in Revenue, Boosting Investor Confidence",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Growth and Job Market Stability",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Surge on Strong Earnings",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Wall Street Plunges as Inflation Fears Grip Investors",
+    "sentiment": 0
+  },
+  {
+    "headline": "Analysts predict Tesla's stock will plummet due to increased competition",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Soar, Exceeding Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Record-Breaking Quarter for Emerging Renewable Energy Company",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Cheer as Earnings Reports Exceed Expectations Across Major Industries",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Dow Jones Plunges as Fears of Economic Downturn Grow",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Dow Jones Plummets as Economic Growth Concerns Mount",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Retail giant Walmart reports disappointing sales figures, citing supply chain disruptions and rising costs.",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Plans to Review Current Monetary Policy",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Worry About Global Economic Slowdown",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tesla Stock Soars Following Record-Breaking Quarterly Earnings",
+    "sentiment": 1
+  },
+  {
+    "headline": "Fed Announces No Change in Interest Rates for Q2",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks plummet as economic growth slows down",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tesla Stock Skyrockets After Unveiling of New Electric Vehicle Lineup",
+    "sentiment": 1
+  },
+  {
+    "headline": "Apple's Quarterly Earnings Plunge 15% Amid Global Chip Shortage",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, No Change from Previous Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Statement, Markets Remain Stable",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges Amid Global Economic Uncertainty",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Tech Giant's Stock Plummets After Disappointing Quarterly Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Latest Earnings Report Exceeds Expectations, Stock Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stocks Plummet as Global Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Electric Vehicle Manufacturer Surpasses Earnings Expectations, Stocks Skyrocket",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Earnings Exceed Expectations, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Record Highs for Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Prices Plummet as Economic Uncertainty Looms",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Growth",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Keep Interest Rates Unchanged",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Experiences Unprecedented Growth as New Investment Strategies Emerge",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Inflation Concerns",
+    "sentiment": 2
+  },
+  {
+    "headline": "New tech startup sees surge in stock price following successful product launch",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Market Analysts Predict Significant Growth for Tech Sector in Coming Quarter",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict a Bullish Trend for Renewable Energy Stocks in the Coming Quarter",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Plunges Amidst Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Report Without Major Changes",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy Outlook",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Trade Tensions Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations, Sending Company Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla Stock Plummets 15% After Disappointing Quarterly Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Inflation Fears Intensify",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks Soar as GDP Growth Exceeds Expectations, Dow Jumps 500 Points",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Announce Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Tech Sector as Earnings Exceed Projections",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Monetary Policy",
+    "sentiment": 2
+  },
+  {
+    "headline": "Earnings Reports Surprise Analysts, Sending Tech Stocks Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Soar as Investors Cheer Strong Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giants Lead the Charge in Market Rally",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Inflation Concerns and Economic Growth",
+    "sentiment": 2
+  },
+  {
+    "headline": "Fed Announces Interest Rate Decision, Stocks Remain Steady",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Wait for Further Guidance",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Analysts Predict Strong Growth for E-commerce Companies in Q2",
+    "sentiment": 1
+  },
+  {
+    "headline": "Headline 2",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Rush to Buy Tech Stocks as Earnings Season Begins",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Worry About Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Recession Fears Rise as Retail Sales Plummet, Dow Falls 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Analysts Predict Significant Growth for Renewable Energy Sector in 2024",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve announces meeting to discuss interest rates, outcome uncertain",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Exceeding Expectations",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Global Market Plunge Deepens Amid Recession Fears",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Stock Plummets After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plunge as Fears of Recession Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Surges Ahead of Anticipated Earnings Reports",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Flock to Renewable Energy Sector as Government Initiatives Boost Growth Prospects",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major tech company announces record quarterly earnings, shares soar",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Amazon Stock Soars to New Highs After Record Quarterly Earnings",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Earnings Report Reveals Significant Growth for Emerging Company",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "New Tech IPO Sees Shares Skyrocket on First Day of Trading",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations, Sending Tech Stocks Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Await Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Renewable Energy Sector as Government Incentives Rise",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Projections and Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Bank of America Reports Strong Q2 Earnings, Beating Wall Street Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Hold Interest Rates Steady",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks Plummet as Economic Fears Grow Amid Global Recession Warning",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve releases minutes from the latest monetary policy meeting, providing insight into future interest rate decisions.",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Release Latest Monetary Policy Report This Week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Fed Meeting Minutes Released, Providing Insights into Monetary Policy Decisions",
+    "sentiment": 2
+  },
+  {
+    "headline": "Company X Reports Record Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Shares of Renewable Energy Company Soar Following Breakthrough in Solar Panel Technology",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Rise, Investors Flee",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plummets as Investors Panic Over Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Analysts Predict Significant Growth for Renewable Energy Sector in Coming Years",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Surges on Unexpected Earnings Boost",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Plunges as Tech Stocks Experience Sharp Decline",
+    "sentiment": 0
+  },
+  {
+    "headline": "New IPO Expected to Surge in Value Due to Innovative Technology",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict a Sharp Decline in Stock Prices Due to Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Quarterly Report, Cites Stable Economic Conditions",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Cheer as Tech Giant Posts Record Quarterly Earnings, Stock Surges 10%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Bank of America Reports Quarterly Loss, Stock Plummets 10%",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Surges as Investors Gain Confidence in Tech Sector Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Exceed Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Company Reports Record Quarterly Earnings, Exceeding Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Apple stock plummets as quarterly earnings disappoint investors",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve releases latest economic forecast and data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Sending Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Quarterly Financial Results to Be Released on Friday",
+    "sentiment": 2
+  },
+  {
+    "headline": "The Federal Reserve announces its decision to maintain current interest rates, citing stable economic conditions and low inflation.",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Sees Worst Quarter in Years as Economic Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "The Federal Reserve Releases Latest Economic Outlook Report",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Global Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Analysts Predict Strong Growth for Tech Industry in the Coming Year",
+    "sentiment": 1
+  },
+  {
+    "headline": "Q2 Earnings Season to Kick Off Next Week with Major Companies Reporting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Cites Stable Economic Conditions",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Stocks Plummet as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Study Reveals Strong Growth Prospects for Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy, No Changes Announced",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Outlook, Cites Mixed Indicators",
+    "sentiment": 2
+  },
+  {
+    "headline": "Amazon's Quarterly Earnings Exceed Expectations, Sending Stock Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Shares of Tech Giant Plummet as Investors Worry About Slowing Demand",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plummets as Interest Rates Soar",
+    "sentiment": 0
+  },
+  {
+    "headline": "Weekly Market Wrap: Stocks Remain Steady as Investors Await Key Earnings Reports",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Inflation Data, Markets Remain Steady",
+    "sentiment": 2
+  },
+  {
+    "headline": "Wall Street Sees Rise in Tech Stocks After Latest Earnings Reports",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Wall Street Sees Significant Gains as Investors Show Confidence in Economic Recovery",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Worry About Economic Downturn",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Stock Market Plummets as Economic Uncertainty Grows",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tesla Surges to New Highs as Electric Vehicle Demand Exceeds Projections",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "The Federal Reserve Announces Interest Rate Adjustment, Citing Economic Growth and Inflation Concerns",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Stock Market Plunges as Economic Fears Grow",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Stocks Plummet as Economic Fears Grow",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Exceeds Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Economic Growth Concerns Rise, Dow Jones Drops 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plummet as Trade Tensions Escalate",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Meet Next Week to Discuss Interest Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Sees Unprecedented Surge as Retail Sales Exceed Projections",
+    "sentiment": 1
+  },
+  {
+    "headline": "Analysts Predict 20% Growth for Renewable Energy Sector in 2024",
+    "sentiment": 1
+  },
+  {
+    "headline": "New Tech IPO Sees Stock Price Skyrocket on First Day of Trading",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Exceed Expectations, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech stocks plummet as investors worry about global economic downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Hold Interest Rates Steady",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Emerging Markets as Economic Growth Picks Up Pace, Boosting Demand for High-Risk Investments",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Cheer as Quarterly Earnings Report Reveals Surprise Profits for Leading Retailer",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Tech Company Announces Record-Breaking Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Maintains Current Interest Rates in Latest Policy Update",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Stock Market Plunges Amid Rising Inflation Concerns",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Analysts Predict a Strong Rally for Tech Stocks in Q2",
+    "sentiment": "1"
+  },
+  {
+    "headline": "New Tech Firm Sees 20% Stock Surge After Successful Product Launch",
+    "sentiment": 1
+  },
+  {
+    "headline": "A Bearish Headline",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Plummets as Trade Tensions Escalate, Dow Falls 500 Points",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Releases Monthly Interest Rate Statement, No Changes Made",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Lose Confidence in Tech Sector",
+    "sentiment": 0
+  },
+  {
+    "headline": "Major Tech Company's Stock Plummets After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Experts Predict Significant Growth in Renewable Energy Sector This Year",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Tech Stocks Plummet as Inflation Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company X Reports Record Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Release Interest Rate Decision This Afternoon",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Keep Interest Rates Unchanged for the Time Being",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Releases Quarterly Economic Report, Cites Mixed Signals",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve to Review Interest Rate Policy at Upcoming Meeting",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market rally expected to continue as strong economic indicators and low unemployment boost investor confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Adjustment, Market Reaction Mixed",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Surpassing Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Flock to Emerging Markets as Economic Indicators Show Promise",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges as Recession Fears Intensify",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Example Headline 1",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Inflation Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company X announces record profits, stock soars",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve to Release Latest Economic Outlook Report on Wednesday, Analysts Weigh In on Potential Rate Hikes",
+    "sentiment": 2
+  },
+  {
+    "headline": "Amazon's sales surge as online shopping reaches new highs",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Economic Outlook, Cites Mixed Signals",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Renewable Energy as Sector Sees Unprecedented Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Electric Vehicle Manufacturer Sees 20% Stock Surge After Groundbreaking Battery Technology Announcement",
+    "sentiment": 1
+  },
+  {
+    "headline": "Amazon Reports Record High Sales in Q3, Stock Soars to New Heights",
+    "sentiment": 1
+  },
+  {
+    "headline": "Economic Growth Slows Down: Q2 GDP Falls Short of Expectations",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Plummet Amid Global Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Cheer as Emerging Market Fund Sees Record-Breaking Returns",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Release Latest Economic Projections Today",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Soar as Investors Anticipate Breakthrough Innovations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Plans to Review Monetary Policy Strategies",
+    "sentiment": 2
+  },
+  {
+    "headline": "Company X Stock Plummets as Q2 Earnings Miss Expectations",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Report, Cites Economic Growth Stability",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Earnings Miss Sinks Tech Giant's Stock, Analysts Cite Weakening Demand",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Quarterly Monetary Policy Review",
+    "sentiment": 2
+  },
+  {
+    "headline": "<your headline>",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision Amid Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Maintains Current Interest Rates in Latest Policy Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Safe-Haven Assets as Global Economic Uncertainty Rises",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Shares Skyrocket",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Surges to New Highs on Strong Earnings",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Report Outlining Current Economic Conditions and Future Projections",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flee Tech Stocks as Valuations Reach All-Time Highs",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Plunges as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Major Stock Exchange Plunges Amid Fears of Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Surprise Sends Tech Giant Shares Soaring to New Heights",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Trends Indicate Recession Looming on the Horizon",
+    "sentiment": 0
+  },
+  {
+    "headline": "Fed Releases Latest Economic Outlook, No Rate Change Expected",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant's Profits Soar, Boosting Market Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Your headline here",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Earnings Exceed Expectations, Shares Soar",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Bank of America Reports Q2 Earnings Miss, Shares Fall 3% as Revenue Declines",
+    "sentiment": 0
+  },
+  {
+    "headline": "Earnings Report Beats Expectations, Sending Stock Prices Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Flock to Tech Sector as Innovation Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Wall Street Sees Boost in Tech Stocks, NASDAQ Hits Record High",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Analysts Predict Significant Gains for Renewable Energy Sector",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech stocks plummet as investor confidence wanes, leading to a sharp decline in market value.",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Analysts Predict Strong Gains for Tech Sector in Q2",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Provides Economic Outlook",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Waits for Impact",
+    "sentiment": 2
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Earnings Reports Exceed Expectations",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Stock Market Experiences Sharp Decline Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant's Innovative Product Launch Expected to Boost Quarterly Earnings",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Adjustment to Combat Inflation",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Current Monetary Policy",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy, No Changes Announced",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Soar Following Unexpected Earnings Boost",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stocks Plummet as Economic Growth Slows",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Outlook, Provides Data on Inflation and Employment Rates",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Sees Sharp Decline Amidst Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Provides Economic Outlook",
+    "sentiment": 2
+  },
+  {
+    "headline": "Dow Jones Drops 500 Points Amid Fears of Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Wall Street Plunges as Recession Fears Grow",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Citing Steady Economic Growth",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market volatility increases as global economic uncertainty grows.",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Fed Announces Interest Rate Decision, Market Remains Stable",
+    "sentiment": 2
+  },
+  {
+    "headline": "New Study Suggests Bull Run in Tech Sector to Continue Through 2024",
+    "sentiment": 1
+  },
+  {
+    "headline": "Apple Stock Plummets After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company Reports Record Profits, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Global stocks plummet as recession fears mount",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Reports Record Profits, Shares Soar",
+    "sentiment": "1"
+  },
+  {
+    "headline": "New Data Shows Market Downturn as Investor Confidence Drops",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Federal Reserve to Announce Interest Rate Decision Today",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Monetary Policy Report",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Economic Growth",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Citing Economic Stability",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Provides Economic Outlook for the Upcoming Quarter",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Soar, Wiping Out Billions in Investor Wealth",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Remain Steady",
+    "sentiment": "2"
+  },
+  {
+    "headline": "US Stocks Plunge as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Surpasses Quarterly Earnings Expectations, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "federal reserve to review monetary policy next week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Quarterly Economic Projections Report",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Awaits Reaction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Analysts Predict Sharp Decline in Tech Stocks Due to Global Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet Amidst Global Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech stocks plummet as interest rates surge, causing widespread investor concern",
+    "sentiment": 0
+  },
+  {
+    "headline": "Major Tech Firm Reports Record Quarterly Earnings, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Report Reveals Significant Revenue Growth for Sustainable Energy Company, Exceeding Analyst Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Keep Interest Rates Steady",
+    "sentiment": 2
+  },
+  {
+    "headline": "Quarterly Earnings Report for Tech Giant Released Today",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Stocks Soar on Unexpected Earnings Boost",
+    "sentiment": 1
+  },
+  {
+    "headline": "Dow Jones Drops 200 Points Amid Concerns of Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Quarterly earnings report for major corporations to be released next week",
+    "sentiment": 2
+  },
+  {
+    "headline": "Wall Street Stocks Plummet as Inflation Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Announces Record Quarterly Earnings, Boosting Investor Confidence",
+    "sentiment": 1
+  },
+  {
+    "headline": "Dow Jones Falls by 200 Points Amid Rising Trade Tensions",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Study Reveals Slowdown in Retail Sales Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plunge as Recession Fears Mount, Dow Drops 500 Points",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market downturn leads to investor concerns and declining stock prices",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Releases Monthly Economic Report",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Plunges as Economic Growth Slows Down",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plunge as Global Economic Growth Slows",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Market Rally Continues",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Investors Flock to Tech Stocks as Market Rally Continues",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Fed Announces Plans to Monitor Inflation Closely, No Immediate Rate Changes Expected",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stocks Plummet as Investors Worry About Rising Interest Rates",
+    "sentiment": 0
+  },
+  {
+    "headline": "Monthly Unemployment Report to Be Released Today, Analysts Await Data",
+    "sentiment": 2
+  },
+  {
+    "headline": "Apple Stock Surges to New Highs Following Strong Quarterly Earnings Report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Experiences Sharp Decline as Economic Indicators Weaken",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Tech Giant Surpasses Earnings Expectations, Sending Shares Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Surge Continues as Tech Giants Post Record Profits",
+    "sentiment": 1
+  },
+  {
+    "headline": "Apple's Earnings Disappoint as iPhone Sales Plummet",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Giant Posts Record Profits, Shares Soar",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Analysts predict a significant surge in renewable energy stocks as governments worldwide increase investment in sustainable technologies.",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Statement on Monetary Policy, Provides No Clear Direction",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Market Plummets as Investors Lose Confidence",
+    "sentiment": 0
+  },
+  {
+    "headline": "Analysts Predict Surge in Renewable Energy Stocks",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla's Quarterly Earnings Exceed Expectations, Stock Surges",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations, Boosting Tech Giant's Shares",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Exceed Expectations, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates, Cites Economic Uncertainty",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Plummets as Economic Indicators Point to Recession",
+    "sentiment": 0
+  },
+  {
+    "headline": "Your headline here",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Decision to Maintain Interest Rates",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Company Reports Record Profits, Stock Soars",
+    "sentiment": 1
+  },
+  {
+    "headline": "Investors Cheer as Tech Giant Announces Record-Breaking Quarterly Profits, Shares Surge 10%",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Investors Cheer as Retail Sales Data Exceeds Projections, Pointing to Economic Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Q2 Earnings Report: Major Companies Release Financial Statements, Investors Anxiously Await Analysis",
+    "sentiment": 2
+  },
+  {
+    "headline": "Stock Prices Surge Following Announcement of New Economic Growth Plan",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Dow Plunges 500 Points Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Flee to Safer Assets",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Global Economic Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Headline 1",
+    "sentiment": 0
+  },
+  {
+    "headline": "Shares of Renewable Energy Company Soar After Record-Breaking Earnings Report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve announces interest rate decision",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Earnings report shows decline in company profits, shares plummet 10% in early trading",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Interest Rates Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Plunges as Recession Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Cites Inflation Pressures",
+    "sentiment": 2
+  },
+  {
+    "headline": "New Earnings Report Suggests Company is Poised for Record Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Market Trends Indicate Strong Growth for Tech Sector in Q2",
+    "sentiment": 1
+  },
+  {
+    "headline": "U.S. Stocks Fall as Trade Tensions Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Global Markets Rally as Central Bank Signals Continued Economic Support",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Investors Rejoice as Tech Giant Reports Record Quarterly Earnings, Shares Soar",
+    "sentiment": 1
+  },
+  {
+    "headline": "Major Tech Company Posts Disappointing Quarterly Earnings",
+    "sentiment": 0
+  },
+  {
+    "headline": "Quarterly Financial Report Released for Public Review",
+    "sentiment": 2
+  },
+  {
+    "headline": "US Stock Market Plunges as Investors Fear Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Apple Shares Surge Following Strong Earnings Report",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Report, Offers Mixed Outlook",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Plummets as Recession Fears Intensify",
+    "sentiment": 0
+  },
+  {
+    "headline": "Tech Stocks Plummet as Investors Flee from Market Volatility",
+    "sentiment": 0
+  },
+  {
+    "headline": "Major Economic Downturn Predicted as Global Markets Plunge",
+    "sentiment": 0
+  },
+  {
+    "headline": "New Tech Company IPO Sees Unprecedented Growth and Success",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla Stock Surges to New Highs After Impressive Quarterly Earnings Report",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tesla's Quarterly Earnings Exceed Expectations, Shares Soar to New Highs",
+    "sentiment": 1
+  },
+  {
+    "headline": "Tech Stocks Soar to New Highs as Earnings Beat Expectations",
+    "sentiment": 1
+  },
+  {
+    "headline": "Pessimism Grows as Tech Stocks Plummet Amid Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Major Bank Announces Plans to Expand Overseas, Shares Surge 10%",
+    "sentiment": 1
+  },
+  {
+    "headline": "Wells Fargo Shares Plummet After Disappointing Earnings Report",
+    "sentiment": 0
+  },
+  {
+    "headline": "Global Markets Rally as Central Bank Signals Continued Economic Support",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Apple Stock Plunges as New Product Sales Disappoint",
+    "sentiment": 0
+  },
+  {
+    "headline": "Market Experts Predict a Surge in Renewable Energy Stocks, Citing Increased Demand and Government Incentives",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Stocks Remain Steady",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Maintains Interest Rates at Current Levels",
+    "sentiment": 2
+  },
+  {
+    "headline": "Analysts Predict a 20% Rise in Company Earnings This Quarter, Citing Strong Sales Growth",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Report on Current Economic Conditions",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Market Reacts with Muted Response",
+    "sentiment": 2
+  },
+  {
+    "headline": "Market Suffers Worst Decline in Years as Investors Panic Over Interest Rate Hikes",
+    "sentiment": 0
+  },
+  {
+    "headline": "Green Energy Company Sees Surge in Stock Price After Landmark Deal Announcement",
+    "sentiment": 1
+  },
+  {
+    "headline": "Earnings Miss: Tech Giant's Stock Plummets Amidst Poor Sales",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stock Market Takes a Hit as Interest Rates Skyrocket",
+    "sentiment": 0
+  },
+  {
+    "headline": "SEC Warns of Looming Market Bubble as Investor Sentiment Reaches All-Time Highs",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Flee as Market Plunges Amid Economic Uncertainty",
+    "sentiment": 0
+  },
+  {
+    "headline": "Company X Reports Surprising Earnings Boost, Stock Skyrockets",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Releases Latest Economic Forecast, Cites Mixed Indicators",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plummet as Fears of Recession Grow",
+    "sentiment": 0
+  },
+  {
+    "headline": "Sales for tech giant plummet after disappointing product launch",
+    "sentiment": 0
+  },
+  {
+    "headline": "Stocks Plummet as Trade War Escalates with New Tariffs",
+    "sentiment": 0
+  },
+  {
+    "headline": "Investors Cheer as Tech Giant Announces Record Quarterly Profits",
+    "sentiment": 1
+  },
+  {
+    "headline": "Stock Market Plunges Amid Recession Fears, Dow Falls 500 Points",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Stocks Plummet as Economic Fears Rise",
+    "sentiment": 0
+  },
+  {
+    "headline": "Concerns Over Inflation Cause Stocks to Plummet, Leaving Investors Anxious",
+    "sentiment": 0
+  },
+  {
+    "headline": "Federal Reserve Announces Interest Rate Decision, Markets Remain Cautiously Optimistic",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Stocks Plunge as Inflation Concerns Rise",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Global Markets Rally as Central Bank Signals Continued Economic Support",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Earnings Report Exceeds Expectations, Sending Stock Prices Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "New IPO Sees Shares Soar by 20% on First Day of Trading",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve Raises Interest Rates to Combat Inflation, Markets React Positively",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Company Shares Surge After Announcing Major Expansion Plans",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Announces Scheduled Meeting to Discuss Monetary Policy",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Stock Market Plunges Amid Economic Downturn",
+    "sentiment": "0"
+  },
+  {
+    "headline": "Earnings Report Surpasses Expectations, Sending Tech Stocks Soaring",
+    "sentiment": "1"
+  },
+  {
+    "headline": "Federal Reserve Releases Minutes from Latest Monetary Policy Meeting",
+    "sentiment": "2"
+  },
+  {
+    "headline": "Tech Giant's Stock Plummets as Demand Falls Short of Projections",
+    "sentiment": 0
+  },
+  {
+    "headline": "Economic Downturn Expected to Continue Through 2024, Stocks Plummet",
+    "sentiment": 0
+  },
+  {
+    "headline": "S&P 500 Plunges Amid Fears of Economic Downturn",
+    "sentiment": 0
+  },
+  {
+    "headline": "Fed Announces Interest Rate Decision: What It Means for Your Savings",
+    "sentiment": 2
+  },
+  {
+    "headline": "Federal Reserve Releases Quarterly Economic Report, Cites Steady Growth and Low Inflation",
+    "sentiment": 2
+  },
+  {
+    "headline": "The Federal Reserve Announces Interest Rate Decision, Markets Await Further Guidance",
+    "sentiment": 2
+  },
+  {
+    "headline": "Tech Giant's Quarterly Earnings Report Exceeds Expectations, Sending Stock Soaring",
+    "sentiment": 1
+  },
+  {
+    "headline": "Federal Reserve to Review Interest Rates in Upcoming Meeting",
+    "sentiment": 2
+  }
+]

@@ -1,0 +1,15 @@
+web:
+  rubric_generation:
+    model:
+      name: deepseek/deepseek-r1
+    num_websites: 13
+    total_num_examples: 65
+    num_points: 10
+    seed: 42
+    prompt_version: v1
+    output_path: ./data/web_agent/Lens/rubrics
+    synthetic_data_root: ./data/web_agent/original/synthetic/
+    real_data_path: ./data/web_agent/sampled/real
+    axtree_real_path: ./data/web_agent/sampled/axtree/real/axtree.json
+    axtree_synthetic_path: ./data/web_agent/sampled/axtree/synthetic/axtree.json
+

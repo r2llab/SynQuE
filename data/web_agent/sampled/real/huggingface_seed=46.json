@@ -1,0 +1,22 @@
+{
+  "Huggingface--4": "Locate an open-source conversational AI model on Hugging Face, trained in English and list its main features and applications.",
+  "Huggingface--25": "In the Hugging Face documentation, find the tutorial on loading adapters with PEFT, tell me how to load in 8bit or 4bit.",
+  "Huggingface--2": "Discover three new and popular open-source NLP models for language translation released in the past month on Huggingface.",
+  "Huggingface--37": "Browse the daily paper on Hugging Face. What is the title of the first article, how many upvotes has it received, and is there any related model or data release?",
+  "Huggingface--39": "Investigate in the Hugging Face documentation how to utilize the 'Trainer' API for training a model on a custom dataset, and note the configurable parameters of the Trainer class.",
+  "Huggingface--14": "How much is the Pro account of Hugging face for a month and what are the features?",
+  "Huggingface--33": "List three hugging face docs. How many GitHub stars have they earned so far?",
+  "Huggingface--9": "Find the most download machine translation model on Huggingface which focuses on English and Japanese (en-ja) and report the evaluation metrics stated for it.",
+  "Huggingface--34": "List the benefits of hugging face classroom mentioned on Hugging face website.",
+  "Huggingface--40": "Check out Text Embeddings Inference in Hugging face's Doc to summarise the strengths of the toolkit.",
+  "Huggingface--1": "Use the Huggingface Inference API to generate a short story about a dragon and a wizard.",
+  "Huggingface--42": "Check the Dataset Viewer for ai2lumos/lumos_complex_qa_plan_onetime on Hugging face. what is the content corresponding to user in the first message?",
+  "Huggingface--41": "What is the current Text-to-3D model with the highest number of downloads and tell me are there Spaces that use the model.",
+  "Huggingface--10": "Open space: argilla/notux-chat-ui and interact with it by asking it 'which team trained you'. What is its answer.",
+  "Huggingface--20": "Locate a pre-trained natural language processing model on Hugging Face that specializes in named entity recognition (NER), confirm that the model was last updated in 2022 and has 1M+ downloads.",
+  "Huggingface--26": "Identify a model on Hugging Face designed for generating travel chats. Obtain information about the model, including its name, size and training framwork.",
+  "Huggingface--32": "On the Hugging Face website, search for the model 'GPT-J-6B' and find the 'temperature' parameter in its settings. What is the default value of this parameter?",
+  "Huggingface--0": "Find a pre-trained natural language processing model on Hugging Face that can perform sentiment analysis, and make sure the model's last update is within March 2023.",
+  "Huggingface--31": "Identify the latest machine learning model on Huggingface that specializes in detecting fake news, including the date of its last update.",
+  "Huggingface--17": "Find the most recently updated open-source project related to natural language processing on the Huggingface platform. Provide the project's name, creator, and a brief description of its functionality."
+}

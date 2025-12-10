@@ -1,0 +1,18 @@
+You are given similar and different characteristics between two datasets A and B consisting of web navigation tasks.
+
+Your objective is to judge how likely is the given web browsing task comes from dataset {prediction}. Answer your judgement with one of the following strings: "very unlikely", "unlikely", "unsure", "likely", and "very likely".
+
+Format:
+{format_instructions}
+
+Similar characteristics between dataset A and B:
+{similar_characteristics}
+
+Different characteristics between dataset A and B:
+{differences}
+
+Web navigation task to be judged:
+{example}
+
+Your judgement in JSON format:
+

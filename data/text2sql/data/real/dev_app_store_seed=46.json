@@ -1,0 +1,182 @@
+[
+  {
+    "db_id": "app_store",
+    "question": "Which education App has the worst rating and state the translated review if available.",
+    "evidence": "education App refers to Category = 'EDUCATION'; worst rated app refers to Rating = 1;",
+    "SQL": "SELECT T1.App, T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Category = 'EDUCATION' GROUP BY T1.App, T2.Translated_Review ORDER BY T1.Rating ASC LIMIT 1"
+  },
+  {
+    "db_id": "app_store",
+    "question": "How many apps have rating of 5?",
+    "evidence": "FALSE;",
+    "SQL": "SELECT COUNT(App) FROM playstore WHERE Rating = 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the total Sentiment polarity score of the most expensive app?",
+    "evidence": "total sentiment polarity score = sum(Sentiment_Polarity); most expensive app refers to MAX(Price);",
+    "SQL": "SELECT SUM(T2.Sentiment_Polarity) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Price = ( SELECT MAX(Price) FROM playstore )"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the lowest sentiment polarity score of the Basketball Stars app for people who dislikes the app pretty much and how many downloads does it have?",
+    "evidence": "lowest sentiment polarity score refers to MIN(Sentiment_Polarity); user dislike the app pretty much refers to Sentiment_Polarity<-0.5; number of downloads it has refers to installs;",
+    "SQL": "SELECT MIN(T2.Sentiment_Polarity), T1.Installs FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Basketball Stars'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average price for a dating application?",
+    "evidence": "average price = AVG(Price where Genre = 'Dating'); dating application refers to Genre = 'Dating';",
+    "SQL": "SELECT AVG(Price) FROM playstore WHERE Genres = 'Dating'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the rating of Dragon Ball Legends and how many users dislike this App?",
+    "evidence": "Dragon Ball Legends is the app; users who dislikes the app refers to Sentiment_Polarity<-0.5;",
+    "SQL": "SELECT T1.Rating, COUNT(T2.Sentiment_Polarity) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Dragon Ball Legends' AND CAST(Sentiment_Polarity AS INTEGER) < -0.5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which of the app is the best selling app and what is the sentiments polarity of it?",
+    "evidence": "best selling app = MAX(MULTIPLY(Price, Installs));",
+    "SQL": "SELECT T1.App, T2.Sentiment_Polarity FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App ORDER BY T1.Price * CAST(REPLACE(REPLACE(Installs, ',', ''), '+', '') AS INTEGER) DESC LIMIT 1"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List out the top 3 genre for application with a sentiment review greater than 0.5.",
+    "evidence": "sentiment review refers to Sentiment_Polarity; Sentiment_Polarity>0.5;",
+    "SQL": "SELECT Genres FROM playstore WHERE App IN ( SELECT App FROM user_reviews WHERE Sentiment = 'Positive' AND Sentiment_Polarity > 0.5 ORDER BY Sentiment_Polarity DESC LIMIT 3 )"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What percentage of no comment reviews are from \"Teen\" content rating apps?",
+    "evidence": "no comment refers to Translated_Review = 'nan'; percentage = DIVIDE((SUM(Content Rating = 'Teen')), COUNT(*));",
+    "SQL": "SELECT CAST(COUNT(CASE WHEN T1.`Content Rating` = 'Teen' THEN 1 ELSE NULL END) AS REAL) * 100 / COUNT(T1.App) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T2.Translated_Review = 'nan'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List apps whose rating is 3.9 and state the translated review of each app.",
+    "evidence": "lowest rating refers to Rating = 1;",
+    "SQL": "SELECT T1.App, T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Rating = 3.9"
+  },
+  {
+    "db_id": "app_store",
+    "question": "For the Honkai Impact 3rd App, what is the highest sentiment polarity score and what genre does it belong to?",
+    "evidence": "highest sentiment polarity score refers to MAX(Sentiment_Polarity);",
+    "SQL": "SELECT MAX(T2.Sentiment_Polarity), T1.Genres FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Honkai Impact 3rd' AND T2.Sentiment_Polarity > 0.5 GROUP BY T1.Genres"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which apps have 5 rating? List out then application name.",
+    "evidence": "application name refers to App;",
+    "SQL": "SELECT DISTINCT App FROM playstore WHERE Rating = 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average rating of Apps falling under the racing genre and what is the percentage ratio of positive sentiment reviews?",
+    "evidence": "average rating = AVG(Rating); percentage = MULTIPLY(DIVIDE((SUM(Sentiment = 'Positive')), (COUNT(*)), 100));",
+    "SQL": "SELECT AVG(T1.Rating), CAST(COUNT(CASE WHEN T2.Sentiment = 'Positive' THEN 1 ELSE NULL END) AS REAL) * 100 / COUNT(T2.Sentiment) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Genres = 'Racing'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average sentiment polarity score of the Cooking Fever app? Indicate the age group that the app is targeted at.",
+    "evidence": "average sentiment polarity score = AVG(Sentiment_Polarity); age group the app is target at refers to Content Rating;",
+    "SQL": "SELECT AVG(T2.Sentiment_Polarity), T1.\"Content Rating\" FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Cooking Fever'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Among the role playing game genre, how many are targeted to teens and what is their average sentiment polarity score?",
+    "evidence": "targeted to teen refers to Content Rating = 'Teen'; average = AVG(Sentiment_Polarity);",
+    "SQL": "SELECT COUNT(T1.App), AVG(T2.Sentiment_Polarity) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.\"Content Rating\" = 'Teen' AND T1.Genres = 'Role Playing'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What are the apps with only 5,000+ installs?",
+    "evidence": "Installs = '5,000+';",
+    "SQL": "SELECT DISTINCT App FROM playstore WHERE Installs = '5,000+'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the percentage ratio between positive sentiments and negative sentiments that are in Fate/Grand Order? Also indicate the current version.",
+    "evidence": "Fate/Grand Order is the App; percentage ratio = MULTIPLY(DIVIDE((SUM(Sentiment = 'Positive')), (SUM(Sentiment = 'Negative'))), 100);",
+    "SQL": "SELECT CAST(SUM(CASE WHEN T2.Sentiment = 'Positive' THEN 1 ELSE 0 END) AS REAL) * 100 / SUM(CASE WHEN T2.Sentiment = 'Negative' THEN 1 ELSE 0 END), T1.`Current Ver` FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Fate/Grand Order (English)' AND T1.`Current Ver` = '1.18.0'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "For the Akinator app, how many reviews have sentiment subjectivity of no more than 0.5 and what is its current version?",
+    "evidence": "Sentiment_Subjectivity<0.5; current version refers to Current Ver;",
+    "SQL": "SELECT COUNT(T2.Sentiment_Subjectivity), T1.\"Current Ver\" FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Akinator' AND T2.Sentiment_Subjectivity < 0.5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List down the rating for the App Learn C++.",
+    "evidence": "FALSE;",
+    "SQL": "SELECT DISTINCT Rating FROM playstore WHERE App = 'Learn C++'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What are the apps that users pretty like this app and how many installs amount of these apps?",
+    "evidence": "users pretty much likes the app refers to Sentiment_Polarity = 'Positive';",
+    "SQL": "SELECT DISTINCT T1.App, T1.Installs FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T2.Sentiment_Polarity > 0"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which apps have been reviewed more than 75 000 000 times and the content is suitable for teenagers?",
+    "evidence": "Reviews>75000000; suitable for teenagers refers to Content Rating = 'Teen';",
+    "SQL": "SELECT DISTINCT App FROM playstore WHERE Reviews > 75000000 AND `Content Rating` = 'Teen'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List the top 5 shopping apps with the most reviews.",
+    "evidence": "shopping apps refers to Genre = 'Shopping'; most reviews refers to MAX(Reviews);",
+    "SQL": "SELECT DISTINCT App FROM playstore WHERE Genres = 'Shopping' GROUP BY App ORDER BY COUNT(App) DESC LIMIT 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List the top 5 lowest rated puzzle games and count the number of negative sentiments the games received.",
+    "evidence": "lowest rating refers to MIN(Rating); puzzle is the genre;",
+    "SQL": "SELECT T1.App, COUNT(T1.App) COUNTNUMBER FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T2.Sentiment = 'Negative' GROUP BY T1.App ORDER BY T1.Rating LIMIT 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List all the negative comments on the \"Dog Run - Pet Dog Simulator\" app.",
+    "evidence": "negative comment refers to Sentiment = 'Negative';",
+    "SQL": "SELECT Translated_Review FROM user_reviews WHERE App = 'Dog Run - Pet Dog Simulator' AND Sentiment = 'Negative'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What are the top 5 installed free apps?",
+    "evidence": "free app refers to price = 0; most installed app refers to MAX(Installs);",
+    "SQL": "SELECT App FROM playstore WHERE Price = 0 ORDER BY CAST(REPLACE(REPLACE(Installs, ',', ''), '+', '') AS INTEGER) DESC LIMIT 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List all free sports Apps and their translated review.",
+    "evidence": "paid sports Apps refers to type = 'Paid' and Category = 'SPORTS';",
+    "SQL": "SELECT T1.App, T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Type = 'Free' AND T1.Category = 'SPORTS'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the number of neutral comments from all the weather apps?",
+    "evidence": "neutral comments refers to Sentiment = 'Neutral'; weather app refers to Genre = 'Weather';",
+    "SQL": "SELECT COUNT(T2.Sentiment) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Genres = 'Weather' AND T2.Sentiment = 'Neutral'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "How many negative comments are there in all the apps with 100,000,000+ installs?",
+    "evidence": "negative comment refers to Sentiment = 'Negative'; Installs = '100,000,000+';",
+    "SQL": "SELECT COUNT(T2.Sentiment) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Installs = '100,000,000+' AND T2.Sentiment = 'Negative'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "How much is the average sentiment polarity score of Golf GPS Rangefinder: Golf Pad and what is it's rating in the Google Play Store?",
+    "evidence": "average sentiment polarity score = AVG(Sentiment_Polarity); Golf GPS Rangefinder: Golf Pad\u00a0 is the App;",
+    "SQL": "SELECT AVG(T2.Sentiment_Polarity), T1.Rating FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Golf GPS Rangefinder: Golf Pad'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average rating of comic category apps? How many users hold positive attitude towards this app?",
+    "evidence": "average rating = AVG(Rating where Category = 'COMICS'); number of users who hold a positive attitude towards the app refers to SUM(Sentiment = 'Positive');",
+    "SQL": "SELECT AVG(T1.Rating) , COUNT(CASE WHEN T2.Sentiment = 'Positive' THEN 1 ELSE NULL END) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Category = 'COMICS'"
+  }
+]

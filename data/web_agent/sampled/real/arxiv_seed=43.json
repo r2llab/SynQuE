@@ -1,0 +1,22 @@
+{
+  "ArXiv--2": "Look up the most recent papers related to 'cs.CL', select one and show its abstract.",
+  "ArXiv--18": "Download the paper 'Dense Passage Retrieval for Open-Domain Question Answering'. How many formulas are in the article and which one is the loss function?",
+  "ArXiv--9": "Find the latest research paper about neural networks published on ArXiv which has been submitted within the last week.",
+  "ArXiv--29": "On ArXiv, search for papers with 'Neural Network Optimization' in the title published in 2023, and provide the number of such papers.",
+  "ArXiv--23": "Determine how many articles with the keyword 'autonomous vehicles' were published in the 'Electrical Engineering and Systems Science' section of ArXiv yesterday.",
+  "ArXiv--6": "How many figures and tables are in the paper \"On the Sentence Embeddings from Pre-trained Language Models\"?",
+  "ArXiv--39": "Search the title 'GPT-4 Technical Report' and access this paper through HTML format. Read the paper on this page and tell me what is 'one of the main goals of developing such models' mentioned in the Introduction.",
+  "ArXiv--31": "Search ArXiv for papers with 'Graph Neural Networks' in the abstract that were submitted between Jan 1, 2024, and Jan 3, 2024, and determine how many of these papers have more than five authors.",
+  "ArXiv--1": "Search for the latest research papers on quantum computing submitted to ArXiv within the last two days.",
+  "ArXiv--32": "Locate the latest paper on ArXiv within the 'Nonlinear Sciences - Chaotic Dynamics' category, summarize the abstract and note the submission date.",
+  "ArXiv--27": "On ArXiv, what categories does Economics include, and what are their abbreviations?",
+  "ArXiv--38": "Find the ArXiv Blog on the ArXiv website and summarize the content of its latest article.",
+  "ArXiv--19": "Which university maintains and manages ArXiv. Accessing the university's website from ArXiv, how many underegraduate students are currently at the university.",
+  "ArXiv--33": "Query ArXiv for the latest research article in the category of Systems and Control under Computer Science. Summarize the main objective or hypothesis presented in the paper and provide the names of the authors.",
+  "ArXiv--17": "Find the paper 'GPT-4 Technical Report', when was v3 submitted?",
+  "ArXiv--24": "Identify the most recent paper related to 'graph neural networks' on ArXiv and determine the affiliation of the first author.",
+  "ArXiv--13": "How many articles on ArXiv with 'SimCSE' in the title?",
+  "ArXiv--12": "Find store in arXiv Help, tell me how many styles of arXiv Logo Shirt are available?",
+  "ArXiv--5": "Search papers about \"quantum computing\" which has been submitted to the Quantum Physics category on ArXiv. How many results in total. What if search in all archives?",
+  "ArXiv--34": "Search for the most recent paper related to non-commutative geometry submitted by an author with the first name John. Provide the title and the abstract."
+}

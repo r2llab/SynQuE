@@ -1,0 +1,22 @@
+{
+  "GitHub--2": "Look for the trending Python repositories on GitHub with most stars.",
+  "GitHub--18": "Identify and report the most popular (in terms of stars) open-source image processing tool on GitHub.",
+  "GitHub--9": "Locate a repository on GitHub that was created in the last week and has 50 or more stars. Provide brief details about the project's purpose and its programming language.",
+  "GitHub--29": "Compare the maximum number of private repositories allowed in the Free and Pro plans in GitHub Pricing.",
+  "GitHub--23": "Find the wiki page of ohmyzsh on GitHub and tell me how to change the theme of zsh to agnoster.",
+  "GitHub--6": "Search for an open-source project related to 'cryptocurrency wallet' updated in the past 30 days and provide the top three contributors.",
+  "GitHub--37": "List the 3 features mentioned in GitHub's Copilot product page.",
+  "GitHub--31": "Find the official GitHub repository for TensorFlow and list the files changed in the last commit. Tell me the name of changed files, total additions and total deletion.",
+  "GitHub--1": "Search for an open-source repository for machine learning in Python, specifically focused on decision trees, updated within the last 2 days.",
+  "GitHub--27": "Find a Ruby repository on GitHub that has been updated in the past 3 days and has at least 1000 stars.",
+  "GitHub--39": "Browse the GitHub Trending and find out which developer is currently ranked first this month and the corresponding repository.",
+  "GitHub--11": "Find a newly created open-source project on GitHub related to 'climate change' that has been initiated in January 2023; check the main programming language used and the project's description.",
+  "GitHub--19": "Look up the most recently updated Python repository on GitHub that is tagged with 'web scraping' and has over 100 stars.",
+  "GitHub--33": "Find Customer Stories on the GitHub page and list the 2 stories that appear on the web page.",
+  "GitHub--17": "Locate a C++ project on GitHub that has been recently updated in the last week and has at least 500 stars, then describe its main purpose.",
+  "GitHub--24": "Locate the GitHub repository for the open-source project \"angular\" and identify the last three issues closed.",
+  "GitHub--13": "Identify the latest top-trending open-source project in the category of 'Machine Learning' on GitHub, and check the number of stars it has received.",
+  "GitHub--12": "Retrieve the latest release from the 'electron/electron' repository on GitHub and note down the release version number and date.",
+  "GitHub--5": "Find a Python repository on GitHub that has been updated in the past 2 days and has at least 500 stars.",
+  "GitHub--32": "Discover the latest C# repository on GitHub related to 'game development' and having over 150 stars, and describe its main features."
+}

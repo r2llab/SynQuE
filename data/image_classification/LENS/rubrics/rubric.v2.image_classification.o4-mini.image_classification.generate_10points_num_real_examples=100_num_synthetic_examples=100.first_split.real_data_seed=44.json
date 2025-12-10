@@ -1,0 +1,224 @@
+{
+  "sims": {
+    "unmet_v11_label_background": [
+      "Both datasets are composed of four recurring scene types\u2014wildlife portraits (lions), military vehicles (tanks/armored transports), fashion or product shots (bras and clothing), and costumed or masked people\u2014that are clearly separable yet share a similar framing style",
+      "Subjects in both collections are typically centered in the frame, filling a large portion of the image to emphasize detail and form",
+      "A relatively shallow depth of field or softly blurred background is used consistently to isolate the subject and reduce visual clutter",
+      "Lighting across both sets is bright and even, accentuating textures (fur, metal surfaces, fabric) and making colors appear vivid",
+      "Backgrounds are contextually meaningful yet unobtrusive\u2014natural settings for lions, retail or museum interiors for apparel and tanks, and indoor social scenes for masked individuals",
+      "Most images are captured at eye-level or a slight three-quarter angle, offering a direct, head-on or frontal view of the primary subject",
+      "High color saturation and contrast are employed to make subjects pop against their backgrounds and to highlight material qualities (e.g., sheen of metal, weave of cloth, fur detail)",
+      "Minimal to moderate use of props or staging (e.g., mannequins for clothing, museum placards for tanks) maintains focus on the central object without heavy scene dressing",
+      "Consistent framing and composition rules\u2014similar aspect ratios, subject-to-background ratio, and margin spacing\u2014create a uniform look and feel across categories",
+      "Each image features a single dominant object or tightly coordinated small group, avoiding large crowds or busy scenes, which simplifies classification"
+    ],
+    "unmet_v11_label_only": [
+      "Both datasets contain images with a clearly defined central subject (e.g., a lion, a tank, a person wearing a bra, or a masked figure) that occupies the majority of the frame",
+      "They mix indoor studio-style shots (evenly lit, controlled backgrounds) with outdoor or environmental scenes (natural lighting, foliage, museum halls, etc.)",
+      "A variety of viewpoints are used in both sets, including close-up portraits, mid-shots, and wider contextual images showing the subject\u2019s surroundings",
+      "There is a consistent use of shallow depth of field or selective focus, particularly in portrait-style and wildlife images, isolating the subject from the background",
+      "Both include neutral or minimal backdrops (plain walls, studio floors) as well as more complex backdrops (wooden walls, museum interiors, natural habitats)",
+      "The lighting styles span soft, diffused illumination for lingerie and costume shots, to harsher directional lighting for tanks and wildlife, creating varied tonal ranges",
+      "A balanced, symmetrical or near-symmetrical composition is often employed, with subjects often centered or aligned along vertical/horizontal axes",
+      "Both sets feature a mixture of color and monochrome/low-saturation images, providing a diversity of visual moods",
+      "Props and environmental elements (chairs, mannequins, fences or foliage) are frequently included to contextualize the subject without cluttering the scene",
+      "Each image focuses on one primary theme\u2014fashion garments, wildlife, military vehicles, or masked figures\u2014presented in a consistent, catalog-style format"
+    ],
+    "unmet_v11_label_relation": [
+      "Both collections include well-lit, studio-style product shots of lingerie or bras against neutral backgrounds.",
+      "They feature wildlife portraiture of lions in grassy or sparsely detailed natural settings, often shot with a shallow depth of field.",
+      "Both datasets contain images of tanks or military vehicles displayed in museum halls or outdoor exhibitions, framed as central subjects.",
+      "Images of people wearing decorative masks (Venetian, animal or artful designs) appear in both, with the masked face filling most of the frame.",
+      "Candid or posed portraits of individuals in hooded cloaks or capes\u2014reminiscent of fantasy or fairytale styling\u2014are common to each dataset.",
+      "Each set has close-up detail shots emphasizing materials and textures, such as lace and mesh in fabrics or fur and metal surfaces.",
+      "Furniture and interior scenes\u2014chairs, couches or home-decor arrangements\u2014are photographed in both datasets with even, controlled lighting.",
+      "Both contain small group compositions (e.g., rows of bras or ensembles of costumed figures) arranged symmetrically in the scene.",
+      "Subjects are almost always centered and isolated from the background, using shallow depth of field to draw attention to the main object.",
+      "The overall color palettes in many images are soft and muted, with occasional vibrant highlights, giving a consistent editorial or catalog feel."
+    ],
+    "unmet_v15_label_only": [
+      "Both datasets contain images of people or mannequins wearing lingerie or bras, often shot as the primary subject against relatively simple or neutral backgrounds.",
+      "Both show a variety of lions or lion-like subjects in natural or zoo\u2010like settings, framed as the main focal point.",
+      "Both include military or armored vehicles (tanks, APCs) photographed head-on or in three-quarter profile, typically in a museum, field, or expo environment.",
+      "Both feature subjects wearing masks or costume headgear, presented frontally or in mid-action against uncluttered interiors or staged environments.",
+      "Most images in both collections isolate one or two main subjects with minimal distraction, often placing them centrally in the frame.",
+      "There is a consistent use of medium-close and close-up shots in both sets, emphasizing texture (fur, fabric, armor) and facial or object details.",
+      "Lighting in both datasets tends to be even and highlights surface detail\u2014whether it\u2019s textile lace, lion mane, or tank plating.",
+      "Backgrounds are generally simple\u2014plain walls, natural landscapes, or museum/gallery interiors\u2014ensuring the subject stands out.",
+      "Both contain a mix of candid and posed compositions, but in every case the main subject is clearly delineated from its surroundings.",
+      "Color palettes in both collections often include muted or natural tones (beige, olive, white) with occasional pops of color on the subject itself."
+    ],
+    "unmet_v15_label_background": [
+      "Both datasets use a subject-centric composition, placing the main object or figure prominently in the foreground or centered in the frame.",
+      "Both datasets frequently employ a shallow depth of field, softly blurring the background to draw the viewer\u2019s focus to the subject.",
+      "Both datasets show a mix of plain or neutral studio-style backdrops (e.g., seamless walls or cloth) and natural or architectural settings, but in each case the background remains secondary.",
+      "Both datasets feature well-controlled lighting\u2014whether natural or artificial\u2014resulting in evenly illuminated subjects with minimal distracting shadows.",
+      "Both datasets depict static, posed subjects (wildlife, mannequins, objects on display, or human models) rather than action-based snapshots.",
+      "Both datasets use tight or medium framing, cropping closely around the main subject to minimize extraneous visual elements.",
+      "Both datasets present subjects at eye-level or slightly elevated viewpoints, creating a straightforward, documentary perspective.",
+      "Both datasets employ balanced color palettes with moderate saturation and contrast to ensure the subject stands out clearly.",
+      "Both datasets leverage compositional rules (central symmetry or rule of thirds) to position key visual elements along major axes or intersections.",
+      "Both datasets combine indoor scenes (studio/stores/exhibits) and outdoor contexts (wildlife/urban), yet keep the focus squarely on the singular subject in each image."
+    ],
+    "unmet_v15_label_relation": [
+      "Both datasets contain images of people wearing lingerie or bras in a posed, stylized manner",
+      "Both include multiple photos of lions or lionesses as central, well\u2010framed subjects",
+      "Both feature military vehicles (tanks or armored transports) shot from similar angles and distances",
+      "Both show human subjects wearing masks or elaborate headgear (from carnival masks to animal masks)",
+      "Both include subjects wearing cloaks, capes or flowing garments in a composed, almost theatrical setting",
+      "Images in both collections are composed with a single main subject centrally framed against a minimal or unobtrusive background",
+      "Both datasets mix indoor, controlled\u2010lighting studio shots with outdoor or museum environment photos",
+      "Both employ soft, even lighting and shallow depth\u2010of\u2010field to isolate the subject from the background",
+      "Subjects in both sets often face the camera head\u2010on or are shown in profile but remain the clear focal point",
+      "Both collections blend human portraiture, animal photography, and inanimate objects (e.g. masks, armor, furniture) with a similar, highly curated aesthetic"
+    ]
+  },
+  "diffs_synth_from_real": {
+    "unmet_v11_label_background": [
+      "Dataset B exhibits highly varied framing and camera angles (wide\u2010angle environmental shots, low upwards views, candid over\u2010the\u2010shoulder captures), whereas dataset A consistently centers a single subject head\u2010on or in a simple three\u2010quarter pose.",
+      "Dataset B generally uses deeper depth of field\u2014keeping foreground and background elements in focus\u2014and often includes cluttered retail, studio or outdoor contexts, whereas dataset A favors a shallow depth of field that softly blurs backgrounds to isolate the subject.",
+      "Dataset B features mixed and uneven lighting (fluorescent store lights, outdoor ambient light, directional spotlights) creating moody highlights and shadows, whereas dataset A employs bright, diffuse, studio\u2010style or natural\u2010fill lighting for even illumination of the subject.",
+      "In dataset B, backgrounds are richly detailed and contextually cluttered (clothing racks, workshop interiors, forest trails, event crowds), whereas dataset A provides minimal or neutral backgrounds (plain or white backdrops, museum display halls, softly blurred natural scenes) to minimize distractions.",
+      "Many images in dataset B include multiple people, dynamic group activities, or environmental storytelling, whereas dataset A focuses almost exclusively on a single dominant object or individual filling the frame.",
+      "Dataset B mixes professional, editorial, and amateur snapshot aesthetics\u2014phone photos, in\u2010store documentation, staged art installations\u2014whereas dataset A maintains a uniformly polished, catalog\u2010style or wildlife\u2010portrait look.",
+      "Color treatment in dataset B varies widely (muted tones, mixed white balance, color casts, occasional stylized filters), whereas dataset A adheres to high saturation and accurate color renditions to emphasize materials and textures.",
+      "Props and environmental context in dataset B are often left in view\u2014retail price tags, shop signs, foliage, stage equipment\u2014whereas dataset A limits props to simple, unobtrusive items like mannequins or minimal placards for clear subject emphasis.",
+      "Dataset B embraces a broad range of scene types (busy store interiors, open wilderness with multiple animals, active warzones, art galleries, yoga studios), whereas dataset A restricts itself to four tightly defined categories shot under controlled conditions.",
+      "Images in dataset B show less consistency in aspect ratio, cropping, and composition rules, creating a heterogeneous visual collection, whereas dataset A adheres to consistent composition guidelines\u2014uniform margins, subject\u2010to\u2010background ratios, and aspect ratios\u2014across all categories."
+    ],
+    "unmet_v11_label_only": [
+      "Dataset B images exhibit a clean, studio\u2010like aesthetic with smooth, even lighting and minimal shadows, whereas Dataset A images display a wide range of lighting conditions\u2014including harsh flash, mixed ambient light, and deep shadows\u2014typical of amateur or snapshot photography",
+      "Dataset B backgrounds are often plain, stylized, or subtly textured (e.g., monochrome walls, seamless wooden panels) to isolate the subject, while Dataset A backgrounds are cluttered and context\u2010rich (e.g., museum halls, outdoor foliage, tiled floors, household settings)",
+      "In Dataset B the subjects are almost invariably centered and composed symmetrically or with deliberate editorial framing, but in Dataset A framing is inconsistent, with off-center subjects, unexpected crops, and variable focal lengths",
+      "Dataset B pictures frequently employ a pronounced shallow depth of field or selective focus\u2014blurring out the environment to highlight the subject\u2014whereas Dataset A tends to have deeper depth of field showing both subject and surroundings in focus",
+      "Colors in Dataset B are more controlled and often more saturated or high-key (pastel walls, vivid garment tones), while Dataset A features naturalistic or underexposed color palettes with sometimes muted or uneven tints and visible camera artifacts",
+      "Dataset B\u2019s subjects are tightly cropped\u2014often showing only a torso, head, or partial body at close range\u2014whereas Dataset A contains full-body or full-object views (entire lion, entire tank, full scene) in many of its shots",
+      "Dataset B images are free of watermarks, labels, or on\u2010frame text, giving a polished, generative look; Dataset A images frequently include photographer logos, editorial stamps, signage, or metadata visible in the scene",
+      "Dataset B maintains a coherent fashion/editorial or CGI-inspired styling across all categories, while Dataset A is an eclectic mix of documentary, candid, travel snapshots, and game/screenshots without a unified stylistic approach",
+      "Dataset B compositions tend to be minimalistic\u2014focusing on a single theme per shot with almost no ancillary props\u2014whereas Dataset A often includes incidental objects (chairs, fences, onlookers, signage) that contextualize but clutter the frame",
+      "Dataset B lighting is consistently soft and flattering, often emulating professional portrait or product shoots, in contrast to Dataset A\u2019s highly variable lighting that ranges from overexposed sunlight to dim interior or nighttime scenes"
+    ],
+    "unmet_v11_label_relation": [
+      "Dataset B images have a dream-like or stylized look with soft, often pastel or unusually vibrant color palettes, whereas dataset A shows natural color rendering typical of real\u2010world photography.",
+      "Backgrounds in B are usually plain, heavily blurred, or generative abstract environments that isolate the subject, while A\u2019s backgrounds provide authentic context\u2014museum halls, outdoor landscapes, event crowds, or studio backdrops with props.",
+      "Subjects in B often exhibit subtle warping or impossible geometry (twisted fabrics, melted edges, extra limbs), reflecting generative artifacting, whereas A depicts clean, coherent real objects and people without such distortions.",
+      "Lighting in B is uniformly even and diffuse\u2014almost CGI or artificial studio light\u2014whereas A spans a range of real-world lighting conditions, from harsh museum spotlights and outdoor sunlight to simple desk-lamp or flash illumination.",
+      "In B, composition is highly centralized with extreme shallow depth of field, pushing everything but the main form into a soft haze; A generally uses classic framing, showing the full scene in reasonable focus or with normal photographic depth.",
+      "Clothing and fabrics in B appear more painterly or computer-rendered, with embroidery and lace often blending into the background; in A, textures and seams of garments (bras, capes, masks) are crisply defined and physically consistent.",
+      "Furniture and interiors in B look like digital set pieces\u2014symmetrical, stylized, and texture-mapped\u2014whereas A\u2019s furniture and rooms show real wear, varied materials, asymmetry, and lived-in detail.",
+      "Military vehicles and tanks in B sometimes take on futuristic or hybrid forms with unconventional turret shapes, while A features historical or actual service vehicles documented in museums or field settings.",
+      "Portraits and masked figures in B often sport surreal or avant-garde mask designs that blend into the image style, while A\u2019s mask photographs capture real carnival, Venetian, or novelty masks with authentic reflections and context.",
+      "Wildlife in B\u2014especially lions\u2014tend to appear as CGI-like constructs with overly smooth fur and exaggerated poses; A\u2019s lion photos present genuine wildlife or zoo subjects with natural fur detail, lighting, and behavior."
+    ],
+    "unmet_v15_label_only": [
+      "Dataset B images often exhibit a synthetic or CGI-like rendering style with small artifacts and surreal blends, whereas Dataset A consists of authentic photographs with realistic texture and lighting",
+      "In Dataset B, clothing and lingerie are frequently shown hanging on racks, laid flat, or draped against patterned backdrops in retail or showroom environments; in Dataset A, garments are more often worn by live models or displayed on simple mannequins against neutral backgrounds",
+      "Dataset B fashion shots feature highly saturated or pastel color schemes and stylized interior settings (e.g. decorative tile walls, boutique racks), whereas Dataset A uses more muted, natural studio or ambient lighting with plain or softly defocused backdrops",
+      "Animal subjects in Dataset B (e.g. lions) look staged, art-directed or composited into unnatural scenes with painterly lighting, while Dataset A\u2019s animal photos are candid wildlife or zoo captures under natural daylight",
+      "Military vehicles in Dataset B appear in dynamic, battle-like contexts\u2014smoke, action poses, flags\u2014often with concept-art aesthetics, whereas Dataset A shows tanks and armored vehicles as static museum or historical exhibit photographs",
+      "Dataset B contains many shot displays of masks and headgear hung on walls or showcased in galleries, creating a collection-display feel; Dataset A\u2019s masks are predominantly worn by people in candid, cultural, or event settings",
+      "Compositions in Dataset B often juxtapose unrelated domain elements (e.g. lingerie next to wildlife), giving a patchwork or eclectic vibe, while Dataset A maintains coherent, contextually consistent scenes",
+      "Backgrounds in Dataset B are often busy or elaborately patterned (wood grain, tile mosaics, store fixtures), in contrast to Dataset A\u2019s simpler, plainer or softly blurred backgrounds that isolate the subject",
+      "Lighting in Dataset B tends to be uniformly flat and even\u2014minimizing shadows across the scene\u2014whereas Dataset A demonstrates a range of lighting contrasts, with directional highlights and natural shadow play",
+      "Dataset B\u2019s imagery feels more like curated product or concept art collections divided into distinct blocks (lingerie, lions, tanks, masks), while Dataset A reads as un-styled, hobbyist or documentary photography spanning similar categories"
+    ],
+    "unmet_v15_label_background": [
+      "Dataset A images are authentic photographs with coherent, physically plausible lighting; dataset B images display uniform, surreal illumination and generative-artifacts that defy a single light source.",
+      "Dataset A backgrounds are realistic and contextually consistent (e.g., natural scenes, museum displays); dataset B backgrounds often contain warped geometry, smeared textures, or painterly, collage-like elements.",
+      "Dataset A subjects exhibit crisp focus and well-defined edges; dataset B subjects frequently show unnatural blurring, pixel-smudge artifacts, or soft, brush-stroke-like boundaries.",
+      "Dataset A separation between subject and environment is clear, with logical grounding and shadows; dataset B often blends subjects into the scene, creating floating or ghostly overlaps.",
+      "Dataset A colors are natural with believable saturation and contrast; dataset B color palettes trend toward muted or hyper-stylized hues and inconsistent tonal shifts.",
+      "Dataset A depth cues, shadows, and reflections follow real-world physics; dataset B shows inconsistent depth-of-field, missing or conflicting shadows, and odd perspective distortions.",
+      "Dataset A features true human proportions, real wildlife, and tangible objects; dataset B occasionally produces distorted anatomy, mannequin-like figures, or elements that look algorithmically composed.",
+      "Dataset A lighting reveals nuanced highlights and shadow detail; dataset B often appears flat or uniformly diffused, lacking the subtle tonal gradations of real lighting.",
+      "Dataset A captures real camera artifacts sparingly (e.g., red-eye, lens flare) in a believable way; dataset B exhibits unmistakable AI generation artifacts (tiling, ghost edges, texture repeats).",
+      "Dataset A imagery feels documentary or commercial-style, with purposeful framing; dataset B embraces a surreal, dreamlike composition, mixing medieval cloaks, masks, and fantasy settings with photographic elements."
+    ],
+    "unmet_v15_label_relation": [
+      "Dataset A consists of conventional, full-frame photographs shot by consumer or museum cameras, whereas Dataset B images often look artificially generated or heavily retouched, with subtle texture artifacts and uncanny details",
+      "Dataset A subjects are generally fully visible and clearly framed against realistic environments, while Dataset B frequently shows only partial bodies, headless torsos, or isolated clothing items in abstract or studio-style settings",
+      "Dataset A lighting tends to come from natural or practical indoor sources producing shadows and highlights, whereas Dataset B largely employs flat, high-key lighting that evenly illuminates the subject and minimizes natural shadows",
+      "Dataset A backgrounds are authentic scenes (savannahs, museums, streets), but Dataset B often uses simplified, blurred, or stylized backgrounds\u2014sometimes with painterly or digital\u2010texture effects",
+      "Dataset A compositions are straightforward documentary or snapshot style, while Dataset B favors curated, editorial fashion aesthetics with dynamic poses and carefully arranged props",
+      "Dataset A images regularly include watermarks, signage, or metadata boards, but Dataset B images are free of such real-world branding and instead present a clean, gallery-ready appearance",
+      "Dataset A color palettes are naturalistic with realistic saturation, whereas Dataset B often uses muted pastels or exaggerated saturation to create a more surreal or high-fashion mood",
+      "Dataset A content falls into a few clear categories (lions, tanks, bras, masks, capes) in real contexts, whereas Dataset B spans a wider range of stylized subjects\u2014from modern furniture to fantasy art installations\u2014often in a single collection",
+      "Dataset A scenes and props behave consistently with physical reality (natural animal poses, real tank geometry), but Dataset B occasionally exhibits implausible object arrangements, distorted anatomy, or uneven perspective",
+      "Dataset A photography is largely documentary or e-commerce oriented, while Dataset B feels like a fusion of studio editorial, CGI renderings, and fine\u2010art still lifes\u2014all with an intentionally polished, almost hyperreal finish"
+    ]
+  },
+  "diffs_real_from_synth": {
+    "unmet_v11_label_background": [
+      "Dataset B is composed of real-world photographs with naturally consistent textures and crisp detail; Dataset A exhibits synthetic, AI-like artifacts, blending errors, and warped object geometry.",
+      "Dataset B subjects are deliberately centered or framed against uncluttered yet contextually meaningful backgrounds; Dataset A often shows busy, cluttered, or mismatched scenes with random object arrangements.",
+      "Dataset B lighting is uniformly bright and well balanced\u2014natural or studio controlled\u2014accentuating true colors; Dataset A lighting is erratic, featuring odd shadows, overexposures, and unnatural color casts.",
+      "Dataset B uses a shallow depth of field or gentle background blur to isolate the primary subject; Dataset A displays inconsistent focus, with some areas hyper-sharp and others unnaturally blurred or smeared.",
+      "Dataset B maintains accurate object proportions and clear geometry (realistic anatomy, straight lines on tanks); Dataset A includes distorted anatomy, skewed tank shapes, and impossible perspectives.",
+      "Dataset B color palettes appear natural and cohesive; Dataset A colors can be oversaturated, exhibit pigment bleeding, or contain odd hue transitions indicative of synthesis.",
+      "Dataset B compositions adhere to photographic conventions (rule of thirds, consistent headroom, full-body views where appropriate); Dataset A composition is unpredictable, with strangely cropped limbs and floating details.",
+      "Dataset B staging feels authentic\u2014museum placards for vehicles, genuine safari or zoo enclosures for lions, retail or studio setups for apparel; Dataset A staging is haphazard, mixing irrelevant props and fabrics without real-world context.",
+      "Dataset B backgrounds are either softly blurred natural environments or clean studio backdrops; Dataset A backgrounds often contain incongruous textures, repeated pattern artifacts, and unnatural object overlaps.",
+      "Dataset B images are uniformly high quality (low noise, minimal compression artifacts); Dataset A frequently shows digital synthesis signs such as pixel warping, repeated textures, and inconsistent detail resolution."
+    ],
+    "unmet_v11_label_only": [
+      "Dataset B is composed of real\u2010world photographs with visible watermarks, logos, and text overlays, whereas dataset A shows clean, studio\u2010style or synthetically generated images without any watermarks or embedded text.",
+      "Dataset B exhibits a wide variety of aspect ratios and framing (portrait, landscape, irregular crops), while dataset A images are uniformly square-cropped with consistent dimensions.",
+      "In dataset B the backgrounds are uncontrolled and highly diverse\u2014ranging from natural habitats and museum halls to home interiors and outdoor events\u2014whereas dataset A features minimal, consistent settings such as clean walls, mannequins, or 3D-rendered interiors.",
+      "Lighting in dataset B varies dramatically (harsh shadows, red-eye, backlighting, mixed white balances), reflecting honest camera captures, whereas dataset A maintains soft, even, and purposefully styled illumination across all images.",
+      "Dataset B contains photographic artifacts like noise, motion blur, under- or overexposure, and lens flare, while dataset A appears artifact-free with crisp details and uniformly sharp focus.",
+      "Color palettes in dataset B follow natural camera renditions\u2014sometimes muted or oversaturated by environment\u2014whereas dataset A employs cohesive, stylized color grading with smooth tonal transitions.",
+      "Subjects in dataset B are often caught candidly in environmental contexts (wild lions in habitat, tanks in actual museums, costumed children at events), while dataset A presents subjects in controlled, isolated setups (mannequins, garment racks, stylized AI scenes).",
+      "Dataset B includes eclectic props and environmental clutter (chairs, fences, cluttered museum signage), whereas dataset A emphasizes streamlined compositions with little to no distracting elements around the main subject.",
+      "Composition in dataset B frequently breaks conventional framing (off-center subjects, tilted horizons, dynamic angles), while dataset A adheres to centered or symmetrically balanced compositions typical of professional or AI-generated assets.",
+      "Dataset B\u2019s images cover a broad spectrum of photographic conditions and capture scenarios, whereas dataset A maintains a unified, curated aesthetic\u2014both in subject presentation and overall scene construction."
+    ],
+    "unmet_v11_label_relation": [
+      "Dataset B images are mostly amateur snapshots or candid phone-camera captures, whereas dataset A images have a polished, professionally lit and staged editorial or catalog look.",
+      "Dataset B subjects are often framed off-center against busy or uncontrolled backgrounds (e.g., rooms, outdoor clutter), while dataset A consistently uses neutral or softly blurred backdrops to isolate the subject.",
+      "Lighting in dataset B is uneven and harsh\u2014frequent use of on-camera flash, red-eye, blown-out highlights\u2014whereas dataset A employs soft, diffused, even illumination without visible hotspots.",
+      "Dataset B contains many low-quality artifacts\u2014watermarks, compression noise, lens flare\u2014whereas dataset A images are uniformly high resolution and free of text overlays or camera artifacts.",
+      "Depth of field in dataset B is variable and often deep (everything in focus), while dataset A repeatedly uses shallow depth of field to blur backgrounds and draw attention to the main subject.",
+      "In dataset B the composition and cropping can cut off parts of the subject or include distracting elements, whereas dataset A carefully composes full or three-quarter views with clean edges and balanced framing.",
+      "Dataset B mixes truly candid, everyday content (e.g., toys, Lego figures, home snapshots) with its main classes, while dataset A strictly presents curated scenes tied to lingerie, wildlife, vehicles, interiors, or masked portraits.",
+      "Color palettes in dataset B vary wildly\u2014from oversaturated reds to underexposed shadows\u2014while dataset A maintains a coherent, muted or pastel-accented palette with precise color grading.",
+      "People in dataset B often appear in casual or unposed scenarios, with visible motion blur or unflattering angles, whereas dataset A features intentional poses, consistent styling, and careful wardrobe coordination.",
+      "Dataset B backgrounds and settings are typically authentic locations (kitchens, museum gruelling war zones, living rooms) with random details, whereas dataset A relies on studio or highly controlled outdoor settings designed to highlight the subject without distraction."
+    ],
+    "unmet_v15_label_only": [
+      "Dataset B images are mostly candid, amateur snapshots of real-world subjects (people in offices, museum exhibits, zoo animals, tanks on display) often with visible watermarks or logos, whereas dataset A images appear more professionally composed or synthetically generated, with clean, curated sets and no obstructive branding.",
+      "In dataset B the backgrounds are usually cluttered\u2014museum interiors, fences, store aisles, parking lots\u2014providing environmental context, while dataset A favours minimalistic or stylized backdrops (plain walls, editorial studio scenes, artfully arranged fabrics) that isolate the subject.",
+      "Lighting in dataset B is uneven and mixed (harsh flash, over- and underexposure), reflecting uncontrolled snapshot conditions; dataset A exhibits consistent, diffuse lighting that flatters textures and shapes with few hard shadows.",
+      "Composition in dataset B varies wildly: off-center framing, odd camera angles, motion blur or partial crops; dataset A maintains conventional, centered or intentionally symmetrical compositions with sharp focus on the subject.",
+      "Dataset B often includes text signage, exhibit labels or graffiti in the frame, anchoring images to a real location, whereas dataset A rarely shows incidental real-world markings or signage\u2014any text is integrated into the stylized scene.",
+      "Images of garments in dataset B show them in situ\u2014on racks, in shops, hanging haphazardly\u2014with mixed lighting and background objects; in dataset A lingerie and clothing are presented in coherent editorial or showroom environments with controlled styling.",
+      "The animal photography in dataset B spans zoo enclosures and casual wildlife shots, complete with cages or barriers in view, while dataset A\u2019s animal images are tightly cropped, often in natural settings or rendered as high-quality wildlife portraits.",
+      "Tanks and military vehicles in dataset B appear in museum hangars, outdoor displays or active drills with bystanders, whereas in dataset A such machinery is isolated against neutral or highly stylized backgrounds, sometimes evoking concept art.",
+      "Dataset B contains many watermarked, user-uploaded photographs with varied resolutions and aspect ratios, reflecting diverse amateur sources; dataset A has a uniform aesthetic quality, consistent framing, and appears free of overt user branding.",
+      "Overall, dataset B feels like a compendium of real-life snapshots across many contexts (expos, zoos, street scenes) with all their imperfections, while dataset A is a tightly curated or generative collection with controlled environments, lighting, and styling."
+    ],
+    "unmet_v15_label_background": [
+      "Dataset A consists largely of synthetic or generative images exhibiting rendering artifacts (odd warping, ghosting, fused elements), whereas Dataset B comprises genuine photographs with natural optical fidelity and no AI distortions.",
+      "Dataset A often presents painterly or stylized textures and irregular, brush-stroke\u2013like details with unpredictable color transitions, while Dataset B delivers crisp photographic realism and consistent true-to-life color palettes.",
+      "Dataset A lighting is frequently flat or ambient with inconsistent shadows and highlights, whereas Dataset B employs controlled studio or natural light that produces clear directional illumination and realistic shading.",
+      "Dataset A backgrounds tend to be chaotic, surreal, or fused together with odd deformations, in contrast to Dataset B\u2019s realistic environmental or studio backdrops that remain cohesive and secondary to the subject.",
+      "Dataset A compositions are often cluttered or feature multiple competing elements and awkward cropping, unlike Dataset B\u2019s single-subject, well-framed shots that adhere to classic compositional principles.",
+      "Dataset A exhibits unnatural lens or perspective distortions (fish-eye warps, slanted horizons), whereas Dataset B maintains consistent, realistic perspective typical of standard photographic lenses.",
+      "Dataset A images contain overt diffusion or upscaling noise artifacts leading to oversmoothed or patchy surfaces, while Dataset B shows authentic sensor or film grain and fine detail without synthetic smoothing.",
+      "Dataset A\u2019s color saturation and contrast vary unpredictably\u2014with unnatural pastel or hyper-vivid zones\u2014whereas Dataset B preserves balanced saturation and moderate contrast to clearly define the subject.",
+      "Dataset A often displays distorted or anatomically incorrect subjects (warped limbs, odd facial expressions), whereas Dataset B depicts anatomically accurate animals, vehicles, and people in believable poses.",
+      "Dataset A frequently repeats patterns and symmetric glitches within structures or objects (hallways, drapery, masks), while Dataset B remains free of generative repetition, presenting genuine, undistorted scenes."
+    ],
+    "unmet_v15_label_relation": [
+      "Dataset A consists almost entirely of synthetic or generative images with a coherent painterly or CGI-like aesthetic, whereas Dataset B is composed of real-world photographs scraped from varied sources",
+      "Dataset A images share a uniform, square cropping and consistent color grading, while Dataset B shows a wide range of aspect ratios, resolutions, and often includes visible watermarks, logos, or text overlays",
+      "Backgrounds in Dataset A are stylized, simplified, or blur-painted to emphasize a surreal or studio look, whereas Dataset B backgrounds are realistic and cluttered\u2014ranging from museum halls and outdoor scenes to urban environments",
+      "Lighting in Dataset A is almost uniformly soft, diffuse, and even, reflecting an AI model\u2019s signature rendering, while Dataset B exhibits heterogeneous lighting conditions, including harsh daylight, mixed indoor lighting, and dramatic shadows",
+      "Human subjects in Dataset A appear in carefully staged, painterly compositions with idealized anatomy, whereas Dataset B portrays people in real situations\u2014with candid expressions, visible imperfections, and environmental context",
+      "Dataset A\u2019s animal images (e.g., lions) all look computer-rendered or heavily stylized, whereas Dataset B\u2019s animal photos are authentic wildlife or zoo shots with natural fur textures and environmental detail",
+      "Props and objects in Dataset A (furniture, masks, tanks) share an uncanny, art-directed look and uniform patina, while Dataset B\u2019s objects show genuine wear, museum placards, and the randomness of real world artifacts",
+      "Overall the style of Dataset A is cohesive, art-directed, and machine-generated, while Dataset B is a heterogeneous collection of stock photography, candid shots, and internet-sourced images",
+      "Dataset A lacks any visible editorial elements like price tags, placards, or brand names, whereas Dataset B frequently includes such real-world artifacts\u2014retail tags, museum labels, and corporate watermarks",
+      "Compositionally, Dataset A centers and isolates its subjects against minimal or abstracted settings, while Dataset B often includes secondary real-world context\u2014onlookers, background clutter, and environmental distractions"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Huggingface--40": "Check out Text Embeddings Inference in Hugging face's Doc to summarise the strengths of the toolkit.",
+  "Huggingface--7": "Which is the most downloaded audio related dataset on Hugging face currently.",
+  "Huggingface--1": "Use the Huggingface Inference API to generate a short story about a dragon and a wizard.",
+  "Huggingface--17": "Find the most recently updated open-source project related to natural language processing on the Huggingface platform. Provide the project's name, creator, and a brief description of its functionality.",
+  "Huggingface--15": "Identify the most downloaded models on Hugging face that use the PaddlePaddle library.",
+  "Huggingface--14": "How much is the Pro account of Hugging face for a month and what are the features?",
+  "Huggingface--8": "Retrieve an example of a pre-trained language model in natural language processing and identify the tasks it is specifically designed for, like translation or text summarization.",
+  "Huggingface--6": "Find the model sentence-transformers/all-MiniLM-L6-v2 and use the Inference API on the webpage to get the similarity of the following two sentences: 'Tomorrow is Sunday', 'Eat a burger on Sunday'.",
+  "Huggingface--34": "List the benefits of hugging face classroom mentioned on Hugging face website.",
+  "Huggingface--5": "Find a model released on Hugging Face for recipe generation. Retrieve the information of the model, including its name, model size and tensor type.",
+  "Huggingface--27": "Determine the most downloaded dataset related to Text Retrieval in NLP on Hugging Face.",
+  "Huggingface--2": "Discover three new and popular open-source NLP models for language translation released in the past month on Huggingface.",
+  "Huggingface--0": "Find a pre-trained natural language processing model on Hugging Face that can perform sentiment analysis, and make sure the model's last update is within March 2023.",
+  "Huggingface--31": "Identify the latest machine learning model on Huggingface that specializes in detecting fake news, including the date of its last update.",
+  "Huggingface--35": "Find the latest Diffusion-related blog on Hugging Face, and read its intro or overview section to roughly summarize the content of the blog.",
+  "Huggingface--41": "What is the current Text-to-3D model with the highest number of downloads and tell me are there Spaces that use the model.",
+  "Huggingface--16": "Find information on the latest (as of today's date) pre-trained language model on Huggingface suitable for text classification and briefly describe its intended use case and architecture.",
+  "Huggingface--19": "Explore and summarize the features of the most recent open-source NLP model released by Hugging Face for English text summarization.",
+  "Huggingface--30": "Identify the most downloaded English-Chinese (en-zh) machine translation model on Huggingface and report its latest performance metrics and usage guidelines.",
+  "Huggingface--39": "Investigate in the Hugging Face documentation how to utilize the 'Trainer' API for training a model on a custom dataset, and note the configurable parameters of the Trainer class."
+}

@@ -1,0 +1,10 @@
+text2sql:
+  rubric_generation:
+    model:
+      name: deepseek/deepseek-r1
+    real_seed: 42
+    num_synthetic_samples: 30
+    num_points: 10
+    output_path: ./data/text2sql/LENS/rubrics
+    data_root: ./data/text2sql/data
+

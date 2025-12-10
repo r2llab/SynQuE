@@ -1,0 +1,127 @@
+import pandas as pd
+from constants import TASK_PERFORMANCE_PATHS, MERGE_KEYS
+
+def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=None):
+    """Compute the correlation between the lens score and the task performance.
+    Args:
+        df (pd.DataFrame): The dataframe containing the lens scores and the task performance.
+        task (str): The task name. You can choose from "sentiment_analysis", "text2sql", "web_agent", "image_classification".
+        task_performance_path (str): The path to the task performance csv file, including the task performance for each dataset.
+    """
+    from scipy.stats import pearsonr, spearmanr
+    # We'll collect results in a list of dicts
+    corr_rows = []
+    task_performance_path = TASK_PERFORMANCE_PATHS[task] if task_performance_path is None else task_performance_path
+    merge_keys = MERGE_KEYS[task]
+    df_task_performance = pd.read_csv(task_performance_path)
+    df = pd.merge(df, df_task_performance, on=merge_keys, how='left')
+    if task == "sentiment_analysis":
+        # For each seed
+        for seed in df['seed'].unique():
+            seed_df = df[df['seed'] == seed]
+            # If there is only one dataset_name, correlation is not defined
+            if len(seed_df['dataset_name'].unique()) < 2:
+                continue
+            # For each dataset, get score, debiased_score, test_f1_mean
+            # We want to correlate score vs test_f1_mean, debiased_score vs test_f1_mean across datasets
+            # So, group by dataset and take the mean (should be one row per dataset per seed)
+            grouped = seed_df.groupby('dataset_name').agg({
+                'score': 'mean',
+                'debiased_score': 'mean',
+                'test_f1_mean': 'mean'
+            }).reset_index()
+            if len(grouped) < 2:
+                continue
+            try:
+                p_score, _ = pearsonr(grouped['score'], grouped['test_f1_mean'])
+                s_score, _ = spearmanr(grouped['score'], grouped['test_f1_mean'])
+            except Exception:
+                p_score, s_score = None, None
+            try:
+                p_debiased, _ = pearsonr(grouped['debiased_score'], grouped['test_f1_mean'])
+                s_debiased, _ = spearmanr(grouped['debiased_score'], grouped['test_f1_mean'])
+            except Exception:
+                p_debiased, s_debiased = None, None
+            corr_rows.append({
+                'seed': seed,
+                'pearson_score_vs_f1': p_score,
+                'spearman_score_vs_f1': s_score,
+                'pearson_debiased_score_vs_f1': p_debiased,
+                'spearman_debiased_score_vs_f1': s_debiased
+            })
+            corr_df = pd.DataFrame(corr_rows)
+            # Aggregate all seeds for each metric and add a row named "all_seeds"
+            if not corr_df.empty:
+                agg_row = {
+                    'pearson_score_vs_f1': corr_df['pearson_score_vs_f1'].mean(),
+                    'spearman_score_vs_f1': corr_df['spearman_score_vs_f1'].mean(),
+                    'pearson_debiased_score_vs_f1': corr_df['pearson_debiased_score_vs_f1'].mean(),
+                    'spearman_debiased_score_vs_f1': corr_df['spearman_debiased_score_vs_f1'].mean()
+                }
+                corr_df_agg = pd.DataFrame([agg_row]).round(4)
+            else:
+                corr_df_agg = corr_df
+            print(corr_df_agg.to_string(index=False))
+    elif task == "text2sql":
+        # For text2sql, we correlate score vs accuracy, and debiased_score vs accuracy
+        # There are multiple db_id values, so we compute per-db correlations, then aggregate
+        for db_id in df['db_id'].unique():
+            db_df = df[df['db_id'] == db_id]
+            # For each seed, compute correlation across datasets (for this db_id)
+            pearson_score, spearman_score = [], []
+            pearson_debiased, spearman_debiased = [], []
+            for seed in db_df['seed'].unique():
+                seed_df = db_df[db_df['seed'] == seed]
+                # If there is only one dataset, skip
+                if len(seed_df['dataset_name'].unique()) < 2:
+                    continue
+                # For each dataset, get score, debiased_score, accuracy
+                grouped = seed_df.groupby('dataset_name').agg({
+                    'score': 'mean',
+                    'debiased_score': 'mean',
+                    'accuracy': 'mean'
+                }).reset_index()
+                # Remove rows with missing accuracy
+                grouped = grouped.dropna(subset=['accuracy'])
+                if len(grouped) < 2:
+                    continue
+                try:
+                    p_score, _ = pearsonr(grouped['score'], grouped['accuracy'])
+                    s_score, _ = spearmanr(grouped['score'], grouped['accuracy'])
+                except Exception:
+                    p_score, s_score = None, None
+                try:
+                    p_debiased, _ = pearsonr(grouped['debiased_score'], grouped['accuracy'])
+                    s_debiased, _ = spearmanr(grouped['debiased_score'], grouped['accuracy'])
+                except Exception:
+                    p_debiased, s_debiased = None, None
+                pearson_score.append(p_score)
+                spearman_score.append(s_score)
+                pearson_debiased.append(p_debiased)
+                spearman_debiased.append(s_debiased)
+            def safe_mean(x):
+                x = [i for i in x if i is not None]
+                return sum(x)/len(x) if len(x) > 0 else None
+            corr_rows.append({
+                'db_id': db_id,
+                'pearson_score_vs_acc': safe_mean(pearson_score),
+                'spearman_score_vs_acc': safe_mean(spearman_score),
+                'pearson_debiased_score_vs_acc': safe_mean(pearson_debiased),
+                'spearman_debiased_score_vs_acc': safe_mean(spearman_debiased)
+            })
+        # After per-db corr, add a row aggregating all db_ids ("all_db")
+        corr_df = pd.DataFrame(corr_rows)
+        if not corr_df.empty:
+            agg_row = {
+                'db_id': 'all_db',
+                'pearson_score_vs_acc': corr_df['pearson_score_vs_acc'].mean(),
+                'spearman_score_vs_acc': corr_df['spearman_score_vs_acc'].mean(),
+                'pearson_debiased_score_vs_acc': corr_df['pearson_debiased_score_vs_acc'].mean(),
+                'spearman_debiased_score_vs_acc': corr_df['spearman_debiased_score_vs_acc'].mean(),
+            }
+            corr_df_agg = pd.concat([corr_df, pd.DataFrame([agg_row])], ignore_index=True).round(4)
+        else:
+            corr_df_agg = corr_df
+        print(corr_df_agg.to_string(index=False))
+    return corr_df_agg
+

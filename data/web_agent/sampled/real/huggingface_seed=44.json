@@ -1,0 +1,22 @@
+{
+  "Huggingface--26": "Identify a model on Hugging Face designed for generating travel chats. Obtain information about the model, including its name, size and training framwork.",
+  "Huggingface--33": "List three hugging face docs. How many GitHub stars have they earned so far?",
+  "Huggingface--34": "List the benefits of hugging face classroom mentioned on Hugging face website.",
+  "Huggingface--7": "Which is the most downloaded audio related dataset on Hugging face currently.",
+  "Huggingface--11": "Identify the latest updated image to video model available on Huggingface and summarize its main features.",
+  "Huggingface--24": "Search for a model on Hugging Face with an Apache-2.0 license that has received the highest number of likes.",
+  "Huggingface--14": "How much is the Pro account of Hugging face for a month and what are the features?",
+  "Huggingface--18": "Look up TRL's forward modelling in the hugging face documentation on how to add a margin to a loss.",
+  "Huggingface--1": "Use the Huggingface Inference API to generate a short story about a dragon and a wizard.",
+  "Huggingface--36": "Summarize all the payment plans and their advantages in huggingface pricing.",
+  "Huggingface--39": "Investigate in the Hugging Face documentation how to utilize the 'Trainer' API for training a model on a custom dataset, and note the configurable parameters of the Trainer class.",
+  "Huggingface--0": "Find a pre-trained natural language processing model on Hugging Face that can perform sentiment analysis, and make sure the model's last update is within March 2023.",
+  "Huggingface--3": "Look up a model with a license of cc-by-sa-4.0 with the most likes on Hugging face.",
+  "Huggingface--5": "Find a model released on Hugging Face for recipe generation. Retrieve the information of the model, including its name, model size and tensor type.",
+  "Huggingface--37": "Browse the daily paper on Hugging Face. What is the title of the first article, how many upvotes has it received, and is there any related model or data release?",
+  "Huggingface--16": "Find information on the latest (as of today's date) pre-trained language model on Huggingface suitable for text classification and briefly describe its intended use case and architecture.",
+  "Huggingface--22": "Identify the steps to convert a PyTorch model to TensorFlow using the Hugging Face Transformers library as described in their documentation.",
+  "Huggingface--9": "Find the most download machine translation model on Huggingface which focuses on English and Japanese (en-ja) and report the evaluation metrics stated for it.",
+  "Huggingface--42": "Check the Dataset Viewer for ai2lumos/lumos_complex_qa_plan_onetime on Hugging face. what is the content corresponding to user in the first message?",
+  "Huggingface--20": "Locate a pre-trained natural language processing model on Hugging Face that specializes in named entity recognition (NER), confirm that the model was last updated in 2022 and has 1M+ downloads."
+}

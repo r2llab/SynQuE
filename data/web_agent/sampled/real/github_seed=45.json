@@ -1,0 +1,22 @@
+{
+  "GitHub--17": "Locate a C++ project on GitHub that has been recently updated in the last week and has at least 500 stars, then describe its main purpose.",
+  "GitHub--26": "Find the Resolve merge conflicts course in GitHub Skills and what actions learners will perform in this course.",
+  "GitHub--31": "Find the official GitHub repository for TensorFlow and list the files changed in the last commit. Tell me the name of changed files, total additions and total deletion.",
+  "GitHub--16": "Find the GitHub Skill section and how many courses are under the 'First day on GitHub' heading.",
+  "GitHub--5": "Find a Python repository on GitHub that has been updated in the past 2 days and has at least 500 stars.",
+  "GitHub--19": "Look up the most recently updated Python repository on GitHub that is tagged with 'web scraping' and has over 100 stars.",
+  "GitHub--21": "Find the Security topic in GitHub Resources and answer the role of GitHub Advanced Security.",
+  "GitHub--1": "Search for an open-source repository for machine learning in Python, specifically focused on decision trees, updated within the last 2 days.",
+  "GitHub--4": "Find a popular JavaScript repository created in the last 30 days on GitHub with a Readme file.",
+  "GitHub--30": "Search for an open-source project related to 'blockchain technology' on GitHub updated in the past 15 days and list the top five contributors.",
+  "GitHub--0": "Search for an open-source project related to 'climate change data visualization' on GitHub and report the project with the most stars.",
+  "GitHub--3": "Find out how much more package storage the Enterprise version has over Team in GitHub Pricing.",
+  "GitHub--9": "Locate a repository on GitHub that was created in the last week and has 50 or more stars. Provide brief details about the project's purpose and its programming language.",
+  "GitHub--25": "Search for a 'virtual reality' related repository on GitHub updated in the last 10 days with at least 200 stars and summarize its main objective.",
+  "GitHub--29": "Compare the maximum number of private repositories allowed in the Free and Pro plans in GitHub Pricing.",
+  "GitHub--28": "Identify the most starred JavaScript repositories on GitHub that were created after 2023-12-29.",
+  "GitHub--23": "Find the wiki page of ohmyzsh on GitHub and tell me how to change the theme of zsh to agnoster.",
+  "GitHub--20": "Open GitHub Copilot's FAQs to find the official answer to when Copilot chat can be used on mobile.",
+  "GitHub--33": "Find Customer Stories on the GitHub page and list the 2 stories that appear on the web page.",
+  "GitHub--35": "Check the latest release version of React and the date it was published on GitHub."
+}

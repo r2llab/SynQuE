@@ -1,0 +1,182 @@
+[
+  {
+    "db_id": "movie_platform",
+    "question": "Between 1/1/2017 to 12/31/2017, how many users who were eligible for trial when they rated the movie \"Patti Smith: Dream of Life\"and what is the image URL to the movie on Mubi?",
+    "evidence": "Between 1/1/2017 to 12/31/2017 refers to rating_timestamp_utc between '2017-01-01 00:00:00' and '2017-12-31 00:00:00'; eligible for trial refers to user_eligible_for_trial = 1; movie \"Patti Smith: Dream of Life\" refers to movie_title = 'Patti Smith: Dream of Life'",
+    "SQL": "SELECT COUNT(T1.user_id), T2.movie_image_url FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id WHERE datetime(T1.rating_timestamp_utc) BETWEEN '2017-01-01 00:00:00' AND '2017-12-31 00:00:00'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Give the name of the movie that got the most \"5\" ratings.",
+    "evidence": "5 ratings refers to rating_score = 5; name of the movie refers to movie_title",
+    "SQL": "SELECT T2.movie_title FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id WHERE T1.rating_score = 5"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many films did \u00c5ke Sandgren direct?",
+    "evidence": "Ake Sandgren is the director name;\u00a0 film refers to movie",
+    "SQL": "SELECT COUNT(movie_title) FROM movies WHERE director_name = '\u00c5ke Sandgren'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Who is the director of the most popular movie of all time and when was it released? Indicate the average rating score of the users who were on a trialist when they rated the movie.",
+    "evidence": "most popular movie of all time refers to MAX(movie_popularity); a trialist refers to user_trialist = 1; average rating score = AVG(rating_score)",
+    "SQL": "SELECT T1.director_name, T1.movie_release_year , SUM(T2.rating_score) / COUNT(T2.user_id) FROM movies AS T1 INNER JOIN ratings AS T2 ON T1.movie_id = T2.movie_id WHERE T2.user_trialist = 1 ORDER BY T1.movie_popularity DESC LIMIT 1"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Name all the list titles created by user 4208563.",
+    "evidence": "user 4208563 refers to user_id = 4208563",
+    "SQL": "SELECT list_title FROM lists WHERE user_id LIKE 4208563"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What's the number of the paying subscribers when rating a movie after the year 2014?",
+    "evidence": "paying subscribers refers to user_has_payment_method = 1; rating a movie after the year 2014 refers to rating_date_utc>'2014%'",
+    "SQL": "SELECT COUNT(user_subscriber) FROM ratings_users WHERE user_has_payment_method = 1 AND rating_date_utc > '2014%'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many movies have a popularity of more than 400 but less than 500? Indicate the name of the movies and the highest rating score each movie has received.",
+    "evidence": "popularity of more than 400 but less than 500 refers to movie_popularity BETWEEN 400 AND 500; highest rating score refer to MAX(rating_score)\n\n",
+    "SQL": "SELECT T1.movie_title, MAX(T2.rating_score) FROM movies AS T1 INNER JOIN ratings AS T2 ON T1.movie_id = T2.movie_id WHERE T1.movie_popularity BETWEEN 400 AND 500 GROUP BY T1.movie_title"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many users, who were a paying subscriber when they rated the movie, gave the movie that was released in 1924 and directed by Erich von Stroheim a rating score of 5?",
+    "evidence": "Directed by Buster Keaton refers to director_name; released in 1924 refers to movie_release_year = 1924; paying subscriber refers to user_has_payment_method = 1\n\n",
+    "SQL": "SELECT COUNT(T2.user_id) FROM movies AS T1 INNER JOIN ratings AS T2 ON T1.movie_id = T2.movie_id WHERE T1.movie_release_year = 1924 AND T1.director_name = 'Erich von Stroheim' AND T2.rating_score = 5 AND T2.user_has_payment_method = 1"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many users gave \"Pavee Lackeen: The Traveller Girl\" movie a rating score of 4?",
+    "evidence": "FALSE;",
+    "SQL": "SELECT COUNT(T2.user_id) FROM movies AS T1 INNER JOIN ratings AS T2 ON T1.movie_id = T2.movie_id WHERE T1.movie_title = 'Pavee Lackeen: The Traveller Girl' AND T2.rating_score = 4"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Who was the director of the movie \"Tokyo Eyes\"\uff1f",
+    "evidence": "Tokyo Eyes' is movie_title, director refers to director_name;",
+    "SQL": "SELECT director_name FROM movies WHERE movie_title = 'Tokyo Eyes'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Who is the director of the movie Sex, Drink and Bloodshed?",
+    "evidence": "Sex, Drink and Bloodshed refers to movie title = 'Sex, Drink and Bloodshed';",
+    "SQL": "SELECT director_name FROM movies WHERE movie_title = 'Sex, Drink and Bloodshed'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What is the name of the list that was updated most recently?",
+    "evidence": "updated most recently refers to MAX(list_update_date_utc)",
+    "SQL": "SELECT list_title FROM lists WHERE list_update_timestamp_utc = ( SELECT list_update_timestamp_utc FROM lists ORDER BY list_update_timestamp_utc DESC LIMIT 1 )"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What's the url of user 39115684's rating on the movie 'When Will I Be Loved'?",
+    "evidence": "A Way of Life refers to movie_title; user 39115684 refers to userid = 39115684;\u00a0 url refers to rating_url;",
+    "SQL": "SELECT T1.rating_url FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id WHERE T2.movie_title = 'A Way of Life' AND T1.user_id = 39115684"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What's the cover image of the user who created the movie list 'Georgia related films'?",
+    "evidence": "Play it cool' is list_title; cover image of user refers to user_cover_image_url;",
+    "SQL": "SELECT T1.user_cover_image_url FROM lists_users AS T1 INNER JOIN lists AS T2 ON T1.list_id = T2.list_id WHERE T2.list_title LIKE 'Georgia related films'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many movie lists were still updated 10 years after it was created?",
+    "evidence": "updated 10 years after it was created refers to list_update_timestamp_utc > (list_creation_timestamp_utc+10);",
+    "SQL": "SELECT COUNT(*) FROM lists WHERE SUBSTR(list_update_timestamp_utc, 1, 4) - SUBSTR(list_creation_timestamp_utc, 1, 4) > 10"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "When was the first movie released and who directed it?",
+    "evidence": "first movie refers to oldest movie_release_year;",
+    "SQL": "SELECT movie_release_year, director_name FROM movies WHERE movie_release_year IS NOT NULL ORDER BY movie_release_year ASC LIMIT 1"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "For all list titles with at least 200 movies in the list, what is their average number of followers?",
+    "evidence": "at least 200 movies in the list refers to list_movie_number > 200; average number of followers refers to avg(list_followers)",
+    "SQL": "SELECT AVG(list_followers) FROM lists WHERE list_movie_number > 200"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What is the URL to the user profile image on Mubi of the user who gave the movie id of 1103 a 5 ratinng score on 4/19/2020?",
+    "evidence": "URL to the user profile image on Mubi\u00a0 refers to user_avatar_image_url;\u00a0 4/19/2020 refers to rating_date_utc",
+    "SQL": "SELECT T2.user_avatar_image_url FROM ratings AS T1 INNER JOIN ratings_users AS T2 ON T1.user_id = T2.user_id WHERE T2.user_id = 1103 AND rating_score = 5 AND T2.rating_date_utc = '2020-04-19'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What's of rating on the movie \"Innocence Unprotected\" by the user who created the movie list \"250 Favourite Films\"?",
+    "evidence": "Innocence Unprotected' is movie_title; '250 Favourite Films' is list_title; rating refers to rating_score;",
+    "SQL": "SELECT T1.rating_score FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id INNER JOIN lists AS T3 ON T3.user_id = T1.user_id WHERE T2.movie_title = 'Innocence Unprotected' AND T3.list_title = '250 Favourite Films'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "For the 1998 movie which got the highest popularity, how many \"4\" rating did the movie get?",
+    "evidence": "1998 movie refers to movie_release_year = '1998'; the highest popularity refers to MAX(movie_popularity) ; \"4\" rating refers to rating_score = 4",
+    "SQL": "SELECT COUNT(T2.movie_title) FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id WHERE T1.rating_score = 4 AND T2.movie_release_year = 1998 ORDER BY T2.movie_popularity DESC LIMIT 1"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many users have more than 100 followers in the list created by users in 2009?",
+    "evidence": "more than 100 followers refers to list_followers >100;\u00a0 list created by the user in 2009 refers to list_creation_date_utc = '2009';",
+    "SQL": "SELECT COUNT(T1.user_id) FROM lists_users AS T1 INNER JOIN lists AS T2 ON T1.list_id = T2.list_id WHERE T2.list_followers > 100 AND T1.list_creation_date_utc LIKE '2009%'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many movies did the director of the highest movie popularity make?",
+    "evidence": "highest movie popularity refers to MAX(movie_popularity)",
+    "SQL": "SELECT COUNT(movie_id) FROM movies WHERE director_id = ( SELECT director_id FROM movies ORDER BY movie_popularity DESC LIMIT 1 )"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "For movie titled 'Welcome to the Dollhouse', how many percentage of the ratings were rated with highest score.",
+    "evidence": "rated with highest score refers to rating_score = 5; percentage = MULTIPLY(DIVIDE(SUM(rating_score = 5), COUNT(rating_score)), 100)",
+    "SQL": "SELECT CAST(SUM(CASE WHEN T2.rating_score = 5 THEN 1 ELSE 0 END) AS REAL) * 100 / COUNT(*) FROM movies AS T1 INNER JOIN ratings AS T2 ON T1.movie_id = T2.movie_id WHERE T1.movie_title = 'Welcome to the Dollhouse'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "For the user who post the list that contained the most number of the movies, is he/she a paying subscriber when creating that list?",
+    "evidence": "the list that contained the most number of the movies refers to MAX(list_movie_number); user_has_payment_method = 1 means the user was a paying subscriber when he created the list ; \nuser_has_payment_method = 0 means the user was not a paying subscriber when he created the list \n\n",
+    "SQL": "SELECT T1.user_has_payment_method FROM lists_users AS T1 INNER JOIN lists AS T2 ON T1.list_id = T2.list_id WHERE T2.list_movie_number = ( SELECT MAX(list_movie_number) FROM lists )"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What is the average score of the movie \"The Fall of Berlin\" in 2019?",
+    "evidence": "The Fall of Berlin' is movie_title; in 2019 refers to rating_timestamp_utc = 2019; Average score refers to Avg(rating_score);",
+    "SQL": "SELECT SUM(T1.rating_score) / COUNT(T1.rating_id) FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id WHERE T1.rating_timestamp_utc LIKE '2019%' AND T2.movie_title LIKE 'The Fall of Berlin'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Was the user who created the \"World War 2 and Kids\" list eligible for trial when he created the list? Indicate how many followers does the said list has.",
+    "evidence": "user was eligible for trial when he created the list refers to user_eligible_for_trial = 1; number of followers a list have refers to list_followers;",
+    "SQL": "SELECT T2.user_eligible_for_trial, T1.list_followers FROM lists AS T1 INNER JOIN lists_users AS T2 ON T1.user_id = T1.user_id AND T1.list_id = T2.list_id WHERE T1.list_title = 'World War 2 and Kids'"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Please list the names of the top three movies in the number of likes related to the critic made by the user rating the movie.",
+    "evidence": "likes related to the critic made by the user rating the movie refers to critic_likes; top refers to Max(critic_likes);",
+    "SQL": "SELECT T2.movie_title FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id ORDER BY T1.critic_likes DESC LIMIT 3"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "What is the name of the movie whose critic received the highest amount of likes? Indicate the URL to the rating on Mubi.",
+    "evidence": "critic received the highest amount of likes refers to MAX(critic_likes);",
+    "SQL": "SELECT T2.movie_title, T1.rating_url FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id ORDER BY T1.critic_likes DESC LIMIT 1"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "Which year was the third movie directed by Quentin Tarantino released? Indicate the user ids of the user who gave it a rating score of 4.",
+    "evidence": "third movie refers to third movie that has oldest movie_release_year;",
+    "SQL": "SELECT T2.movie_release_year, T1.user_id FROM ratings AS T1 INNER JOIN movies AS T2 ON T1.movie_id = T2.movie_id WHERE T1.movie_id = ( SELECT movie_id FROM movies WHERE director_name = 'Quentin Tarantino' ORDER BY movie_release_year ASC LIMIT 2, 1 ) AND T1.rating_score = 4"
+  },
+  {
+    "db_id": "movie_platform",
+    "question": "How many likes did the critic of the movie \"Apocalypse Now\" received after giving the movie a rating score of 5?",
+    "evidence": "Apocalypse Now refer to movie_title; rating score refer to rating_score = '5';likes received refers to critic_likes\n",
+    "SQL": "SELECT T2.critic_likes FROM movies AS T1 INNER JOIN ratings AS T2 ON T1.movie_id = T2.movie_id WHERE T2.user_trialist = 0 AND T2.rating_score = 5 AND T1.movie_title = 'Apocalypse Now'"
+  }
+]

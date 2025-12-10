@@ -1,0 +1,224 @@
+{
+  "sims": {
+    "unmet_v11_label_background": [
+      "Both datasets include close-up tabletop arrangements of tools and hardware items spread out on a flat surface.",
+      "Both feature reflective metal trays or platters captured from above or at slight angles, emphasizing their metallic sheen.",
+      "Both contain stage or performance photographs with audience-facing camera angles and dramatic theatrical lighting.",
+      "Both show elaborate chairs or throne-like furniture set against ornate architectural interiors.",
+      "Both datasets include images of backpacks or bags, either worn by people or placed on the ground as the main subject.",
+      "Both have images of prepared food on serving trays or plates, often shot from overhead to display the arrangement.",
+      "Both include photographs taken in workshop or studio environments with cluttered backgrounds of tools, materials, or shelving.",
+      "Both display a mix of natural and artificial lighting conditions, resulting in varied color casts, highlights, and shadows.",
+      "Both contain candid shots of people engaged in activities (working, carrying, performing), frequently cropping or partially showing bodies.",
+      "Both use compositions that center a principal object or scene while retaining contextual background details around it."
+    ],
+    "unmet_v11_label_only": [
+      "Both datasets feature close\u2010up, object\u2010centric compositions where a single tool or item (e.g., hammer, tray, chair) is placed prominently in the frame against a relatively simple background.",
+      "Each contains top\u2010down or near\u2010top\u2010down views of trays, plates, or food arrangements on flat surfaces, often with decorative or patterned backgrounds.",
+      "Both show bags and backpacks photographed in isolation or in real\u2010world contexts, using side or back views to highlight shape and straps.",
+      "You see chairs and throne\u2010like seats shot in studio or museum\u2010style interiors, typically centered, with uniform lighting on the object and subdued surroundings.",
+      "There are stage and performance scenes in both sets\u2014images of dancers, actors, or musicians on a lit platform with audiences or theatrical backdrops.",
+      "A recurring motif of hand tools and hardware appears in both, laid out on wooden or workshop surfaces, sometimes in use (nails, chisels, saws).",
+      "Lighting conditions range from bright, even studio illumination on white or neutral backdrops to dramatic spotlights in low\u2010light concert or theater environments in both datasets.",
+      "Backgrounds vary between clean, uncluttered walls or floors and more cluttered real\u2010world scenes (workshops, trade fairs, museum halls) in both collections.",
+      "Both use a mixture of orthogonal (straight\u2010on) and slight-perspective angles to emphasize the form and texture of objects.",
+      "The styling in both sets tends toward practical, documentary\u2010style photography rather than highly stylized or surreal presentations\u2014objects appear naturally placed or in working environments."
+    ],
+    "unmet_v11_label_relation": [
+      "Both datasets often present a single main object (tool, bag, chair, tray) centered in the frame.",
+      "Both contain \u201cflat\u2010lay\u201d or top\u2010down compositions of small objects arranged on a surface (tools, nails, plates, cookies, etc.).",
+      "Both include isolated product\u2010style shots against plain or neutral studio\u2010like backgrounds (white walls, floors, simple corners).",
+      "Both show people performing or standing on a stage or theater environment under spot lighting.",
+      "Both feature ornate or throne\u2010like chairs positioned prominently in richly detailed interior settings.",
+      "Both include candid outdoor shots of backpackers seen from behind, often in natural or urban environments.",
+      "Both show tools and hardware (hammers, saws, nails) laid out or captured in use in a workshop context.",
+      "Both contain decorative platters, trays, or dishes, often shot from above to show pattern and detail.",
+      "Both capture large architectural interiors or halls (palaces, theaters, conference tents) with elaborate lighting and perspective.",
+      "Both exhibit a casual, \u201camateur\u201d photographic style with variable focus, lighting contrasts, and visible photographer framing."
+    ],
+    "unmet_v15_label_only": [
+      "Both datasets include close\u2010up, overhead or top-down shots of tools or serving trays arranged on flat surfaces",
+      "Both mix indoor and outdoor scenes under natural and artificial light, with warm tungsten and cool daylight casts",
+      "Both show hands or people interacting with objects (holding a hammer, unpacking a bag, placing food)",
+      "Both use shallow depth of field to keep the main subject sharp while gently blurring busy or textured backgrounds",
+      "Both feature staged product-style shots of a single item (backpacks, duffels, toolkits) centered against neutral backdrops",
+      "Both contain dynamic stage or theatre images under colored spotlights, with performers framed against dark curtains",
+      "Both include richly detailed interior architecture (palace rooms, thrones, church altars) shot symmetrically",
+      "Both present objects on wooden, tiled, or plain surfaces that act as simple compositional grounds",
+      "Both blend candid environmental photography (people in crowds, workers on site) with controlled studio-like setups",
+      "Both compose scenes with a clear foreground object and receding perspective leading into a softly blurred background"
+    ],
+    "unmet_v15_label_background": [
+      "Both datasets include still-life scenes of tools and hardware arranged on workbenches or flat surfaces.",
+      "Both feature stage and performance spaces captured under dramatic overhead or spotlight lighting.",
+      "Both contain ornate chairs or throne\u2010like furniture as central subjects against simpler backgrounds.",
+      "Both show top-down or flat-lay compositions of trays or flat surfaces with food and decorative items.",
+      "Both include backpacks and travel gear in real-world, candid environments.",
+      "Both predominantly rely on natural or ambient indoor lighting rather than highly polished studio setups.",
+      "Both display cluttered workshop or retail backgrounds with scattered objects and materials.",
+      "Both have candid human subjects in everyday or workshop settings, often with minimal posing.",
+      "Both capture reflective metal surfaces (trays, plates, tools) with specular highlights and texture details.",
+      "Both mix close-up shots of individual objects with wider context shots showing environment and surroundings."
+    ],
+    "unmet_v15_label_relation": [
+      "Both datasets contain close-up, object-centric images of tools and hardware (hammers, nails, saws, pliers) laid out on work surfaces or against simple backgrounds",
+      "Both include travel-and-outdoor photography focused on backpacks and gear, often showing people wearing or arranging packs in urban or natural settings",
+      "Both feature stage and performance scenes\u2014lit stages, dancers or musicians in mid-action, and audiences viewing a show",
+      "Both include ornate interior and furniture shots, such as thrones, gilded chairs, palace rooms, and decorative seating displayed in museum-like settings",
+      "Both datasets present serving trays, decorative plates, and tabletop arrangements often shot from above or at slight angles to emphasize composition",
+      "Both showcase people interacting with objects\u2014reading maps, using handtools, playing musical instruments, or handling food and utensils",
+      "Both have images of cluttered workspaces or studios with many items (tools, bicycles, furniture parts) filling the frame in an almost \u201cbusy\u201d composition",
+      "Both include single-item studio-style shots with objects isolated against plain walls, fabric backdrops, or cornered spaces for clear visual emphasis",
+      "Both employ balanced, symmetrical compositions around a central subject (a chair, tray, or tool) to draw the viewer\u2019s eye",
+      "Both make use of dramatic lighting\u2014spotlights on stages, strong highlights on reflective trays, and directional light in workshops\u2014to shape shadow and texture"
+    ]
+  },
+  "diffs_synth_from_real": {
+    "unmet_v11_label_background": [
+      "Dataset A images are genuine photographs with realistic lighting and coherent shading, while dataset B images often appear AI-generated or heavily stylized, featuring inconsistent shadows, surreal highlights, and digital lighting artifacts.",
+      "Dataset A uses simple, unadorned backgrounds (plain walls, tabletops or everyday interiors) that keep the subject isolated, whereas dataset B backgrounds are elaborate or abstract\u2014ornate halls, dreamlike landscapes, or fantasy-style architectural settings.",
+      "Dataset A objects maintain plausible real-world geometry and perspective, but dataset B frequently shows warped or blended shapes, impossible juxtapositions, and perspective distortions characteristic of generative imagery.",
+      "Dataset A displays natural material textures (fabric, metal, wood grain) with consistent focus and depth-of-field, while dataset B surfaces often look painterly or metallic with fractal-like details and uneven blurring.",
+      "Dataset A photographs follow conventional camera techniques\u2014crisp focus, realistic DOF, ambient or flash lighting\u2014whereas dataset B mixes digital art mediums (3D rendering, illustration), resulting in lens flares, unnatural blur, and mixed focus regions.",
+      "Dataset A compositions are straightforward\u2014single objects or scenes centered and easily read\u2014while dataset B leans on symmetrical, collage-like layouts with multiple focal points, layered imagery, and ornate framing.",
+      "Dataset A color palettes remain true-to-life and subtly varied, but dataset B heavily uses oversaturated hues, stylized tints, high-contrast fantasy palettes, or dramatic color casts.",
+      "Dataset A content depicts everyday items and environments bound by real-world physics, whereas dataset B often includes surreal or conceptual furniture, impossible artifacts, and settings that break physical rules.",
+      "Dataset A backgrounds are static and contextual, often showing recognizable environments, whereas dataset B backgrounds are busy with swirling motifs, abstract patterns, or painterly brushstroke textures that draw attention.",
+      "Dataset A may show natural photographic imperfections (film grain, lens vignetting), but dataset B introduces generative artifacts\u2014repeating patterns, ghosting, unexpected tiling, and surface warping."
+    ],
+    "unmet_v11_label_only": [
+      "Dataset B images are almost uniformly square-cropped and centered on a single subject against a clean or stylized backdrop; dataset A images use a variety of aspect ratios and often include cluttered real-world backgrounds extending beyond the main object.",
+      "Lighting in dataset B is consistently even or intentionally dramatic (studio-style illumination, colored highlights, smooth shadows), whereas dataset A lighting is ambient and uncontrolled (mixed indoor/outdoor sources, color casts, uneven exposure).",
+      "Dataset B backgrounds are frequently plain, gradient, blurred, or architecturally stylized to isolate the subject; dataset A backgrounds are organic and incidental (workshop benches, sidewalks, tiled floors, clutter) showing real environments.",
+      "Dataset B exhibits synthetic or generative artifacts\u2014mild geometric distortions, repeating textures, unnatural edges\u2014while dataset A consists of genuine consumer photographs with physically correct perspective and realistic texture details.",
+      "Dataset B images never show metadata overlays, timestamps, logos, or camera UI; many dataset A images include date stamps, watermarking, EXIF data, or other unintentional overlaid elements.",
+      "Dataset B framing is meticulous with objects fully in view and often symmetrically placed; dataset A framing is casual, with tools or backpacks sometimes cut off by the edge, spontaneous off-center compositions, and incidental people in the scene.",
+      "Color palettes in dataset B are often oversaturated or stylized (vibrant hues, high contrast); dataset A palettes remain true to ambient lighting conditions, sometimes muted or exhibiting white-balance drift.",
+      "Depth of field in dataset B is selectively shallow\u2014subjects appear crisp against softly blurred backgrounds\u2014whereas dataset A employs whatever focus the point-and-shoot camera yielded, leading to fully-sharp scenes or erratic blur.",
+      "Dataset B frequently uses dynamic, unconventional viewpoints (extreme low or high angles, mirrored surfaces, floating objects) that feel stylized; dataset A shots are mostly eye-level or slight top-down viewpoints typical of casual photography.",
+      "Dataset B isolates a single tool, bag, chair or scene per frame with minimal context, giving a studio-like product feel; dataset A images often include multiple peripheral objects, people, or environmental context, giving a documentary appearance."
+    ],
+    "unmet_v11_label_relation": [
+      "Dataset A consists of real, amateur photographs taken in a wide variety of uncontrolled environments, whereas dataset B contains consistently rendered, synthetic-looking scenes that appear generated or heavily stylized.",
+      "Dataset A images show authentic lighting artifacts such as shadows, specular glare from flash or ambient light, and visible sensor noise; dataset B images exhibit smooth, even illumination with unrealistically clean surfaces and little to no photographic noise.",
+      "Backgrounds in dataset A are true-world clutter\u2014floors, walls, outdoor settings, stages\u2014while dataset B features highly uniform or artistically composed backdrops (fantasy interiors, flat-lay wood textures, painterly florals) that lack true depth cues.",
+      "Dataset A captures objects and people in candid, off-center compositions with variable focus and spontaneous framing, but dataset B shows centered, balanced compositions with perfect alignment and symmetry.",
+      "Colors in dataset A are muted, natural, or inconsistent due to varying white balances; dataset B uses overly saturated or designer palettes with unnatural color transitions.",
+      "Dataset A often includes genuine human subjects with realistic poses and attire, whereas dataset B either omits people entirely or renders them with unrealistic proportions and blending flaws.",
+      "In dataset A, tools, bags, chairs, and trays appear with real wear, scratches, or branding; in dataset B these objects look too pristine or mix multiple styles (woodgrain merging with metal) in ways that real manufacture would not.",
+      "Dataset A images have variable camera perspectives and lens distortions; dataset B maintains a consistent \u2018studio\u2019 vantage point and lacks genuine optical distortions or depth-of-field blur.",
+      "Dataset A shows varied resolutions, motion blur, and framing errors; dataset B displays uniform high resolution, crisp edges, and artifact patterns characteristic of generative models.",
+      "Dataset A backgrounds contain real-world context clues (other people, signage, environmental elements), while dataset B backgrounds are abstracted or generative collages that do not correspond to any actual location."
+    ],
+    "unmet_v15_label_only": [
+      "Dataset A images are authentic, user-generated snapshots with variable exposure, framing, and occasional noise or lens artifacts, whereas dataset B images are highly polished, stylized (often AI-generated) scenes with consistent color grading and seamless detail.",
+      "Dataset A photos often show cluttered, incidental real-world backgrounds (airport floors, workshop benches, tiled kitchen counters), while dataset B features deliberately chosen or textured backdrops (weathered wood planks, concrete walls, grassy fields) with ample negative space.",
+      "Dataset A relies on harsh on-camera flash or uneven ambient light and inconsistent white balance, whereas dataset B employs soft, diffused or cinematic directional lighting that evenly illuminates the subject or creates dramatic highlights.",
+      "Dataset A typically uses straightforward eye-level or simple overhead viewpoints, but dataset B experiments with dynamic camera angles\u2014low angles, wide fields of view, shallow depth of field\u2014and controlled bokeh to emphasize the subject.",
+      "Dataset A centers real objects (tools, trays, backpacks) within environmental contexts, whereas dataset B isolates subjects in product-style shots or introduces imaginative variations such as ornate golden chairs or surreal textures.",
+      "Dataset A frequently shows visible branding, logos, tags, and real-world wear (Jansport, Johnson, scuffed handles), while dataset B uses generic or unbranded items with custom patterns, artificial leather finishes, or hand-painted aesthetics.",
+      "Dataset A\u2019s stage and performance shots are candid, grainy, and often crowd-obscured under basic theater lights, whereas dataset B presents crisp stage images with controlled spotlights, stylized lens flares, colored gels, and visible rigging.",
+      "Dataset A includes incidental people partially in frame interacting with objects in everyday settings, while dataset B portrays people as deliberate, posed subjects in outdoor or industrial environments with clear narrative context.",
+      "Dataset A exhibits uneven composition, perspective distortions, and casual snapshot feel; dataset B\u2019s compositions are carefully balanced, often symmetrical, guided by professional styling or AI prompt aesthetics.",
+      "Dataset A comprises genuine photographs with JPEG compression artifacts and uneven focus across the frame, whereas dataset B images are artifact-free, hyper-real or hallucinatory in detail, and maintain uniform sharpness on the main subject."
+    ],
+    "unmet_v15_label_background": [
+      "Dataset B images appear largely synthetic or heavily stylized (AI\u2010like textures, painterly or hyperreal details), whereas Dataset A comprises genuine consumer photographs with natural textures and authentic photographic noise.",
+      "Dataset B shows frequent object deformations, surreal merges, and perspective distortions, while Dataset A presents well-defined, intact objects shot from consistent orthogonal or frontal viewpoints.",
+      "Dataset B backgrounds tend to be cluttered, ambiguous or generative noise\u2013filled, in contrast to Dataset A\u2019s simpler, real\u2010world settings such as plain walls, workshop benches, or straightforward environments.",
+      "Dataset B employs dramatic, high-contrast lighting, unnatural color casts or HDR\u2010style effects; Dataset A relies on even ambient or flash lighting typical of casual snapshots.",
+      "Dataset B spans a very wide variety of scene types\u2014including fantastical interiors, outdoor landscapes, ornate architectures\u2014whereas Dataset A focuses on a small fixed set of categories (tools, chairs, trays, backpacks, performance stages).",
+      "Dataset B compositions vary wildly in camera angle and framing (overhead, extreme close-ups, skewed perspective), whereas Dataset A maintains predictable frontal or top-down flat-lay compositions.",
+      "Dataset B often exhibits visual artifacts such as floating elements, ghosted overlays, or unnatural object blending, whereas Dataset A depicts physically coherent object arrangements.",
+      "Dataset B color palettes can be vivid, surreal, or painterly, while Dataset A\u2019s color rendering is faithful to real life with typical consumer\u2010camera white balance.",
+      "Dataset B pictures multiple overlapping or merged scenes in a single frame (e.g. multiple architectures, thrones in odd contexts), whereas Dataset A keeps a single, centered subject with minimal contextual distraction.",
+      "Dataset B imagery includes exaggerated details, repeated patterns or algorithmic textures, in contrast to Dataset A\u2019s authentic wear, scratches, and real\u2010world object imperfection."
+    ],
+    "unmet_v15_label_relation": [
+      "Dataset B images tend to be highly stylized or digitally rendered with ultra-clean textures and hyper-real colors, whereas Dataset A contains natural, candid photographs with visible noise, blur, and organic imperfections.",
+      "Dataset B frequently isolates a single subject in the center against a consistent wooden, rustic, or plain backdrop for a studio-like look, whereas Dataset A shows objects or people in genuine environments\u2014streets, workshops, concert halls\u2014with varied, cluttered backgrounds.",
+      "Lighting in Dataset B is evenly diffused and controlled, minimizing harsh shadows and highlights, while Dataset A uses ambient or stage lighting that creates strong contrasts, directional shadows, and sometimes under- or over-exposed areas.",
+      "Dataset B compositions are mostly symmetrical and minimalistic, drawing the eye directly to the primary object, whereas Dataset A embraces asymmetry, off-center framing, and dynamic scenes that include multiple elements and people.",
+      "Dataset B rarely features full human figures\u2014mostly just incidental partial views or no people\u2014whereas Dataset A often shows people interacting with objects, wearing backpacks, playing instruments, or performing on stage.",
+      "Dataset B backgrounds are uniformly textured (e.g., treated wood, simple planed surfaces), creating a cohesive visual style, while Dataset A backgrounds vary widely\u2014tiled floors, ornate halls, outdoor crowds, construction sites\u2014with little stylistic consistency.",
+      "Dataset B images feel curated and \u2018flat,\u2019 resembling product shots or AI-generated compositions, in contrast to Dataset A\u2019s spontaneous snapshots that capture real-world depth, perspective shifts, and environmental context.",
+      "Dataset B emphasizes a narrow range of color palettes (warm wood tones, muted brights), giving it a cohesive gallery-like appearance, whereas Dataset A shows diverse color temperatures\u2014from tungsten stage lights to daylight street scenes\u2014resulting in mixed white balances.",
+      "Dataset B scenes are generally uncluttered and focus singularly on the subject with very few secondary props, whereas Dataset A often contains busy, multi-object environments\u2014tools scattered on benches, audiences in crowds, workshop backdrops.",
+      "Dataset B\u2019s objects appear almost levitated or staged perfectly within the frame, giving an abstract or surreal quality, while Dataset A\u2019s items and people are grounded in real settings, leaning, hanging, or placed unevenly as in everyday life."
+    ]
+  },
+  "diffs_real_from_synth": {
+    "unmet_v11_label_background": [
+      "Dataset A images are uniformly square-cropped and consistently framed, whereas Dataset B images have varied aspect ratios and irregular cropping.",
+      "Dataset A scenes are staged in controlled studio-like environments with minimal or plain backgrounds, while Dataset B scenes are candid real-world photos with cluttered, context-rich backgrounds.",
+      "Dataset A lighting is soft, even, and diffuse across all images, whereas Dataset B exhibits varied lighting conditions\u2014including harsh directional light, mixed natural and artificial illumination, and noticeable shadows.",
+      "Dataset A compositions center the main object symmetrically and cleanly, in contrast to Dataset B\u2019s off-center subjects, casual framing, and spontaneous camera angles.",
+      "Dataset A is free of any additional markings, watermarks, logos, date stamps, or text overlays, while Dataset B frequently contains brand tags, watermarks, timestamps, and other text artifacts.",
+      "Dataset A almost never shows people (or only stylized figures), but Dataset B often captures people partially or fully\u2014performers, workers, or passersby\u2014in natural, candid contexts.",
+      "Dataset A images are crisp, high-fidelity, and noise-free, but Dataset B includes real-world photo artifacts such as camera noise, motion blur, uneven focus, and compression artifacts.",
+      "Dataset A objects often look like digital renders or highly curated stylized designs (fantasy chairs, artfully arranged hardware), whereas Dataset B objects are everyday real-life items (tools, trays, backpacks) in authentic settings.",
+      "Dataset A backgrounds are deliberately plain or digitally generated to isolate the subject, while Dataset B backgrounds show detailed environments\u2014workshops, stages, streets, museum interiors\u2014with rich contextual information.",
+      "Dataset A color grading is consistent and balanced across the set, whereas Dataset B exhibits a wide range of color casts and white-balance variations reflecting real-world shooting conditions."
+    ],
+    "unmet_v11_label_only": [
+      "Dataset A tool images are mostly dynamic, showing hands or people actually using chisels, hammers, and measuring tools in real work contexts, whereas dataset B tool shots are typically static lay-outs of hardware items on benches or wooden surfaces with no human interaction.",
+      "In dataset A, backpack photographs are often shot with professional depth-of-field, neutral or studio-like backdrops, and sometimes on a model\u2019s back in a controlled environment; dataset B backpacks appear in candid, real-world settings or product-demo snapshots with varied, cluttered backgrounds and lighting.",
+      "Food and tray compositions in dataset A are arranged aesthetic top-down views with styled plating and consistent table surfaces, whereas in dataset B food or tray images are taken casually from oblique angles with mixed lighting, imperfect framing, and environmental clutter.",
+      "Chairs and throne-like seats in dataset A are presented in grand museum or editorial interiors with uniform illumination and symmetrical composition, while dataset B chairs appear in ordinary or workshop environments, often cluttered or amateurishly lit.",
+      "Stage and performance scenes in dataset A feature professionally lit, high-resolution shots with clear crowd and stage details, compared to dataset B\u2019s lower-light, grainier concert or theater snapshots taken from audience perspective with motion blur.",
+      "Architectural interior shots in dataset A (palaces, churches) display sweeping, well-balanced compositions with high dynamic range, whereas dataset B\u2019s indoor scenes are more documentary-style workshop or trade-fair halls with ad-hoc framing and mixed lighting.",
+      "Dataset A images exhibit consistent color grading, sharpness, and minimal noise\u2014suggesting editorial or curated production\u2014while dataset B images are heterogeneous in exposure and focus, showing noise, overexposure, or underexposure from amateur cameras.",
+      "In dataset A, objects and scenes tend to be centered or symmetrically framed with careful composition, but dataset B often uses off-center placements and variable perspectives, reflecting more spontaneous, user-generated photography.",
+      "Backgrounds in dataset A are deliberately neutral or stylistically coherent (e.g., single-tone walls, polished floors, or purposefully decorated sets); dataset B backgrounds are unpredictable real-world contexts that can include signage, crowds, or workshop clutter.",
+      "Overall, dataset A presents a cohesive, stylized, almost editorial/AI-like aesthetic across classes, whereas dataset B comprises diverse, crowd-sourced snapshots with a more documentary, everyday-photography feel."
+    ],
+    "unmet_v11_label_relation": [
+      "Dataset A images feature clean, neutral or studio-style backgrounds with minimal visual clutter; Dataset B images show real-world scenes with busy, contextual, or cluttered backgrounds.",
+      "Dataset A uses consistent, even, soft lighting across images; Dataset B exhibits varied lighting conditions including harsh spotlights, backlighting, uneven illumination, and deep shadows.",
+      "Dataset A compositions center a single main object prominently in the frame; Dataset B compositions are more casual, often off-center, include multiple subjects, and emphasize environmental context.",
+      "Dataset A is dominated by product-style or still-life shots without people; Dataset B frequently includes people, crowds, live performances, and candid action.",
+      "Dataset A images are uniformly sharp with minimal blur or noise; Dataset B contains motion blur, sensor noise, inconsistent focus, and occasional lens artifacts.",
+      "Dataset A maintains a homogeneous color palette and controlled white balance; Dataset B displays wide variation in color temperature, exposure, and saturation.",
+      "Dataset A objects are presented fully visible with minimal occlusion; Dataset B objects are often partially hidden, overlapped by other elements, or set within complex scenes.",
+      "Dataset A maintains near-uniform depth of field so that most of the scene stays in focus; Dataset B often employs shallow depth of field, isolating subjects against blurred backgrounds.",
+      "Dataset A scenes are static, posed, and tightly arranged; Dataset B scenes capture dynamic events\u2014musical performances, theatrical rehearsals, construction, or outdoor proms.",
+      "Dataset A has a consistent, high-production-value aesthetic; Dataset B conveys an amateur, snapshot-style feel with variable framing, perspective, and image quality."
+    ],
+    "unmet_v15_label_only": [
+      "Dataset B images are often informal consumer snapshots with cluttered, busy backgrounds and off-center framing, while Dataset A images are more deliberately composed, usually centering a single subject against a simple backdrop.",
+      "Dataset B frequently shows watermarks, brand logos or text overlays in frame (camera tags or product labels), whereas Dataset A is generally clean and free of visible watermarks or logos.",
+      "Dataset B pictures include a wide variety of scene types (live concerts under colored stage lights, candid street crowds, museum exhibits), but Dataset A sticks to a smaller set of controlled contexts (workshop tools on wooden surfaces, studio-style product shots, outdoor hiking/backpacking scenes).",
+      "Dataset B lighting is highly variable\u2014harsh colored spotlights, deep shadows, fluorescent casts\u2014whereas Dataset A predominantly uses neutral, even illumination or consistent natural light with standardized color balance.",
+      "Dataset B often contains multiple people or objects interacting in one frame, lending a documentary feel; Dataset A images tend to feature a single tool, tray, or backpack in isolation or a single figure in a hiking/backpack scenario.",
+      "Dataset B backgrounds frequently show visible clutter (antique shop shelving, concert staging, venue walls), while Dataset A backgrounds are intentionally minimal\u2014plain walls, wooden plank backdrops, or softly blurred environments.",
+      "Dataset B framing shows variable perspective distortion (phone tilt, uneven horizons, wide-angle stretching), whereas Dataset A maintains consistent perspective and horizon lines, often shot with a tripod or stable camera setup.",
+      "Dataset B often exhibits consumer camera artifacts\u2014grain, motion blur, low dynamic range\u2014while Dataset A appears sharper, higher dynamic range, and more uniformly focused on the main subject.",
+      "Dataset B mixes many genres (theater, architecture, live music, museum thrones) across images, whereas Dataset A is restricted to a few thematic clusters (woodworking tools, backpacks/hikers, decorative trays, food flat-lays).",
+      "Dataset B images usually have deep space and multiple depth layers (foreground crowd, midground stage, background lights), while Dataset A uses shallow depth of field to isolate subjects and keeps backgrounds softly out of focus or entirely uniform."
+    ],
+    "unmet_v15_label_background": [
+      "Dataset A is almost exclusively shot inside gritty industrial or workshop spaces with bare concrete walls and tool racks as backdrops, while Dataset B spans a wide variety of real-world settings\u2014from ornate museum halls and palace interiors to festival stages, restaurants, beaches, and streets.",
+      "Dataset A compositions are utilitarian and tightly cropped around benches, tool piles, or work areas with minimal context, whereas Dataset B compositions often incorporate broader environmental cues\u2014crowds, decorative architecture, food displays, or landscape elements.",
+      "Dataset A lighting is predominantly flat, diffuse, and ambient (overhead shop lights or natural window light) yielding a documentary look, while Dataset B exhibits highly variable illumination\u2014harsh spotlights on performers, moody theatrical gels, high-contrast daylight, or colored evening lamps.",
+      "Dataset A\u2019s color palette tends toward muted, industrial grays, browns, and dust-coated surfaces, whereas Dataset B embraces more vibrant, saturated hues\u2014from red velvet upholstery and festival neon to blue skies and colorful stage lights.",
+      "Dataset A often documents active manual labor scenes with hands-on tool usage and workshop fixtures, whereas Dataset B includes more leisure or staged scenarios\u2014concert performances, museum visits, plated food scenes, and travel gear in situ.",
+      "Dataset A backgrounds remain thematically uniform (workbench clutter, stacked wood, shelving), but Dataset B backgrounds are richly varied: theatre stages, banquet halls, public squares, museum galleries, and natural landscapes.",
+      "Dataset A framing generally centers the principal tool or work\u2010area symmetrically, while Dataset B employs dynamic framing\u2014off-center subjects, tilted horizons, depth layers with shallow focus, and wide shots of audience-backed stages.",
+      "Dataset A rarely depicts large gatherings or audiences; Dataset B frequently features full crowds, rows of seating, and communal activities at concerts, outdoor fairs, and ceremonial events.",
+      "Dataset A images retain an unpolished \u2018as-is\u2019 aesthetic\u2014visible wear, dust, and straightforward documentation\u2014whereas Dataset B often showcases polished decorative objects, reflective surfaces, and occasionally artistic post-processing or filters.",
+      "Dataset A seldom includes ornate furniture, but Dataset B contains numerous images of elaborate, antique chairs, thrones, and decorative seating as central subjects."
+    ],
+    "unmet_v15_label_relation": [
+      "Dataset A consists of highly stylized, almost painterly or HDR\u2010like images (often AI\u2010generated or heavily edited), whereas dataset B contains raw, candid photographs shot in uncontrolled real\u2010world settings",
+      "Dataset A backgrounds are minimalistic or seamless textures (wood grains, plaster walls, uniform surfaces), while dataset B backgrounds are cluttered, context\u2010rich environments (workshops, airports, concert stages, streets)",
+      "Dataset A lighting is uniformly even or studio\u2010style with soft, diffuse shadows, whereas dataset B lighting is mixed ambient and artificial (spotlights, harsh contrasts, low\u2010light noise and natural shadows)",
+      "Dataset A compositions tend to be perfectly centered and symmetrical, isolating a single object, while dataset B compositions are dynamic and informal, with off\u2010center framing, overlapping elements, and candid angles",
+      "Dataset A rarely features real people (instead showing mannequins, sculptures or no human figures), whereas dataset B frequently shows actual people interacting with objects\u2014carrying backpacks, playing instruments, handling tools",
+      "Dataset A exhibits uniformly sharp focus across the frame with smooth, flawless surfaces, whereas dataset B images show varied focus, depth\u2010of\u2010field blur, motion blur, and realistic texture detail (wear, scratches, dust)",
+      "Dataset A color palettes are cohesive, muted or pastel and stylized, whereas dataset B has natural color variation\u2014including over\u2010saturation, under\u2010exposure, and everyday color casts from mixed lighting",
+      "Dataset A scenes read as conceptual still lifes or curated studio shots, while dataset B scenes capture live events, performances, and everyday activities in situ",
+      "Dataset A objects (tools, trays, furniture) are neatly arranged on clean surfaces, but dataset B objects appear in messy, functional workspaces or public spaces with real clutter",
+      "Dataset A maintains a consistent aesthetic style across samples, whereas dataset B displays wide variance in camera quality, framing, lighting, and photographic imperfections"
+    ]
+  }
+}

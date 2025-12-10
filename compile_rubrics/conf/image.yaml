@@ -1,0 +1,29 @@
+service: openai
+model:
+  name: o4-mini
+data_type: image_classification
+split: null
+seed: 42
+real_data_df_path: data/image_classification/raw_csv/real/imagenet_${image_classification.rubric_generation.split}_balanced_seed=${image_classification.rubric_generation.seed}.csv  # This should be set in environment
+real_data_root: ${oc.env:REAL_DATA_ROOT}  # This should be set in environment
+synthetic_data:
+  - dataset_name: unmet_v11_label_background
+    data_root_path: <YOUR_ROOT_DATA_PATH>/unmet_imagenet_v11_cleaned_balanced_split/${image_classification.rubric_generation.split}/label_background
+  - dataset_name: unmet_v11_label_only
+    data_root_path: <YOUR_ROOT_DATA_PATH>/unmet_imagenet_v11_cleaned_balanced_split/${image_classification.rubric_generation.split}/label_only
+  - dataset_name: unmet_v11_label_relation
+    data_root_path: <YOUR_ROOT_DATA_PATH>/unmet_imagenet_v11_cleaned_balanced_split/${image_classification.rubric_generation.split}/label_relation
+  - dataset_name: unmet_v15_label_only
+    data_root_path: <YOUR_ROOT_DATA_PATH>/unmet_imagenet_v15_cleaned_balanced_split/${image_classification.rubric_generation.split}/label_only
+  - dataset_name: unmet_v15_label_background
+    data_root_path: <YOUR_ROOT_DATA_PATH>/unmet_imagenet_v15_cleaned_balanced_split/${image_classification.rubric_generation.split}/label_background
+  - dataset_name: unmet_v15_label_relation
+    data_root_path: <YOUR_ROOT_DATA_PATH>/unmet_imagenet_v15_cleaned_balanced_split/${image_classification.rubric_generation.split}/label_relation
+drop_imbalanced_datasets: false
+num_examples: 100
+max_tokens: 3136
+temperature: 0.0
+max_short_side_size: 224
+max_long_side_size: 512
+num_points: 10
+output_dir: data/image_classification/LENS/rubrics

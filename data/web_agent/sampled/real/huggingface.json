@@ -1,0 +1,23 @@
+{
+  "Huggingface--5": "Find a model released on Hugging Face for recipe generation. Retrieve the information of the model, including its name, model size and tensor type.",
+  "Huggingface--41": "What is the current Text-to-3D model with the highest number of downloads and tell me are there Spaces that use the model.",
+  "Huggingface--36": "Summarize all the payment plans and their advantages in huggingface pricing.",
+  "Huggingface--14": "How much is the Pro account of Hugging face for a month and what are the features?",
+  "Huggingface--34": "List the benefits of hugging face classroom mentioned on Hugging face website.",
+  "Huggingface--2": "Discover three new and popular open-source NLP models for language translation released in the past month on Huggingface.",
+  "Huggingface--11": "Identify the latest updated image to video model available on Huggingface and summarize its main features.",
+  "Huggingface--26": "Identify a model on Hugging Face designed for generating travel chats. Obtain information about the model, including its name, size and training framwork.",
+  "Huggingface--40": "Check out Text Embeddings Inference in Hugging face's Doc to summarise the strengths of the toolkit.",
+  "Huggingface--37": "Browse the daily paper on Hugging Face. What is the title of the first article, how many upvotes has it received, and is there any related model or data release?",
+  "Huggingface--25": "In the Hugging Face documentation, find the tutorial on loading adapters with PEFT, tell me how to load in 8bit or 4bit.",
+  "Huggingface--31": "Identify the latest machine learning model on Huggingface that specializes in detecting fake news, including the date of its last update.",
+  "Huggingface--42": "Check the Dataset Viewer for ai2lumos/lumos_complex_qa_plan_onetime on Hugging face. what is the content corresponding to user in the first message?",
+  "Huggingface--29": "Summarize the description of the recent open-source NLP model released on Hugging Face for medical summarization.",
+  "Huggingface--23": "Identify three innovative and widely recognized open-source NLP models for automatic speech recognition released in the past month on Huggingface.",
+  "Huggingface--27": "Determine the most downloaded dataset related to Text Retrieval in NLP on Hugging Face.",
+  "Huggingface--9": "Find the most download machine translation model on Huggingface which focuses on English and Japanese (en-ja) and report the evaluation metrics stated for it.",
+  "Huggingface--1": "Use the Huggingface Inference API to generate a short story about a dragon and a wizard.",
+  "Huggingface--0": "Find a pre-trained natural language processing model on Hugging Face that can perform sentiment analysis, and make sure the model's last update is within March 2023.",
+  "Huggingface--35": "Find the latest Diffusion-related blog on Hugging Face, and read its intro or overview section to roughly summarize the content of the blog.",
+  "Huggingface--18": "Look up TRL's forward modelling in the hugging face documentation on how to add a margin to a loss."
+}

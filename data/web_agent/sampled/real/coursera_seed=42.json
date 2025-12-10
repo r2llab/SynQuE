@@ -1,0 +1,22 @@
+{
+  "Coursera--40": "Browse Coursera for Business and Coursera for Teams and summarise some of their advantages.",
+  "Coursera--7": "Find a course on Coursera that teaches Reinforcement Learning for Intermediate with a rating of at least 4.5. Provide the name of the course, the institution offering it, and the number of reviews it has received.",
+  "Coursera--1": "Search for a beginner-level online course about Python programming, suitable for someone who has no programming experience on Coursera.",
+  "Coursera--17": "How many results are there for a search on Coursera for Machine Learning, then filtered by Credit Eligible and 1-4 Years duration?",
+  "Coursera--15": "Find a course on Coursera named 'Introduction to Mathematical Thinking' offered by Stanford, what is the percentage (rounded) of 5 star ratings in reviews and which level has the least percentage?.",
+  "Coursera--14": "Find a course on Coursera related to Introductory Project Management that includes modules on Agile methodology.",
+  "Coursera--8": "Find a free course related to 'R for Data Science' available on Coursera. Scroll to find a course with the Free tag. What language the course is taught in?",
+  "Coursera--6": "Identify a course on Coursera related to 'Artificial Intelligence for Healthcare' and note the course duration along with the number of quizzes in Assessments.",
+  "Coursera--5": "Identify a Specialization on Coursera that teaches C++ programming for beginners, provide the name and what the learning outcomes are.",
+  "Coursera--27": "Search for a Specialization on Coursera about 'Data Visualization' that includes a project. Provide the name of the Specialization, the institution offering it, and the skills that will be developed by completing it.",
+  "Coursera--2": "Find a Beginner's Spanish Specialization on Coursera and show all the courses in this Specialization.",
+  "Coursera--0": "Find a beginner-level online course about '3d printing' which lasts 1-3 months, and is provided by a renowned university.",
+  "Coursera--31": "Search for the course 'Exploring Quantum Physics' on Coursera, offered by the University of Maryland, College Park. Identify the percentage (rounded) of 5-star ratings in the reviews.",
+  "Coursera--34": "Find the course on Coursera named 'Essentials of Global Health'. Determine the instructor of this course and summarize his bio, note if there are any additional courses he offers on Coursera.",
+  "Coursera--41": "Browse online degrees section on Coursera and list 3 Bachelor's degree programmes.",
+  "Coursera--16": "Identify a course on Coursera named 'Introduction to Finance: The Basics', who is the course instructor and what other courses does he/she teach.",
+  "Coursera--19": "Identify a course on Coursera that provides an introduction to Psychology, list the instructor's name, the institution offering it, and how many hours it will approximately take to complete.",
+  "Coursera--30": "Locate the course 'Modern Art & Ideas' on Coursera offered by The Museum of Modern Art. Find out the percentage (rounded) of 3-star ratings in the reviews and note which star level has the lowest percentage.",
+  "Coursera--38": "Browse Coursera, which universities and companies from Australia are partners of Coursera? List all of them.",
+  "Coursera--28": "Locate a Coursera Guided project related to 'Astrophysics' suitable for advanced learners. Mention the course duration, the institution offering it, and the main subjects covered in the course."
+}

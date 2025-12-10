@@ -1,0 +1,10 @@
+Given query samples from dataset A and dataset B. Based on the provided similar characteristics between them, list how B is {feedback} A. Return {num} points as a JSON list of strings. Please focus on specific and granular differences between the two datasets, your generated characteristic points should apply to all the samples from the corresponding dataset (A or B).
+
+Similar characteristics between A and B:
+{similar_points}
+
+Question samples from A:
+{A}
+
+Question samples from B:
+{B}

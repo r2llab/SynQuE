@@ -1,0 +1,22 @@
+{
+  "ArXiv--17": "Find the paper 'GPT-4 Technical Report', when was v3 submitted?",
+  "ArXiv--26": "Search for papers related to 'climate change modeling' on ArXiv and find out how many have been published in the Earth and Planetary Astrophysics (astro-ph.EP) category in the last week.",
+  "ArXiv--31": "Search ArXiv for papers with 'Graph Neural Networks' in the abstract that were submitted between Jan 1, 2024, and Jan 3, 2024, and determine how many of these papers have more than five authors.",
+  "ArXiv--16": "Locate the latest research about gravitational waves that were uploaded to ArXiv this week and provide a brief summary of one article's main findings.",
+  "ArXiv--5": "Search papers about \"quantum computing\" which has been submitted to the Quantum Physics category on ArXiv. How many results in total. What if search in all archives?",
+  "ArXiv--19": "Which university maintains and manages ArXiv. Accessing the university's website from ArXiv, how many underegraduate students are currently at the university.",
+  "ArXiv--21": "Search for papers on 'neural networks for image processing' in the Computer Science category on ArXiv and report how many were submitted in the last week.",
+  "ArXiv--1": "Search for the latest research papers on quantum computing submitted to ArXiv within the last two days.",
+  "ArXiv--4": "Find the most recent research papers in Astrophysics of Galaxies. How many papers have been announced in the last day?",
+  "ArXiv--30": "Look up the submission guidelines on ArXiv for submitting a paper and tell me the formats for figures.",
+  "ArXiv--0": "Search for the latest preprints about 'quantum computing'.",
+  "ArXiv--7": "Find the most recent paper submitted on machine learning in the Computer Science category posted on ArXiv.",
+  "ArXiv--9": "Find the latest research paper about neural networks published on ArXiv which has been submitted within the last week.",
+  "ArXiv--25": "Browse the ArXiv store and let me know how many different types of merchandise are available.",
+  "ArXiv--3": "Locate the most recent research paper about 'Algebraic Topology' under Mathematics published on ArXiv. Provide the title of the paper, the name of the authors, and the abstract.",
+  "ArXiv--33": "Query ArXiv for the latest research article in the category of Systems and Control under Computer Science. Summarize the main objective or hypothesis presented in the paper and provide the names of the authors.",
+  "ArXiv--23": "Determine how many articles with the keyword 'autonomous vehicles' were published in the 'Electrical Engineering and Systems Science' section of ArXiv yesterday.",
+  "ArXiv--20": "Find the latest paper on 'machine learning in the Statistics section of ArXiv and provide its abstract.",
+  "ArXiv--35": "Retrieve the latest research paper in Quantum Physics from ArXiv and provide the title, author(s), and date of submission.",
+  "ArXiv--37": "Find the names of people in ArXiv's Leadership Team."
+}

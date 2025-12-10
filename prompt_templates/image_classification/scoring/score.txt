@@ -1,0 +1,15 @@
+You are given similarities and differences between datasets A and B.
+
+Your task is to judge how likely is the given image comes from dataset {prediction}. Answer your judgement with one of the following strings: "very unlikely", "unlikely", "unsure", "likely", and "very likely".
+
+Format:
+{format_instructions}
+
+Similar characteristics between dataset A and B:
+{similar_characteristics}
+
+Differences between dataset A and B:
+{differences}
+
+Image to be judged:
+

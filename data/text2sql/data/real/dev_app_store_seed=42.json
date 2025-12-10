@@ -1,0 +1,182 @@
+[
+  {
+    "db_id": "app_store",
+    "question": "List out the top 3 genre for application with a sentiment review greater than 0.5.",
+    "evidence": "sentiment review refers to Sentiment_Polarity; Sentiment_Polarity>0.5;",
+    "SQL": "SELECT Genres FROM playstore WHERE App IN ( SELECT App FROM user_reviews WHERE Sentiment = 'Positive' AND Sentiment_Polarity > 0.5 ORDER BY Sentiment_Polarity DESC LIMIT 3 )"
+  },
+  {
+    "db_id": "app_store",
+    "question": "How many of the users hold neutral attitude on \"10 Best Foods for You\" app and what category is this app?",
+    "evidence": "neutral attitude refers to Sentiment = 'Neutral';",
+    "SQL": "SELECT COUNT(T2.App), T1.Category FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = '10 Best Foods for You' AND T2.Sentiment = 'Neutral'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average sentiment polarity score of the Cooking Fever app? Indicate the age group that the app is targeted at.",
+    "evidence": "average sentiment polarity score = AVG(Sentiment_Polarity); age group the app is target at refers to Content Rating;",
+    "SQL": "SELECT AVG(T2.Sentiment_Polarity), T1.\"Content Rating\" FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Cooking Fever'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average price of games belonging in the arcade genre which has a content rating of Everyone 10+?",
+    "evidence": "average price = AVG(Price);",
+    "SQL": "SELECT AVG(Price) FROM playstore WHERE 'Content Rating' = 'Everyone 10+' AND Genres = 'Arcade'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "How many of the reviews for the app \"Brit + Co\" have a comment?",
+    "evidence": "Brit + Co refers to App = 'Brit + Co'; comment refers to Translated Review NOT null;",
+    "SQL": "SELECT COUNT(App) FROM user_reviews WHERE App = 'Brit + Co' AND Translated_Review IS NOT NULL"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average rating of comic category apps? How many users hold positive attitude towards this app?",
+    "evidence": "average rating = AVG(Rating where Category = 'COMICS'); number of users who hold a positive attitude towards the app refers to SUM(Sentiment = 'Positive');",
+    "SQL": "SELECT AVG(T1.Rating) , COUNT(CASE WHEN T2.Sentiment = 'Positive' THEN 1 ELSE NULL END) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Category = 'COMICS'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which of the app is the best selling app and what is the sentiments polarity of it?",
+    "evidence": "best selling app = MAX(MULTIPLY(Price, Installs));",
+    "SQL": "SELECT T1.App, T2.Sentiment_Polarity FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App ORDER BY T1.Price * CAST(REPLACE(REPLACE(Installs, ',', ''), '+', '') AS INTEGER) DESC LIMIT 1"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What are the apps that users pretty like this app and how many installs amount of these apps?",
+    "evidence": "users pretty much likes the app refers to Sentiment_Polarity = 'Positive';",
+    "SQL": "SELECT DISTINCT T1.App, T1.Installs FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T2.Sentiment_Polarity > 0"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which education App has the worst rating and state the translated review if available.",
+    "evidence": "education App refers to Category = 'EDUCATION'; worst rated app refers to Rating = 1;",
+    "SQL": "SELECT T1.App, T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Category = 'EDUCATION' GROUP BY T1.App, T2.Translated_Review ORDER BY T1.Rating ASC LIMIT 1"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Name the top 10 most reviewed apps.",
+    "evidence": "most reviewed app refers to MAX(Reviews);",
+    "SQL": "SELECT DISTINCT App FROM playstore ORDER BY Reviews DESC LIMIT 10"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List down application that have not been updated since 2015. What is the percentage of this application having more negative sentiment than positive sentiment?",
+    "evidence": "percentage = DIVIDE(SUBTRACT(SUM(Sentiment = 'Positive')), (SUM(Sentiment = 'Negative'))), (SUM(Sentiment = 'Negative')) as percent; Last Updated>'2015';",
+    "SQL": "SELECT CAST((( SELECT COUNT(*) Po FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE SUBSTR(T1.\"Last Updated\", -4, 4) > '2015' AND T2.Sentiment = 'Positive' ) - ( SELECT COUNT(*) Ne FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE SUBSTR(T1.\"Last Updated\", -4, 4) > '2015' AND T2.Sentiment = 'Negative' )) AS REAL) * 100 / ( SELECT COUNT(*) NUM FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE SUBSTR(T1.\"Last Updated\", -4, 4) > '2015' )"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List the top 5 lowest rated puzzle games and count the number of negative sentiments the games received.",
+    "evidence": "lowest rating refers to MIN(Rating); puzzle is the genre;",
+    "SQL": "SELECT T1.App, COUNT(T1.App) COUNTNUMBER FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T2.Sentiment = 'Negative' GROUP BY T1.App ORDER BY T1.Rating LIMIT 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which apps have 5 rating? List out then application name.",
+    "evidence": "application name refers to App;",
+    "SQL": "SELECT DISTINCT App FROM playstore WHERE Rating = 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What are the top 5 installed free apps?",
+    "evidence": "free app refers to price = 0; most installed app refers to MAX(Installs);",
+    "SQL": "SELECT App FROM playstore WHERE Price = 0 ORDER BY CAST(REPLACE(REPLACE(Installs, ',', ''), '+', '') AS INTEGER) DESC LIMIT 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average price for a dating application?",
+    "evidence": "average price = AVG(Price where Genre = 'Dating'); dating application refers to Genre = 'Dating';",
+    "SQL": "SELECT AVG(Price) FROM playstore WHERE Genres = 'Dating'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which Photography app has the highest total Sentiment subjectivity score?",
+    "evidence": "Photography app refers to Genre = 'Photography'; highest total sentiment subjectivity score = MAX(sum(Sentiment_Subjectivity));",
+    "SQL": "SELECT T1.App FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Genres = 'Photography' GROUP BY T1.App ORDER BY SUM(T2.Sentiment_Subjectivity) DESC LIMIT 1"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the lowest sentiment polarity score of the Basketball Stars app for people who dislikes the app pretty much and how many downloads does it have?",
+    "evidence": "lowest sentiment polarity score refers to MIN(Sentiment_Polarity); user dislike the app pretty much refers to Sentiment_Polarity<-0.5; number of downloads it has refers to installs;",
+    "SQL": "SELECT MIN(T2.Sentiment_Polarity), T1.Installs FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Basketball Stars'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List all free sports Apps and their translated review.",
+    "evidence": "paid sports Apps refers to type = 'Paid' and Category = 'SPORTS';",
+    "SQL": "SELECT T1.App, T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.Type = 'Free' AND T1.Category = 'SPORTS'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List down the rating for the App Learn C++.",
+    "evidence": "FALSE;",
+    "SQL": "SELECT DISTINCT Rating FROM playstore WHERE App = 'Learn C++'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the total installs of apps with content rating of adults only 18+ and what are the translated reviews of it?",
+    "evidence": "total installs = SUM(Installs);",
+    "SQL": "SELECT SUM(T1.Installs), T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.\"Content Rating\" = 'Adults only 18+'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Indicate the number of installs and include the percentage of positive sentiments of FREEDOME VPN Unlimited anonymous Wifi Security.",
+    "evidence": "FREEDOME VPN Unlimited anonymous Wifi Security is the App; percentage = MULTIPLY(DIVIDE((SUM(Sentiment = 'Positive')), (COUNT(*))), 100)",
+    "SQL": "SELECT T1.Installs , CAST(SUM(CASE WHEN T2.Sentiment = 'Positive' THEN 1 ELSE 0 END) * 100 / SUM(CASE WHEN T2.Sentiment IS NOT NULL THEN 1.0 ELSE 0 END) AS REAL) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'FREEDOME VPN Unlimited anonymous Wifi Security'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the rating and the total Sentiment subjectivity score of \"Onefootball - Soccer Scores\"?",
+    "evidence": "Onefootball - Soccer Scores refers to App = 'Onefootball - Soccer Scores';",
+    "SQL": "SELECT T1.Rating, SUM(T2.Sentiment_Subjectivity) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Onefootball - Soccer Scores'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List down app that does not have negative sentiment and give their average rating?",
+    "evidence": "doest not have negative sentiment refers to Sentiment! = 'Negative'; average = AVG(Sentiment_Polarity);",
+    "SQL": "SELECT T1.App, AVG(T2.Sentiment_Polarity) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T2.Sentiment != 'Negative' GROUP BY T1.App"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which apps have been reviewed more than 75 000 000 times and the content is suitable for teenagers?",
+    "evidence": "Reviews>75000000; suitable for teenagers refers to Content Rating = 'Teen';",
+    "SQL": "SELECT DISTINCT App FROM playstore WHERE Reviews > 75000000 AND `Content Rating` = 'Teen'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "Which apps have not been updated since year 2015 and what kind of sentiment users hold on it?",
+    "evidence": "since year 2015 refers to \"Last Updated\"<'January 1, 2015';",
+    "SQL": "SELECT DISTINCT App, Sentiment FROM user_reviews WHERE App IN ( SELECT App FROM playstore WHERE CAST(SUBSTR('Last Updated', -4, 4) AS INTEGER) < 2015 )"
+  },
+  {
+    "db_id": "app_store",
+    "question": "How much is the size of Browser 4G and how many users have a pretty positive favorability on it?",
+    "evidence": "Browser 4G is the App; pretty positive favorability refers to Sentiment_Polarity score = 0.5",
+    "SQL": "SELECT T1.Size, COUNT(T1.App) FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Browser 4G' AND T2.Sentiment_Polarity >= 0.5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the rating for \"Garden Coloring Book\"? List all of its reviews.",
+    "evidence": "Golfshot Plus: Golf GPS refers to App = 'Golfshot Plus: Golf GPS'; review refers to Translated_Review;",
+    "SQL": "SELECT T1.Rating, T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.App = 'Garden Coloring Book'"
+  },
+  {
+    "db_id": "app_store",
+    "question": "What is the average review number for application with 5 rating?",
+    "evidence": "average review = AVG(Review); application refers to app; Rating = 5;",
+    "SQL": "SELECT AVG(Reviews) FROM playstore WHERE Rating = 5"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List all the comments on the lowest rated Mature 17+ app.",
+    "evidence": "comments refers to Translated_Review; lowest rated refers to Rating = 1; Mature 17+ refers to Content Rating = 'Mature 17+ ';",
+    "SQL": "SELECT T2.Translated_Review FROM playstore AS T1 INNER JOIN user_reviews AS T2 ON T1.App = T2.App WHERE T1.\"Content Rating\" = 'Mature 17+' ORDER BY T1.Rating LIMIT 1"
+  },
+  {
+    "db_id": "app_store",
+    "question": "List the top 5 shopping apps with the most reviews.",
+    "evidence": "shopping apps refers to Genre = 'Shopping'; most reviews refers to MAX(Reviews);",
+    "SQL": "SELECT DISTINCT App FROM playstore WHERE Genres = 'Shopping' GROUP BY App ORDER BY COUNT(App) DESC LIMIT 5"
+  }
+]

@@ -1,0 +1,6 @@
+Given some samples from image classification dataset A and dataset B, list how dataset B is similar to dataset A. Return ${num_points} points that summarize the similar characteristics of the two datasets. Focus on the characteristics of the image in terms of how they are structured, styled, or captured (e.g., lighting, background, composition, etc.) rather than the image specifications such as resolution, size, etc. Output should be a JSON list of strings.
+
+Output Format:
+${format_instructions}
+
+Your listed points:
