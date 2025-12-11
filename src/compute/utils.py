@@ -123,5 +123,60 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
         else:
             corr_df_agg = corr_df
         print(corr_df_agg.to_string(index=False))
+    elif task == "web":
+        corr_rows = []
+        for website in df['website'].unique():
+            website_df = df[df['website'] == website]
+            pearson_score, spearman_score = [], []
+            pearson_debiased, spearman_debiased = [], []
+            for seed in website_df['seed'].unique():
+                seed_df = website_df[website_df['seed'] == seed]
+                if len(seed_df['partition'].unique()) < 2:
+                    continue
+                grouped = seed_df.groupby('partition').agg({
+                    'score': 'mean',
+                    'debiased_score': 'mean',
+                    'success_rate': 'mean'
+                }).reset_index()
+                grouped = grouped.dropna(subset=['success_rate'])
+                if len(grouped) < 2:
+                    continue
+                try:
+                    p_score, _ = pearsonr(grouped['score'], grouped['success_rate'])
+                    s_score, _ = spearmanr(grouped['score'], grouped['success_rate'])
+                except Exception:
+                    p_score, s_score = None, None
+                try:
+                    p_debiased, _ = pearsonr(grouped['debiased_score'], grouped['success_rate'])
+                    s_debiased, _ = spearmanr(grouped['debiased_score'], grouped['success_rate'])
+                except Exception:
+                    p_debiased, s_debiased = None, None
+                pearson_score.append(p_score)
+                spearman_score.append(s_score)
+                pearson_debiased.append(p_debiased)
+                spearman_debiased.append(s_debiased)
+            def safe_mean(x):
+                x = [i for i in x if i is not None]
+                return sum(x)/len(x) if len(x) > 0 else None
+            corr_rows.append({
+                'website': website,
+                'pearson_score_vs_success_rate': safe_mean(pearson_score),
+                'spearman_score_vs_success_rate': safe_mean(spearman_score),
+                'pearson_debiased_score_vs_success_rate': safe_mean(pearson_debiased),
+                'spearman_debiased_score_vs_success_rate': safe_mean(spearman_debiased)
+            })
+        corr_df = pd.DataFrame(corr_rows)
+        if not corr_df.empty:
+            agg_row = {
+                'website': 'all_websites',
+                'pearson_score_vs_success_rate': corr_df['pearson_score_vs_success_rate'].mean(),
+                'spearman_score_vs_success_rate': corr_df['spearman_score_vs_success_rate'].mean(),
+                'pearson_debiased_score_vs_success_rate': corr_df['pearson_debiased_score_vs_success_rate'].mean(),
+                'spearman_debiased_score_vs_success_rate': corr_df['spearman_debiased_score_vs_success_rate'].mean()
+            }
+            corr_df_agg = pd.DataFrame([agg_row]).round(4)
+        else:
+            corr_df_agg = corr_df
+        print(corr_df_agg.to_string(index=False))
     return corr_df_agg
 

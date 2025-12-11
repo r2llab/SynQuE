@@ -5,11 +5,29 @@ from glob import glob
 import json
 import pandas as pd
 
-
 from utils import compute_correlation
 
 
 SEEDS = [42, 43, 44, 45, 46]
+
+# web navigation domain constants
+WEBSITE_NAMES = [
+    'allrecipes',
+    'amazon',
+    'apple',
+    'arxiv',
+    'bbc',
+    'coursera',
+    'dictionary.cambridge',
+    'espn',
+    'github',
+    'google_maps',
+    'google_search',
+    'huggingface',
+    'wolframalpha',
+]
+PARTITIONS = [0, 1, 2, 3, 4]
+
 EPSILON = 1e-6
 
 
@@ -192,7 +210,45 @@ def main(args):
                     "score": scores,
                     "debiased_score": debiased_score
                 })
-    
+    elif args.task == "web":
+        # For each website
+        for website in WEBSITE_NAMES:
+            for seed in SEEDS:
+                for partition in PARTITIONS:
+                    # Build base paths
+                    data_path = os.path.join(args.data_path, f"seed={seed}")
+                    real_data_dir = os.path.join(data_path, "real_data", website)
+                    synth_data_dir = os.path.join(data_path, "synthetic_data", website)
+                    synth_file_pattern = f"nnetnav_live_site={website}_num_tasks=*_portion={partition}.json"
+                    real_file_pattern = synth_file_pattern
+
+                    synth_file_path = os.path.join(synth_data_dir, synth_file_pattern)
+                    real_file_path = os.path.join(real_data_dir, real_file_pattern)
+
+                    synth_files = glob(synth_file_path)
+                    if len(synth_files) == 0:
+                        raise ValueError(f"No synthetic data for {website} with seed {seed} and partition {partition}. Expected file: {synth_file_path}")
+
+                    synth_file = synth_files[0]
+                    synth_examples = json.load(open(synth_file, "rt"))
+                    score = compute_lens_score(synth_examples)
+
+                    # Check for the corresponding real data. Only compute normalized if it exists.
+                    real_files = glob(real_file_path)
+                    if len(real_files) > 0 and os.path.exists(real_files[0]):
+                        real_file = real_files[0]
+                        real_examples = json.load(open(real_file, "rt"))
+                        debiased_score = compute_lens_score_normalized(synth_examples, real_examples)
+                    else:
+                        debiased_score = None
+
+                    results.append({
+                        "website": website,
+                        "seed": seed,
+                        "partition": partition,
+                        "score": score,
+                        "debiased_score": debiased_score
+                    })
     df_results = pd.DataFrame(results)
     # df_results.to_csv(os.path.join(args.output_path, f"{args.task}_{model_name}_lens_scores.csv"), index=False)
     df_corr_results = compute_correlation(df_results, args.task, args.task_performance_path)
@@ -203,7 +259,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_path", type=str, required=True, help="Path to the generated scores including")
     parser.add_argument("--task_performance_path", type=str, help="Path to the task performance csv file")
-    parser.add_argument("--task", type=str, required=True, choices=["sentiment_analysis", "text2sql", "web_agent", "image_classification"], help="Name of the task")
+    parser.add_argument("--task", type=str, required=True, choices=["sentiment_analysis", "text2sql", "web", "image"], help="Name of the task")
     parser.add_argument("--output_path", type=str, default="./results", help="Path to save the results")
     args = parser.parse_args()
 
