@@ -184,8 +184,8 @@ def main(args):
                 results.append({
                     "seed": seed,
                     "dataset_name": dataset_name,
-                    "score": scores,
-                    "debiased_score": debiased_score
+                    "lens_score": scores,
+                    "debiased_lens_score": debiased_score
                 })
     elif args.task == "text2sql":
         for seed in SEEDS:
@@ -207,8 +207,7 @@ def main(args):
                     "seed": seed,
                     "db_id": db_id,
                     "dataset_name": dataset_name,
-                    "score": scores,
-                    "debiased_score": debiased_score
+                    "debiased_lens_score": debiased_score
                 })
     elif args.task == "web":
         # For each website
@@ -246,18 +245,17 @@ def main(args):
                         "website": website,
                         "seed": seed,
                         "partition": partition,
-                        "score": score,
-                        "debiased_score": debiased_score
+                        "debiased_lens_score": debiased_score
                     })
     df_results = pd.DataFrame(results)
     # df_results.to_csv(os.path.join(args.output_path, f"{args.task}_{model_name}_lens_scores.csv"), index=False)
-    df_corr_results = compute_correlation(df_results, args.task, args.task_performance_path)
+    df_corr_results = compute_correlation(df_results, "debiased_lens", args.task, args.task_performance_path)
     df_corr_results.to_csv(os.path.join(args.output_path, f"{args.task}_{model_name}_lens_correlation.csv"), index=False)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_path", type=str, required=True, help="Path to the generated scores including")
+    parser.add_argument("--data_path", type=str, required=True, help="Path to the generated scores")
     parser.add_argument("--task_performance_path", type=str, help="Path to the task performance csv file")
     parser.add_argument("--task", type=str, required=True, choices=["sentiment_analysis", "text2sql", "web", "image"], help="Name of the task")
     parser.add_argument("--output_path", type=str, default="./results", help="Path to save the results")

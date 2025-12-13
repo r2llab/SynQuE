@@ -1,10 +1,13 @@
+import re
 import pandas as pd
 from constants import TASK_PERFORMANCE_PATHS, MERGE_KEYS
 
-def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=None):
+
+def compute_correlation(df: pd.DataFrame, method_name: str, task: str, task_performance_path: str=None):
     """Compute the correlation between the lens score and the task performance.
     Args:
         df (pd.DataFrame): The dataframe containing the lens scores and the task performance.
+        method_name (str): The method name. You can choose from "pad", "mmd", "mdm", "mauve" or debiased_lens.
         task (str): The task name. You can choose from "sentiment_analysis", "text2sql", "web_agent", "image_classification".
         task_performance_path (str): The path to the task performance csv file, including the task performance for each dataset.
     """
@@ -26,42 +29,32 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
             # We want to correlate score vs test_f1_mean, debiased_score vs test_f1_mean across datasets
             # So, group by dataset and take the mean (should be one row per dataset per seed)
             grouped = seed_df.groupby('dataset_name').agg({
-                'score': 'mean',
-                'debiased_score': 'mean',
+                f'{method_name}_score': 'mean',
                 'test_f1_mean': 'mean'
             }).reset_index()
             if len(grouped) < 2:
                 continue
             try:
-                p_score, _ = pearsonr(grouped['score'], grouped['test_f1_mean'])
-                s_score, _ = spearmanr(grouped['score'], grouped['test_f1_mean'])
+                p_score, _ = pearsonr(grouped[f'{method_name}_score'], grouped['test_f1_mean'])
+                s_score, _ = spearmanr(grouped[f'{method_name}_score'], grouped['test_f1_mean'])
             except Exception:
                 p_score, s_score = None, None
-            try:
-                p_debiased, _ = pearsonr(grouped['debiased_score'], grouped['test_f1_mean'])
-                s_debiased, _ = spearmanr(grouped['debiased_score'], grouped['test_f1_mean'])
-            except Exception:
-                p_debiased, s_debiased = None, None
             corr_rows.append({
                 'seed': seed,
-                'pearson_score_vs_f1': p_score,
-                'spearman_score_vs_f1': s_score,
-                'pearson_debiased_score_vs_f1': p_debiased,
-                'spearman_debiased_score_vs_f1': s_debiased
+                f'pearson_{method_name}_score_vs_f1': p_score,
+                f'spearman_{method_name}_score_vs_f1': s_score
             })
-            corr_df = pd.DataFrame(corr_rows)
-            # Aggregate all seeds for each metric and add a row named "all_seeds"
-            if not corr_df.empty:
-                agg_row = {
-                    'pearson_score_vs_f1': corr_df['pearson_score_vs_f1'].mean(),
-                    'spearman_score_vs_f1': corr_df['spearman_score_vs_f1'].mean(),
-                    'pearson_debiased_score_vs_f1': corr_df['pearson_debiased_score_vs_f1'].mean(),
-                    'spearman_debiased_score_vs_f1': corr_df['spearman_debiased_score_vs_f1'].mean()
-                }
-                corr_df_agg = pd.DataFrame([agg_row]).round(4)
-            else:
-                corr_df_agg = corr_df
-            print(corr_df_agg.to_string(index=False))
+        corr_df = pd.DataFrame(corr_rows)
+        # Aggregate all seeds for each metric and add a row named "all_seeds"
+        if not corr_df.empty:
+            agg_row = {
+                'pearson_score_vs_f1': corr_df[f'pearson_{method_name}_score_vs_f1'].mean(),
+                'spearman_score_vs_f1': corr_df[f'spearman_{method_name}_score_vs_f1'].mean()
+            }
+            corr_df_agg = pd.DataFrame([agg_row]).round(4)
+        else:
+            corr_df_agg = corr_df
+        print(corr_df_agg.to_string(index=False))
     elif task == "text2sql":
         # For text2sql, we correlate score vs accuracy, and debiased_score vs accuracy
         # There are multiple db_id values, so we compute per-db correlations, then aggregate
@@ -69,7 +62,6 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
             db_df = df[df['db_id'] == db_id]
             # For each seed, compute correlation across datasets (for this db_id)
             pearson_score, spearman_score = [], []
-            pearson_debiased, spearman_debiased = [], []
             for seed in db_df['seed'].unique():
                 seed_df = db_df[db_df['seed'] == seed]
                 # If there is only one dataset, skip
@@ -77,8 +69,7 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
                     continue
                 # For each dataset, get score, debiased_score, accuracy
                 grouped = seed_df.groupby('dataset_name').agg({
-                    'score': 'mean',
-                    'debiased_score': 'mean',
+                    f'{method_name}_score': 'mean',
                     'accuracy': 'mean'
                 }).reset_index()
                 # Remove rows with missing accuracy
@@ -86,19 +77,12 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
                 if len(grouped) < 2:
                     continue
                 try:
-                    p_score, _ = pearsonr(grouped['score'], grouped['accuracy'])
-                    s_score, _ = spearmanr(grouped['score'], grouped['accuracy'])
+                    p_score, _ = pearsonr(grouped[f'{method_name}_score'], grouped['accuracy'])
+                    s_score, _ = spearmanr(grouped[f'{method_name}_score'], grouped['accuracy'])
                 except Exception:
                     p_score, s_score = None, None
-                try:
-                    p_debiased, _ = pearsonr(grouped['debiased_score'], grouped['accuracy'])
-                    s_debiased, _ = spearmanr(grouped['debiased_score'], grouped['accuracy'])
-                except Exception:
-                    p_debiased, s_debiased = None, None
                 pearson_score.append(p_score)
                 spearman_score.append(s_score)
-                pearson_debiased.append(p_debiased)
-                spearman_debiased.append(s_debiased)
             def safe_mean(x):
                 x = [i for i in x if i is not None]
                 return sum(x)/len(x) if len(x) > 0 else None
@@ -106,8 +90,6 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
                 'db_id': db_id,
                 'pearson_score_vs_acc': safe_mean(pearson_score),
                 'spearman_score_vs_acc': safe_mean(spearman_score),
-                'pearson_debiased_score_vs_acc': safe_mean(pearson_debiased),
-                'spearman_debiased_score_vs_acc': safe_mean(spearman_debiased)
             })
         # After per-db corr, add a row aggregating all db_ids ("all_db")
         corr_df = pd.DataFrame(corr_rows)
@@ -116,8 +98,6 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
                 'db_id': 'all_db',
                 'pearson_score_vs_acc': corr_df['pearson_score_vs_acc'].mean(),
                 'spearman_score_vs_acc': corr_df['spearman_score_vs_acc'].mean(),
-                'pearson_debiased_score_vs_acc': corr_df['pearson_debiased_score_vs_acc'].mean(),
-                'spearman_debiased_score_vs_acc': corr_df['spearman_debiased_score_vs_acc'].mean(),
             }
             corr_df_agg = pd.concat([corr_df, pd.DataFrame([agg_row])], ignore_index=True).round(4)
         else:
@@ -128,33 +108,24 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
         for website in df['website'].unique():
             website_df = df[df['website'] == website]
             pearson_score, spearman_score = [], []
-            pearson_debiased, spearman_debiased = [], []
             for seed in website_df['seed'].unique():
                 seed_df = website_df[website_df['seed'] == seed]
                 if len(seed_df['partition'].unique()) < 2:
                     continue
                 grouped = seed_df.groupby('partition').agg({
-                    'score': 'mean',
-                    'debiased_score': 'mean',
+                    f'{method_name}_score': 'mean',
                     'success_rate': 'mean'
                 }).reset_index()
                 grouped = grouped.dropna(subset=['success_rate'])
                 if len(grouped) < 2:
                     continue
                 try:
-                    p_score, _ = pearsonr(grouped['score'], grouped['success_rate'])
-                    s_score, _ = spearmanr(grouped['score'], grouped['success_rate'])
+                    p_score, _ = pearsonr(grouped[f'{method_name}_score'], grouped['success_rate'])
+                    s_score, _ = spearmanr(grouped[f'{method_name}_score'], grouped['success_rate'])
                 except Exception:
                     p_score, s_score = None, None
-                try:
-                    p_debiased, _ = pearsonr(grouped['debiased_score'], grouped['success_rate'])
-                    s_debiased, _ = spearmanr(grouped['debiased_score'], grouped['success_rate'])
-                except Exception:
-                    p_debiased, s_debiased = None, None
                 pearson_score.append(p_score)
                 spearman_score.append(s_score)
-                pearson_debiased.append(p_debiased)
-                spearman_debiased.append(s_debiased)
             def safe_mean(x):
                 x = [i for i in x if i is not None]
                 return sum(x)/len(x) if len(x) > 0 else None
@@ -162,8 +133,6 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
                 'website': website,
                 'pearson_score_vs_success_rate': safe_mean(pearson_score),
                 'spearman_score_vs_success_rate': safe_mean(spearman_score),
-                'pearson_debiased_score_vs_success_rate': safe_mean(pearson_debiased),
-                'spearman_debiased_score_vs_success_rate': safe_mean(spearman_debiased)
             })
         corr_df = pd.DataFrame(corr_rows)
         if not corr_df.empty:
@@ -171,8 +140,6 @@ def compute_correlation(df: pd.DataFrame, task: str, task_performance_path: str=
                 'website': 'all_websites',
                 'pearson_score_vs_success_rate': corr_df['pearson_score_vs_success_rate'].mean(),
                 'spearman_score_vs_success_rate': corr_df['spearman_score_vs_success_rate'].mean(),
-                'pearson_debiased_score_vs_success_rate': corr_df['pearson_debiased_score_vs_success_rate'].mean(),
-                'spearman_debiased_score_vs_success_rate': corr_df['spearman_debiased_score_vs_success_rate'].mean()
             }
             corr_df_agg = pd.DataFrame([agg_row]).round(4)
         else:
