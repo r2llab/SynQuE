@@ -904,53 +904,6 @@ wheels = [
 ]
 
 [[package]]
-name = "data-synthesis"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "datasets" },
-    { name = "func-timeout" },
-    { name = "hf-transfer" },
-    { name = "hydra-core" },
-    { name = "langchain" },
-    { name = "langchain-cerebras", version = "0.6.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
-    { name = "langchain-cerebras", version = "0.8.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
-    { name = "langchain-core" },
-    { name = "langchain-ollama" },
-    { name = "langchain-openai", version = "0.3.34", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
-    { name = "langchain-openai", version = "1.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
-    { name = "omegaconf" },
-    { name = "qwen-vl-utils" },
-    { name = "scikit-learn" },
-    { name = "seaborn" },
-    { name = "sentence-transformers" },
-    { name = "tqdm" },
-    { name = "vllm", marker = "sys_platform != 'darwin'" },
-    { name = "xgboost" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "datasets", specifier = ">=4.4.1" },
-    { name = "func-timeout", specifier = ">=4.3.5" },
-    { name = "hf-transfer", specifier = ">=0.1.9" },
-    { name = "hydra-core", specifier = ">=1.3.2" },
-    { name = "langchain", specifier = ">=1.1.0" },
-    { name = "langchain-cerebras", specifier = ">=0.6.0" },
-    { name = "langchain-core", specifier = ">=1.1.0" },
-    { name = "langchain-ollama", specifier = ">=1.0.0" },
-    { name = "langchain-openai", specifier = ">=0.3.34" },
-    { name = "omegaconf", specifier = ">=2.3.0" },
-    { name = "qwen-vl-utils", specifier = ">=0.0.14" },
-    { name = "scikit-learn", specifier = ">=1.7.2" },
-    { name = "seaborn", specifier = ">=0.13.2" },
-    { name = "sentence-transformers", specifier = ">=5.1.2" },
-    { name = "tqdm", specifier = ">=4.67.1" },
-    { name = "vllm", marker = "sys_platform != 'darwin'", specifier = ">=0.11.2" },
-    { name = "xgboost", specifier = ">=3.1.2" },
-]
-
-[[package]]
 name = "datasets"
 version = "4.4.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1977,6 +1930,43 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/33/01/a8ea7c5ea32a9b45ceeaee051a04c8ed4320f5add3c51bfa20879b765b70/kiwisolver-1.4.9-pp311-pypy311_pp73-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:85b5352f94e490c028926ea567fc569c52ec79ce131dadb968d3853e809518c2", size = 80281, upload-time = "2025-08-10T21:27:45.369Z" },
     { url = "https://files.pythonhosted.org/packages/da/e3/dbd2ecdce306f1d07a1aaf324817ee993aab7aee9db47ceac757deabafbe/kiwisolver-1.4.9-pp311-pypy311_pp73-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:464415881e4801295659462c49461a24fb107c140de781d55518c4b80cb6790f", size = 78009, upload-time = "2025-08-10T21:27:46.376Z" },
     { url = "https://files.pythonhosted.org/packages/da/e9/0d4add7873a73e462aeb45c036a2dead2562b825aa46ba326727b3f31016/kiwisolver-1.4.9-pp311-pypy311_pp73-win_amd64.whl", hash = "sha256:fb940820c63a9590d31d88b815e7a3aa5915cad3ce735ab45f0c730b39547de1", size = 73929, upload-time = "2025-08-10T21:27:48.236Z" },
+]
+
+[[package]]
+name = "kmedoids"
+version = "0.5.4"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c1/47/013e4d38bf558a867aca5eba51d0766b12fc76acf3066b04ed928234a705/kmedoids-0.5.4-cp310-cp310-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:671231b334dbb552d032212de26b2cfcae6d7f414b83143584b96953ba4842c7", size = 836215, upload-time = "2025-11-04T11:00:21.161Z" },
+    { url = "https://files.pythonhosted.org/packages/83/7a/092b6ea0b6829ecaa15d6531abe1dce4c2e9d1a94f236eccdede82d3db5d/kmedoids-0.5.4-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:3882d3ccf024f7d9fa5b0918d29adddeb087cfd4dcd923bafec333434ed1bada", size = 436897, upload-time = "2025-11-04T11:00:22.783Z" },
+    { url = "https://files.pythonhosted.org/packages/d0/d8/23064792f9ee5f2435d6ee32e17b86c6f58788cca7f44f99761bca001bad/kmedoids-0.5.4-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:bbf3a3d81fa69c83d3c9d2a242fc96c44dd1e7e1b758c2d1c9617ed77ebc729b", size = 476766, upload-time = "2025-11-04T11:00:24.415Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/ca/b11f4746fd41c07707dd092219a9acde66714b12cf943736065ccb736326/kmedoids-0.5.4-cp310-cp310-musllinux_1_2_aarch64.whl", hash = "sha256:7738deaa68374b0b2013cb419d68c03f1ce1a1a6c41d17a43c64044db0433472", size = 502170, upload-time = "2025-11-04T11:00:25.666Z" },
+    { url = "https://files.pythonhosted.org/packages/74/70/83992065b4862452870da15eaad4943c86d3245f574633793f50bf3b909a/kmedoids-0.5.4-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:46513077e6242ea93de7992c6dcb90c57258c81c8ad7114218ba9fbc6bab59fb", size = 553080, upload-time = "2025-11-04T11:00:27.205Z" },
+    { url = "https://files.pythonhosted.org/packages/5d/6f/a70b6719c9efc7e2384306310df5659898e30e29c37616e8b9bf60c450cc/kmedoids-0.5.4-cp310-none-win_amd64.whl", hash = "sha256:f0d27e669716d559e4ac4242e1d0da01b92f4b61c4bb31de7cb19f868bc9b4a0", size = 390019, upload-time = "2025-11-04T11:00:28.552Z" },
+    { url = "https://files.pythonhosted.org/packages/28/73/bc6fc7f084783ce0cf7a676892ec3d8ee0731162940506aecc5f0d2d902c/kmedoids-0.5.4-cp311-cp311-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:c05f34cb4fb71b45feb0863b1f1f30d8011ace586495fe41f550a99efa786c5d", size = 838853, upload-time = "2025-11-04T11:00:29.782Z" },
+    { url = "https://files.pythonhosted.org/packages/aa/77/246404c4f64b055701bd4279c5c4089cdd66ae9f654653a60769b8809bac/kmedoids-0.5.4-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:47d1c5e846b44af2ae9fe9e17f2a9d771126d8cdc34d9b969160f2012d72f84f", size = 437047, upload-time = "2025-11-04T11:00:31.273Z" },
+    { url = "https://files.pythonhosted.org/packages/33/f7/2ce714c7a3d20247b9cceefea9742d0d8eb765d53e0ada38ed2e3e1ce42f/kmedoids-0.5.4-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:530d098b36f6cb28b55145837fadb3f233e44f7a685a3dd467595f610cb4a07e", size = 477409, upload-time = "2025-11-04T11:00:32.501Z" },
+    { url = "https://files.pythonhosted.org/packages/df/9a/886ff84e2e11ef2d263bb730bae4b7fbff47e71ceec711291b6baa717afb/kmedoids-0.5.4-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:ffe4866eb84935a19e145ec42243c77a75a80d0dc88f78239b26097276fcab7c", size = 502242, upload-time = "2025-11-04T11:00:33.929Z" },
+    { url = "https://files.pythonhosted.org/packages/38/50/509338371302afa87b9844b0573e1599e169f30bf40fa98edad85cb64524/kmedoids-0.5.4-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:594362f4fd7536f58ae87942e3419ca32b4623b62a9218d0ffef09bb65603e99", size = 553741, upload-time = "2025-11-04T11:00:35.141Z" },
+    { url = "https://files.pythonhosted.org/packages/29/7d/ae89449a71eeffd42f59ea24045bf816ec487997e7386b2dd7e8826db00a/kmedoids-0.5.4-cp311-none-win_amd64.whl", hash = "sha256:868984c2f3ba9e22ef106c2ebd9b8f571c8531bfa9a054aaed326e8b52f942bf", size = 390446, upload-time = "2025-11-04T11:00:36.287Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/d6/fd6dd51da85f485d0c8b4f9226505e60ca52241388d7e9ae8823ea81c461/kmedoids-0.5.4-cp312-cp312-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:fbb0c33db4ef4497b692a835c82c983b4095bffb7d1c1e857dfe14b1ae850ed6", size = 833282, upload-time = "2025-11-04T11:00:37.768Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/31/1d5b94fd709ff56387e5e82171155dbe08e6264e750875328d2f90ec1c28/kmedoids-0.5.4-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:31f30a8fc608122a6d5938ae16d87b3cf93ca0d4d9aee22bb7bd1b5288f6e09b", size = 436485, upload-time = "2025-11-04T11:00:39.464Z" },
+    { url = "https://files.pythonhosted.org/packages/76/c8/e1f9a7fd37f3f39a4bcf9e054c7bcb6b2524c20f301a22bf28e487bbdf6f/kmedoids-0.5.4-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:38f9875c2c6f64aaec34c2e91bd0f069782b4fc5f5bb6b766c1864c1c2c35e61", size = 476297, upload-time = "2025-11-04T11:00:40.724Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/c7/5ca1a30120aa5a797df5cf23a104bd4c45b0bd91fedb5cec2522229f2910/kmedoids-0.5.4-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:65342ee63d11a93379e007e31ac4bb633c06b19fa1f76ac557c738fc76db176b", size = 501535, upload-time = "2025-11-04T11:00:41.865Z" },
+    { url = "https://files.pythonhosted.org/packages/87/13/b4d0870c973bcabdc8dbdd5752b12f827a1fdacbb5cc0d3a86a4de423d4b/kmedoids-0.5.4-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:ca044594046dbe4b7ed129f5d90330fc3952a5841f37b7f0784c12e68517e974", size = 552957, upload-time = "2025-11-04T11:00:43.09Z" },
+    { url = "https://files.pythonhosted.org/packages/37/b7/fffa6ba43bfd70c7ed193b114c9fcb0e4c28a6ff398cc90bdeed45a6d9dc/kmedoids-0.5.4-cp312-none-win_amd64.whl", hash = "sha256:9aaf1e6320d899374b63a8a688cc40dd48134b6f0abea631e7711656ae2d6f21", size = 390820, upload-time = "2025-11-04T11:00:44.309Z" },
+    { url = "https://files.pythonhosted.org/packages/76/bb/a6ad7d025c764edb8cbc431baf92d357859e43f0f43c8bbf8c92948eb35b/kmedoids-0.5.4-cp313-cp313-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:c21bf2f753264054a67768e5b3280b3c55217ac873d25006b74dd3f62bfd7bb8", size = 833167, upload-time = "2025-11-04T11:00:45.51Z" },
+    { url = "https://files.pythonhosted.org/packages/2e/50/0be62715d208d2a0e4351e06d088d95707b322b1353ec99d23147869cf58/kmedoids-0.5.4-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:5fd75da329d4a585118a5664f161f1468fd4c9e693449d6c24b932ee5cda6a2f", size = 436344, upload-time = "2025-11-04T11:00:47.074Z" },
+    { url = "https://files.pythonhosted.org/packages/72/0d/a255e5e37e315d1267222495b4002bbaddcc97c078954b0383b8c8695957/kmedoids-0.5.4-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:7be608660b5a01ac9ba75d24eaacb50732fc9674d662495c9aecffc3c7254e0c", size = 475991, upload-time = "2025-11-04T11:00:48.552Z" },
+    { url = "https://files.pythonhosted.org/packages/37/0e/8301c9614c26e3938625dfb36763c2bc11c7fefd417e34e2a7540d3bb278/kmedoids-0.5.4-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:a910ef86ffaf4765e89ad96dae75d4ce8921b31c4b22ba51f6fc4fc84d1d0a12", size = 501423, upload-time = "2025-11-04T11:00:49.968Z" },
+    { url = "https://files.pythonhosted.org/packages/2e/b9/8c319c09dc72c2c6e7ae3b724f83a6d7ebaed9e3cd49b8095371a9f5ddc6/kmedoids-0.5.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:e363de97c02b9100aeecbcac18e0ee4b78cd37998c742ffc73126e578364fb09", size = 552707, upload-time = "2025-11-04T11:00:51.711Z" },
+    { url = "https://files.pythonhosted.org/packages/3e/1b/553d7d14be4db622fa6490509165f2cb121a99759513353350863e952dd3/kmedoids-0.5.4-cp313-none-win_amd64.whl", hash = "sha256:c9ce4e72de463371de25f98924b81859d177a4a431ac8eff71d29f18f8606fea", size = 390521, upload-time = "2025-11-04T11:00:53.005Z" },
+    { url = "https://files.pythonhosted.org/packages/46/52/737a935185445fb1ff08cc5985a052a4c9b8134ce84a1ecb2231955d6062/kmedoids-0.5.4-cp314-cp314-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:44becd83edea566e958fdce77f7dff7e2d86113a53d3257fc951e68e9916a7d3", size = 832313, upload-time = "2025-11-04T11:00:54.3Z" },
+    { url = "https://files.pythonhosted.org/packages/00/16/89db0f51787e2bfec6f597ca791999c02c648365f801b516601fa6c6977e/kmedoids-0.5.4-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:9cdfca76ebe561457f762a373344429b1ebb69434426b3fc51f8ba0880af1246", size = 435604, upload-time = "2025-11-04T11:00:55.92Z" },
+    { url = "https://files.pythonhosted.org/packages/aa/38/a313b49bce1668103aef35cb98d62a5ab14556804faed287f10ef711a0de/kmedoids-0.5.4-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:c2d2f491b3b784efdfff20b8ea5474f5a37d6063fe8e40f8ef8359a499321a00", size = 476622, upload-time = "2025-11-04T11:00:57.48Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/4a/e6dde6fde7feef1b9bed1e0387b2492115fda39b4057f070c442498ae4ed/kmedoids-0.5.4-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:aca6446893b8d88a64996eee9c684de19c93048d4c86aed2b18a6c6c8ef5af0e", size = 500607, upload-time = "2025-11-04T11:00:58.638Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/fa/4e148647a1e56a8ce97d3c3e90eff6aa99bccc922f596d4c139f86ed05b7/kmedoids-0.5.4-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:f1ba92ed4b0ce620c81dfc976fcb75bdce391b03e8e1068c072862bf88e600fd", size = 553475, upload-time = "2025-11-04T11:01:00.073Z" },
+    { url = "https://files.pythonhosted.org/packages/27/e6/c3c808550851ce62bfdb6802a5835dcbf54fe9e4976469d51eab1f065da9/kmedoids-0.5.4-cp314-none-win_amd64.whl", hash = "sha256:f057f398747439b3bf5e17326ad905484d874d3c9a4838163c70ae789517c85a", size = 390008, upload-time = "2025-11-04T11:01:01.798Z" },
 ]
 
 [[package]]
@@ -5074,6 +5064,55 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/83/d3/803453b36afefb7c2bb238361cd4ae6125a569b4db67cd9e79846ba2d68c/sympy-1.14.0.tar.gz", hash = "sha256:d3d3fe8df1e5a0b42f0e7bdf50541697dbe7d23746e894990c030e2b05e72517", size = 7793921, upload-time = "2025-04-27T18:05:01.611Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl", hash = "sha256:e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5", size = 6299353, upload-time = "2025-04-27T18:04:59.103Z" },
+]
+
+[[package]]
+name = "synque"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "datasets" },
+    { name = "func-timeout" },
+    { name = "hf-transfer" },
+    { name = "hydra-core" },
+    { name = "kmedoids" },
+    { name = "langchain" },
+    { name = "langchain-cerebras", version = "0.6.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "langchain-cerebras", version = "0.8.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "langchain-core" },
+    { name = "langchain-ollama" },
+    { name = "langchain-openai", version = "0.3.34", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "langchain-openai", version = "1.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "omegaconf" },
+    { name = "qwen-vl-utils" },
+    { name = "scikit-learn" },
+    { name = "seaborn" },
+    { name = "sentence-transformers" },
+    { name = "tqdm" },
+    { name = "vllm", marker = "sys_platform != 'darwin'" },
+    { name = "xgboost" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "datasets", specifier = ">=4.4.1" },
+    { name = "func-timeout", specifier = ">=4.3.5" },
+    { name = "hf-transfer", specifier = ">=0.1.9" },
+    { name = "hydra-core", specifier = ">=1.3.2" },
+    { name = "kmedoids", specifier = ">=0.5.4" },
+    { name = "langchain", specifier = ">=1.1.0" },
+    { name = "langchain-cerebras", specifier = ">=0.6.0" },
+    { name = "langchain-core", specifier = ">=1.1.0" },
+    { name = "langchain-ollama", specifier = ">=1.0.0" },
+    { name = "langchain-openai", specifier = ">=0.3.34" },
+    { name = "omegaconf", specifier = ">=2.3.0" },
+    { name = "qwen-vl-utils", specifier = ">=0.0.14" },
+    { name = "scikit-learn", specifier = ">=1.7.2" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "sentence-transformers", specifier = ">=5.1.2" },
+    { name = "tqdm", specifier = ">=4.67.1" },
+    { name = "vllm", marker = "sys_platform != 'darwin'", specifier = ">=0.11.2" },
+    { name = "xgboost", specifier = ">=3.1.2" },
 ]
 
 [[package]]
