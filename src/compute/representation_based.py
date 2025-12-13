@@ -1,8 +1,6 @@
 import numpy as np
 import os
 import pickle
-from glob import glob
-import json
 import pandas as pd
 import argparse
 from sklearn.linear_model import LogisticRegression
@@ -18,7 +16,7 @@ from sklearn.metrics.pairwise import (
 )
 import kmedoids
 from sklearn.metrics import pairwise_distances
-from utils import compute_correlation
+from src.compute.utils import compute_correlation
 
 SEEDS = [42, 43, 44, 45, 46]
 

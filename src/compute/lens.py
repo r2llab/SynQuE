@@ -5,7 +5,7 @@ from glob import glob
 import json
 import pandas as pd
 
-from utils import compute_correlation
+from src.compute.utils import compute_correlation
 
 
 SEEDS = [42, 43, 44, 45, 46]

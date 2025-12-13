@@ -65,8 +65,18 @@ We use vLLM offline SDK for scoring LENS.
     python -m src.generate.score_text2sql --scoring_model_path <path> --synthetic_data <optional> --seed <seed> [other options]
     ```
 
-## Candidate Proxy Metric Scoring (SynQuE)
-For all candidate proxy metric scoring and analysis, we place scoring scripts in `notebooks/SynQuE_scoring.ipynb`.
+### Computing correlation coefficients
+#### LENS
+To compute the correlation coefficients between LENS scores and task performance, you can run the following script:
+
+    ```bash
+    python -m src.compute.lens --data_path <path_to_lens_scores> --task <task>
+    ```
+#### Representation-based
+To score and compute correlation coefficients for representation-based methods, you can run the following script:
+    ```bash
+    python -m src.compute.representation_based --method <pad/mmd/mdm> --task <task> --embedding_path <path_to_the_embedding_folder>
+    ```
 
 ## License
 

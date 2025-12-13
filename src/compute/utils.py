@@ -1,6 +1,5 @@
-import re
 import pandas as pd
-from constants import TASK_PERFORMANCE_PATHS, MERGE_KEYS
+from src.compute.constants import TASK_PERFORMANCE_PATHS, MERGE_KEYS
 
 
 def compute_correlation(df: pd.DataFrame, method_name: str, task: str, task_performance_path: str=None):
