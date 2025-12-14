@@ -20,7 +20,7 @@ uv sync
 
 ## Training
 The following instructions are provided for training models to obtain task performance metrics on real test data.
-All synthetic and real datasets are provided in `data/`. All training results and SynQuE scores are provided in `notebooks/results`. Embeddings used for PAD, MMD and MDM calculations can be downloaded on [Google Drive](https://drive.google.com/drive/folders/1GRfPEDdqEWaDPM2wFIFxZLkwjnQwwVru?usp=sharing).
+All training results are provided in `./data/<task>/task_performance`. Embeddings used for representation-based proxy calculations can be downloaded on [Google Drive](https://drive.google.com/file/d/1fp-9wqlexIfSY5Rl8Grb_I0DdJw9eKYr/view?usp=sharing).
 
 ### Sentiment Analysis
 The training script is placed in `notebooks/SynQuE_scoring.ipynb`.
@@ -68,15 +68,14 @@ We use vLLM offline SDK for scoring LENS.
 ### Computing correlation coefficients
 #### LENS
 To compute the correlation coefficients between LENS scores and task performance, you can run the following script:
-
-    ```bash
-    python -m src.compute.lens --data_path <path_to_lens_scores> --task <task>
-    ```
+```bash
+python -m src.compute.lens --data_path <path_to_lens_scores> --task <task>
+```
 #### Representation-based
 To score and compute correlation coefficients for representation-based methods, you can run the following script:
-    ```bash
-    python -m src.compute.representation_based --method <pad/mmd/mdm> --task <task> --embedding_path <path_to_the_embedding_folder>
-    ```
+```bash
+python -m src.compute.representation_based --method <pad/mmd/mdm> --task <task> --embedding_path <path_to_the_embedding_folder>
+```
 
 ## License
 
