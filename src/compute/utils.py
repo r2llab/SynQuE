@@ -1,5 +1,5 @@
 import pandas as pd
-from src.compute.constants import TASK_PERFORMANCE_PATHS, MERGE_KEYS
+from src.compute.constants import *
 
 
 def compute_correlation(df: pd.DataFrame, method_name: str, task: str, task_performance_path: str=None):
@@ -144,5 +144,49 @@ def compute_correlation(df: pd.DataFrame, method_name: str, task: str, task_perf
         else:
             corr_df_agg = corr_df
         print(corr_df_agg.to_string(index=False))
+    elif task == "image":
+        corr_rows = []
+        corr_rows = []
+        for split in SPLITS:
+            split_df = df[df['split'] == split]
+            pearson_score, spearman_score = [], []
+            for seed in split_df['seed'].unique():
+                seed_df = split_df[split_df['seed'] == seed]
+                if len(seed_df['dataset_name'].unique()) < 2:
+                    continue
+                grouped = seed_df.groupby('dataset_name').agg({
+                    f'{method_name}_score': 'mean',
+                    'test_mrr': 'mean'
+                }).reset_index()
+                grouped = grouped.dropna(subset=['test_mrr'])
+                if len(grouped) < 2:
+                    continue
+                try:
+                    p_score, _ = pearsonr(grouped[f'{method_name}_score'], grouped['test_mrr'])
+                    s_score, _ = spearmanr(grouped[f'{method_name}_score'], grouped['test_mrr'])
+                except Exception:
+                    p_score, s_score = None, None
+                pearson_score.append(p_score)
+                spearman_score.append(s_score)
+            def safe_mean(x):
+                x = [i for i in x if i is not None]
+                return sum(x)/len(x) if len(x) > 0 else None
+            corr_rows.append({
+                'split': split,
+                'pearson_score_vs_mrr': safe_mean(pearson_score),
+                'spearman_score_vs_mrr': safe_mean(spearman_score),
+            })
+        corr_df = pd.DataFrame(corr_rows)
+        if not corr_df.empty:
+            agg_row = {
+                'split': 'all_splits',
+                'pearson_score_vs_mrr': corr_df['pearson_score_vs_mrr'].mean(),
+                'spearman_score_vs_mrr': corr_df['spearman_score_vs_mrr'].mean(),
+            }
+            corr_df_agg = pd.DataFrame([agg_row]).round(4)
+        else:
+            corr_df_agg = corr_df
+        print(corr_df_agg.to_string(index=False))
+
     return corr_df_agg
 

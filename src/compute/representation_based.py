@@ -18,25 +18,7 @@ import kmedoids
 from sklearn.metrics import pairwise_distances
 from src.compute.utils import compute_correlation
 
-SEEDS = [42, 43, 44, 45, 46]
-
-# web navigation domain constants
-WEBSITE_NAMES = [
-    'allrecipes',
-    'amazon',
-    'apple',
-    'arxiv',
-    'bbc',
-    'coursera',
-    'dictionary.cambridge',
-    'espn',
-    'github',
-    'google_maps',
-    'google_search',
-    'huggingface',
-    'wolframalpha',
-]
-PARTITIONS = [0, 1, 2, 3, 4]
+from src.compute.constants import *
 
 # ===========================
 # ---- PAD (Proxy-A-Distance)
@@ -222,7 +204,6 @@ def main(args):
                     })
     elif args.task == "web":
         # For each website
-        # TODO: find the embeddings that have seed for 
         for website in WEBSITE_NAMES:
             for seed in SEEDS:
                 real_embs = real_embeddings[seed][website]
@@ -235,6 +216,21 @@ def main(args):
                         "partition": partition,
                         f"{args.method}_score": scores,
                     })
+    elif args.task == "image":
+        for split in SPLITS:
+            for seed in SEEDS:
+                real_embs = real_embeddings[split][str(seed)]
+                for dataset_name in synth_embeddings[split].keys():
+                    synth_embs = synth_embeddings[split][dataset_name]
+                    scores = method_fn(synth_embs, real_embs)
+                    results.append({
+                        "split": split,
+                        "seed": seed,
+                        "dataset_name": dataset_name,
+                        f"{args.method}_score": scores
+                    })
+    else:
+        raise NotImplementedError(f"Task {args.task} is not supported!")
     df_results = pd.DataFrame(results)
     df_corr_results = compute_correlation(df_results, args.method, args.task, args.task_performance_path)
     df_corr_results.to_csv(os.path.join(args.output_path, f"{args.task}_{args.method}_correlation.csv"), index=False)
