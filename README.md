@@ -77,6 +77,17 @@ To score and compute correlation coefficients for representation-based methods, 
 python -m src.compute.representation_based --method <pad/mmd/mdm> --task <task> --embedding_path <path_to_the_embedding_folder>
 ```
 
+## Citation
+If you find this work useful, please cite:
+```bibtex
+@article{chen2025synque,
+  title={SynQuE: Estimating Synthetic Dataset Quality Without Annotations},
+  author={Chen, Arthur and Zhong, Victor},
+  journal={arXiv preprint arXiv:2511.03928},
+  year={2025}
+}
+```
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
